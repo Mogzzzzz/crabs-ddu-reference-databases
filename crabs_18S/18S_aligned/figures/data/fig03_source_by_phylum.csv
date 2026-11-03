@@ -1,0 +1,16 @@
+set,phylum_group,SILVA,NCBI GenBank,BOLD
+Animals,Other animals,173,3413,293
+Animals,Porifera,2,1217,56
+Animals,Chordata,871,1054,9
+Animals,Platyhelminthes,101,3359,203
+Animals,Mollusca,24,3175,691
+Animals,Annelida,22,4210,161
+Animals,Cnidaria,27,4908,51
+Animals,Nematoda,100,5731,25
+Animals,Arthropoda,59,7175,556
+Algae,Other algae,1744,0,0
+Algae,Rhodophyta,38,1784,96
+Algae,Streptophyta,3555,7,0
+Algae,Ochrophyta,272,4036,6
+Other eukaryotes,Other eukaryotes,3546,0,0
+Other eukaryotes,Ciliophora,1283,0,0

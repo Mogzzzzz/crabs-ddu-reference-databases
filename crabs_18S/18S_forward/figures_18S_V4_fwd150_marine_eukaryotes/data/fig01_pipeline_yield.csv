@@ -1,0 +1,10 @@
+step,label,n_sequences
+03_filtered_initial,Input (pre-filtered records of the parent database),209930
+04_insilico_pcr,In silico PCR (max. 4 mismatches),101717
+05_global_alignment,Global alignment,137803
+06_dereplicated_final,"Dereplication (amplicons, unique_species)",98467
+07_filtered_final,"Length filter (145-155 bp, max. 1 N)",74659
+07d_taxonomy_fixed,Taxonomy correction (homonyms),71317
+08_taxa_excluded,"Taxa exclusion (12 taxa, e.g. Bacteria)",71281
+09_min_rank,Minimum rank (genus),67746
+final,Final database,67746

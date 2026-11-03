@@ -1,0 +1,502 @@
+{
+  "title": "rbcL reference database (~330 bp) – marine algae and seagrasses (rbcL_marine_algae)",
+  "creator": "morgane.durand@mnhn.fr",
+  "run_start": "2026-10-28T17:17:11+0100",
+  "run_end": "2026-10-28T17:17:28+0100",
+  "marker": "rbcL (RuBisCO large subunit, plastid), ~330 bp fragment",
+  "n_sequences": 13737,
+  "n_taxa": 6428,
+  "length_min_median_max_bp": "310 / 331 / 346",
+  "files": {
+    "fasta_obitools": "results/rbcL_marine_algae.fasta",
+    "table_tsv": "results/rbcL_marine_algae.tsv",
+    "crabs_format": "results/rbcL_marine_algae.txt",
+    "insilico_pcr_raw": "results/insilico_pcr_raw.fasta",
+    "checksums": "metadata/checksums_sha256.txt"
+  },
+  "parameters": {
+    "marker": "rbcL (RuBisCO large subunit, plastid), ~330 bp fragment",
+    "primer_forward": "ATGCGTTGGAGAGARCGTTTC (rbcL-646F, Kelly et al. 2018)",
+    "primer_reverse": "GATCACCTTCTAATTTACCWACAACTG (rbcL-998R, Kelly et al. 2018)",
+    "expected_length": "331",
+    "pcr_mismatch": "4",
+    "pcr_relaxed": "false",
+    "pga_used": "true",
+    "pga_identity": "0.95",
+    "pga_coverage": "95",
+    "pga_size_select": "10000",
+    "trim_long_amplicons": "yes (amplicons > MAX_LEN re-cut at inner primer sites, else by alignment on normal amplicons, identity >= 0.85; log logs/09_long_trimmed.tsv)",
+    "min_length": "310",
+    "max_length": "360",
+    "min_length_rescue": "",
+    "translation_check": "yes (stop codons: TAA TAG TGA)",
+    "max_N": "2",
+    "min_identification_rank": "genus",
+    "max_missing_ranks_above": "1",
+    "crabs_rank_na": "3",
+    "dereplication": "unique_species",
+    "filters": "--environmental ",
+    "excluded_taxa": " (removed after import, after the final filters)",
+    "taxonomy_fix": "yes (genus homonyms: BOLD phylum, then target groups + Ochrophyta;Bacillariophyta;Phaeophyceae; log logs/10_taxonomy_fix.tsv)",
+    "taxonomy_manual": "none",
+    "taxonomic_ranks": "domain;phylum;class;order;family;genus;species",
+    "phylum_renamed": "Bacillariophyta=Ochrophyta;Heterokontophyta=Ochrophyta;Myzozoa=Dinoflagellata;Dinophyta=Dinoflagellata",
+    "phylum_from_class": "Phaeophyceae=Ochrophyta;Bacillariophyceae=Ochrophyta;Coscinodiscophyceae=Ochrophyta;Mediophyceae=Ochrophyta;Chrysophyceae=Ochrophyta;Synurophyceae=Ochrophyta;Raphidophyceae=Ochrophyta;Eustigmatophyceae=Ochrophyta;Phaeosacciophyceae=Ochrophyta;Pelagophyceae=Ochrophyta;Dictyochophyceae=Ochrophyta;Xanthophyceae=Ochrophyta;Bolidophyceae=Ochrophyta;Pinguiophyceae=Ochrophyta;Phaeothamniophyceae=Ochrophyta;Aurearenophyceae=Ochrophyta;Chrysomerophyceae=Ochrophyta;Schizocladiophyceae=Ochrophyta;Olisthodiscophyceae=Ochrophyta;Dinophyceae=Dinoflagellata",
+    "taxonomy_reference": "Adl et al. (2019) J Eukaryot Microbiol 66: 4-119",
+    "bold_groups": "Rhodophyta Chlorophyta Ochrophyta Haptophyta Zosteraceae Posidoniaceae Cymodoceaceae",
+    "ncbi_groups": "Rhodophyta Chlorophyta Phaeophyceae Bacillariophyta Haptophyta Cryptophyceae Pelagophyceae Dictyochophyceae Chrysophyceae Raphidophyceae Xanthophyceae Eustigmatophyceae Bolidophyceae Glaucocystophyceae Zosteraceae Posidoniaceae Cymodoceaceae",
+    "bold_marker_filter": "rbcL",
+    "silva": "no",
+    "ncbi_query": "<group>[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]",
+    "ncbi_query_unannotated": "<group>[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+  },
+  "software": {
+    "script": "1.4.1 (2026-10-28, shared CRABS/taxo and CRABS/reference_database_creator; 1.4: from crabs_coi.sh 1.8 + taxonomy fix of 1.7.2 + long-amplicon re-cut of 1.7.3)",
+    "CRABS": "1.14.0 (commit 97b3037)",
+    "cutadapt": "5.2",
+    "vsearch": "vsearch v2.32.0_macos_aarch64",
+    "makeblastdb": "makeblastdb: 2.17.0+",
+    "python": "Python 3.13.4",
+    "system": "Darwin 25.5.0 arm64"
+  },
+  "sources": [
+    {
+      "source": "NCBI Taxonomy",
+      "group": "taxdump + nucl_gb.accession2taxid",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/taxo",
+      "download_date": "2026-10-19",
+      "n_records": "-",
+      "query": "-"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Rhodophyta",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Rhodophyta.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "48428",
+      "query": "tax:Rhodophyta"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Chlorophyta",
+      "file": "raw/bold_Chlorophyta.tsv",
+      "download_date": "2026-10-23",
+      "n_records": "16108",
+      "query": "tax:Chlorophyta"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ochrophyta",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Ochrophyta.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "9303",
+      "query": "tax:Ochrophyta"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Haptophyta",
+      "file": "raw/bold_Haptophyta.tsv",
+      "download_date": "2026-10-23",
+      "n_records": "510",
+      "query": "tax:Haptophyta"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Zosteraceae",
+      "file": "raw/bold_Zosteraceae.tsv",
+      "download_date": "2026-10-23",
+      "n_records": "269",
+      "query": "tax:Zosteraceae"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Posidoniaceae",
+      "file": "raw/bold_Posidoniaceae.tsv",
+      "download_date": "2026-10-23",
+      "n_records": "9",
+      "query": "tax:Posidoniaceae"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Cymodoceaceae",
+      "file": "raw/bold_Cymodoceaceae.tsv",
+      "download_date": "2026-10-23",
+      "n_records": "79",
+      "query": "tax:Cymodoceaceae"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Rhodophyta",
+      "file": "raw/ncbi_Rhodophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "25823",
+      "query": "Rhodophyta[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Rhodophyta",
+      "file": "raw/ncbi_unannotated_Rhodophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "1254",
+      "query": "Rhodophyta[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Chlorophyta",
+      "file": "raw/ncbi_Chlorophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "13140",
+      "query": "Chlorophyta[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Chlorophyta",
+      "file": "raw/ncbi_unannotated_Chlorophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "2452",
+      "query": "Chlorophyta[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Phaeophyceae",
+      "file": "raw/ncbi_Phaeophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "6781",
+      "query": "Phaeophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Phaeophyceae",
+      "file": "raw/ncbi_unannotated_Phaeophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "1070",
+      "query": "Phaeophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bacillariophyta",
+      "file": "raw/ncbi_Bacillariophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "7918",
+      "query": "Bacillariophyta[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bacillariophyta",
+      "file": "raw/ncbi_unannotated_Bacillariophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "558",
+      "query": "Bacillariophyta[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Haptophyta",
+      "file": "raw/ncbi_Haptophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "410",
+      "query": "Haptophyta[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Haptophyta",
+      "file": "raw/ncbi_unannotated_Haptophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "127",
+      "query": "Haptophyta[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cryptophyceae",
+      "file": "raw/ncbi_Cryptophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "3298",
+      "query": "Cryptophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cryptophyceae",
+      "file": "raw/ncbi_unannotated_Cryptophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "1720",
+      "query": "Cryptophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Pelagophyceae",
+      "file": "raw/ncbi_Pelagophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "77",
+      "query": "Pelagophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Pelagophyceae",
+      "file": "raw/ncbi_unannotated_Pelagophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "23",
+      "query": "Pelagophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Dictyochophyceae",
+      "file": "raw/ncbi_Dictyochophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "52",
+      "query": "Dictyochophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Dictyochophyceae",
+      "file": "raw/ncbi_unannotated_Dictyochophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "14",
+      "query": "Dictyochophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Chrysophyceae",
+      "file": "raw/ncbi_Chrysophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "204",
+      "query": "Chrysophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Chrysophyceae",
+      "file": "raw/ncbi_unannotated_Chrysophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "14",
+      "query": "Chrysophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Raphidophyceae",
+      "file": "raw/ncbi_Raphidophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "144",
+      "query": "Raphidophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Raphidophyceae",
+      "file": "raw/ncbi_unannotated_Raphidophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "25",
+      "query": "Raphidophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Xanthophyceae",
+      "file": "raw/ncbi_Xanthophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "401",
+      "query": "Xanthophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Xanthophyceae",
+      "file": "raw/ncbi_unannotated_Xanthophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "10",
+      "query": "Xanthophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Eustigmatophyceae",
+      "file": "raw/ncbi_Eustigmatophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "298",
+      "query": "Eustigmatophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Eustigmatophyceae",
+      "file": "raw/ncbi_unannotated_Eustigmatophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "79",
+      "query": "Eustigmatophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bolidophyceae",
+      "file": "raw/ncbi_Bolidophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "29",
+      "query": "Bolidophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bolidophyceae",
+      "file": "raw/ncbi_unannotated_Bolidophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "7",
+      "query": "Bolidophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Glaucocystophyceae",
+      "file": "raw/ncbi_Glaucocystophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "18",
+      "query": "Glaucocystophyceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Glaucocystophyceae",
+      "file": "raw/ncbi_unannotated_Glaucocystophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "13",
+      "query": "Glaucocystophyceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Zosteraceae",
+      "file": "raw/ncbi_Zosteraceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "77",
+      "query": "Zosteraceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Zosteraceae",
+      "file": "raw/ncbi_unannotated_Zosteraceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "78",
+      "query": "Zosteraceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Posidoniaceae",
+      "file": "raw/ncbi_Posidoniaceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "10",
+      "query": "Posidoniaceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Posidoniaceae",
+      "file": "raw/ncbi_unannotated_Posidoniaceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "63",
+      "query": "Posidoniaceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cymodoceaceae",
+      "file": "raw/ncbi_Cymodoceaceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "282",
+      "query": "Cymodoceaceae[Organism] AND (rbcL[Gene] OR \"ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit\"[All Fields] OR \"ribulose bisphosphate carboxylase large chain\"[All Fields]) AND 200:300000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cymodoceaceae",
+      "file": "raw/ncbi_unannotated_Cymodoceaceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "191",
+      "query": "Cymodoceaceae[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR \"chloroplast sequence\"[Title] OR \"plastid sequence\"[Title]) AND 200:300000[SLEN]"
+    }
+  ],
+  "counts_per_step": [
+    {
+      "step": "import_bold",
+      "file": "imported/bold_all.txt",
+      "n_sequences": "18348"
+    },
+    {
+      "step": "import_ncbi",
+      "file": "imported/ncbi_all.txt",
+      "n_sequences": "61996"
+    },
+    {
+      "step": "01_merged",
+      "file": "steps/01_merged.txt",
+      "n_sequences": "80344"
+    },
+    {
+      "step": "01b_lineage_rescued",
+      "file": "steps/01b_lineage_rescued.txt",
+      "n_sequences": "80344"
+    },
+    {
+      "step": "01c_taxa_excluded_early",
+      "file": "steps/01c_taxa_excluded_early.txt",
+      "n_sequences": "80344"
+    },
+    {
+      "step": "02_dereplicated_initial",
+      "file": "steps/02_dereplicated_initial.txt",
+      "n_sequences": "58804"
+    },
+    {
+      "step": "03_filtered_initial",
+      "file": "steps/03_filtered_initial.txt",
+      "n_sequences": "54133"
+    },
+    {
+      "step": "04_insilico_pcr",
+      "file": "steps/04_insilico_pcr.txt",
+      "n_sequences": "25305"
+    },
+    {
+      "step": "05_global_alignment",
+      "file": "steps/05_global_alignment.txt",
+      "n_sequences": "26848"
+    },
+    {
+      "step": "05b_long_trimmed",
+      "file": "steps/05b_long_trimmed.txt",
+      "n_sequences": "26848"
+    },
+    {
+      "step": "06_dereplicated_final",
+      "file": "steps/06_dereplicated_final.txt",
+      "n_sequences": "14647"
+    },
+    {
+      "step": "07_filtered_final",
+      "file": "steps/07_filtered_final.txt",
+      "n_sequences": "14107"
+    },
+    {
+      "step": "07b_length_rescued",
+      "file": "steps/07b_length_rescued.txt",
+      "n_sequences": "14107"
+    },
+    {
+      "step": "07c_translation_checked",
+      "file": "steps/07c_translation_checked.txt",
+      "n_sequences": "14042"
+    },
+    {
+      "step": "07d_taxonomy_fixed",
+      "file": "steps/07d_taxonomy_fixed.txt",
+      "n_sequences": "14042"
+    },
+    {
+      "step": "08_taxa_excluded",
+      "file": "steps/08_taxa_excluded.txt",
+      "n_sequences": "14042"
+    },
+    {
+      "step": "09_min_rank",
+      "file": "steps/09_min_rank.txt",
+      "n_sequences": "13737"
+    },
+    {
+      "step": "rbcL_marine_algae",
+      "file": "results/rbcL_marine_algae.txt",
+      "n_sequences": "13737"
+    }
+  ],
+  "cite": [
+    "Jeunen et al. (2022) CRABS. Mol Ecol Resour. doi:10.1111/1755-0998.13741",
+    "Ratnasingham & Hebert (2007) BOLD. Mol Ecol Notes. doi:10.1111/j.1471-8286.2007.01678.x",
+    "Sayers et al. NCBI GenBank / Taxonomy (https://www.ncbi.nlm.nih.gov)",
+    "Adl et al. (2019) Revisions to the classification, nomenclature, and diversity of eukaryotes. J Eukaryot Microbiol 66: 4-119. doi:10.1111/jeu.12691",
+    "Kelly M, Boonham N, Juggins S, Kille P, Mann D, Pass D, Sapp M, Sato S, Glover R (2018) A DNA based diatom metabarcoding approach for Water Framework Directive classification of rivers. Environment Agency report SC140024/R (rbcL-646F / rbcL-998R)",
+    "Martin (2011) cutadapt. EMBnet.journal. doi:10.14806/ej.17.1.200",
+    "Rognes et al. (2016) VSEARCH. PeerJ. doi:10.7717/peerj.2584"
+  ],
+  "terms_of_use": "Data retrieved from BOLD, NCBI (and SILVA): follow the terms of use and citation requirements of each source."
+}

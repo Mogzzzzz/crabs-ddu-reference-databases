@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these scripts or databases, please cite them as below."
+title: "CRABS reference databases for Antarctic benthic metabarcoding (DDU): COI, 16S, 18S and rbcL"
+authors:
+  - family-names: Durand
+    given-names: Morgane
+    affiliation: "Institut de Systématique, Évolution, Biodiversité (ISYEB), Muséum national d'Histoire naturelle, Paris, France"
+version: "1.0.0"
+date-released: "2026-11-03"
+license: MIT
+keywords:
+  - metabarcoding
+  - reference database
+  - CRABS
+  - COI
+  - 18S
+  - 16S
+  - rbcL
+  - Antarctica
+references:
+  - type: article
+    title: "CRABS - A software program to generate curated reference databases for metabarcoding sequencing data"
+    authors:
+      - family-names: Jeunen
+        given-names: Gert-Jan
+    journal: "Molecular Ecology Resources"
+    year: 2023

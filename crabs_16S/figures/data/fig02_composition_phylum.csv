@@ -1,0 +1,15 @@
+set,phylum_group,Sequences,Species
+Animals,Cnidaria,421,381
+Animals,Nemertea,484,192
+Animals,Mollusca,15362,5996
+Animals,Annelida,4457,2209
+Animals,Echinodermata,1859,923
+Animals,Arthropoda,10757,5044
+Animals,Porifera,208,185
+Animals,Other animals,95,71
+Animals,Platyhelminthes,153,121
+Algae,Other algae,2,1
+Animals,Bryozoa,735,600
+Animals,Chaetognatha,55,15
+Animals,Chordata,112,17
+Animals,Nematoda,180,115

@@ -1,0 +1,17 @@
+focal,measure,BOLD,NCBI GenBank
+Seagrasses,Species,4,34
+Seagrasses,Sequences,4,41
+Haptophytes,Species,25,14
+Haptophytes,Sequences,27,19
+Cryptophytes,Species,0,57
+Cryptophytes,Sequences,0,85
+Other Ochrophyta,Species,139,825
+Other Ochrophyta,Sequences,241,1272
+Brown algae,Species,500,594
+Brown algae,Sequences,780,936
+Diatoms,Species,0,1272
+Diatoms,Sequences,0,2242
+Green algae,Species,169,2112
+Green algae,Sequences,293,3074
+Red algae,Species,844,2117
+Red algae,Sequences,1246,3470

@@ -1,0 +1,31 @@
+phylum_group,source,n_records,groups,set
+Arthropoda,BOLD,342242,"Branchiopoda, Cephalocarida, Copepoda, Malacostraca, Merostomata, Ostracoda, Pycnogonida, Remipedia, Thecostraca",Animals
+Mollusca,BOLD,322944,Mollusca,Animals
+Annelida,BOLD,140762,"Annelida, Sipuncula",Animals
+Other animals,BOLD,80850,"Brachiopoda, Bryozoa, Chaetognatha, Ctenophora, Echinodermata, Entoprocta, Gastrotricha, Hemichordata, Kinorhyncha, Nemertea, Phoronida, Placozoa, Priapulida, Tardigrada, Xenacoelomorpha",Animals
+Nematoda,BOLD,61740,Nematoda,Animals
+Nematoda,NCBI GenBank,49923,Nematoda,Animals
+Rhodophyta,BOLD,48428,Rhodophyta,Algae
+Cnidaria,BOLD,45485,Cnidaria,Animals
+Platyhelminthes,BOLD,39973,Platyhelminthes,Animals
+Arthropoda,NCBI GenBank,29281,"Crustacea, Pycnogonida, Xiphosura",Animals
+Cnidaria,NCBI GenBank,21753,Cnidaria,Animals
+Mollusca,NCBI GenBank,21198,Mollusca,Animals
+Ochrophyta,NCBI GenBank,18073,"Bacillariophyta, Phaeophyceae",Algae
+Platyhelminthes,NCBI GenBank,16695,Platyhelminthes,Animals
+Porifera,BOLD,14083,Porifera,Animals
+Annelida,NCBI GenBank,13201,"Annelida, Sipuncula",Animals
+Other animals,NCBI GenBank,12450,"Brachiopoda, Bryozoa, Chaetognatha, Ctenophora, Echinodermata, Entoprocta, Gastrotricha, Hemichordata, Kinorhyncha, Nemertea, Phoronida, Placozoa, Priapulida, Tardigrada, Xenacoelomorpha",Animals
+Ochrophyta,BOLD,9303,Ochrophyta,Algae
+Chordata,NCBI GenBank,5975,"Cephalochordata, Tunicata",Animals
+Rhodophyta,NCBI GenBank,5828,Rhodophyta,Algae
+Porifera,NCBI GenBank,4423,Porifera,Animals
+Chordata,BOLD,2072,"Appendicularia, Ascidiacea, Leptocardii, Thaliacea",Animals
+Ciliophora,BOLD,0,,Other eukaryotes
+Ciliophora,NCBI GenBank,0,,Other eukaryotes
+Other algae,BOLD,0,,Algae
+Other algae,NCBI GenBank,0,,Algae
+Other eukaryotes,BOLD,0,,Other eukaryotes
+Other eukaryotes,NCBI GenBank,0,,Other eukaryotes
+Streptophyta,BOLD,0,,Algae
+Streptophyta,NCBI GenBank,0,,Algae

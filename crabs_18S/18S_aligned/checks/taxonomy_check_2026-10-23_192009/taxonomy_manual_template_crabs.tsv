@@ -1,0 +1,213 @@
+# Manual taxonomy decisions (step 10_taxonomy_fix of the database script).
+# Fill 'action' with keep or remove (and adapt 'reason'), delete the lines you do not want to decide,
+# then add the lines to taxonomy_manual_crabs.tsv in the database folder (create it from this file the first time).
+# taxon = genus (applies only to its flagged sequences) or seq_id.
+taxon	action	reason	decided
+Haliclona		1 seq; database phylum Porifera; BOLD phylum Basidiomycota; no fitting genus: remove or check; NCBI genera of that name: 6057:Porifera/Demospongiae	2026-10-23
+Xestospongia		1 seq; database phylum Porifera; BOLD phylum Annelida; no fitting genus: remove or check; NCBI genera of that name: 178550:Porifera/Demospongiae	2026-10-23
+Subergorgia		1 seq; database phylum Cnidaria; BOLD phylum Mollusca; no fitting genus: remove or check; NCBI genera of that name: 328235:Cnidaria/Anthozoa	2026-10-23
+Junceella		1 seq; database phylum Cnidaria; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 86560:Cnidaria/Anthozoa	2026-10-23
+UNVERIFIED_ORG:		1 seq; database phylum Cnidaria; BOLD phylum Arthropoda; no fitting genus: remove or check	2026-10-23
+Nematoplana		1 seq; database phylum Platyhelminthes; BOLD phylum Nemertea; no fitting genus: remove or check; NCBI genera of that name: 57453:Platyhelminthes/?	2026-10-23
+Helicoradomenia		1 seq; database phylum Mollusca; BOLD phylum Annelida; no fitting genus: remove or check; NCBI genera of that name: 211849:Mollusca/Solenogastres	2026-10-23
+Tritonia		1 seq; database phylum Mollusca; BOLD phylum Cnidaria; no fitting genus: remove or check; NCBI genera of that name: 70852:Mollusca/Gastropoda; 152758:Streptophyta/Magnoliopsida	2026-10-23
+Glycera		1 seq; database phylum Annelida; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 6349:Annelida/Polychaeta	2026-10-23
+Phyllochaetopterus		1 seq; database phylum Annelida; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 315403:Annelida/Polychaeta	2026-10-23
+Scruparia		1 seq; database phylum Bryozoa; BOLD phylum Mollusca; no fitting genus: remove or check; NCBI genera of that name: 450188:Bryozoa/Gymnolaemata	2026-10-23
+Tubulipora		1 seq; database phylum Bryozoa; BOLD phylum Nemertea; no fitting genus: remove or check; NCBI genera of that name: 365324:Bryozoa/Stenolaemata	2026-10-23
+Membranipora		1 seq; database phylum Bryozoa; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 95169:Bryozoa/Gymnolaemata	2026-10-23
+Phoronis		10 seq; database phylum Phoronida; BOLD phylum Annelida, Brachiopoda; no fitting genus: remove or check; NCBI genera of that name: 33504:Phoronida/?	2026-10-23
+Actinotrocha		2 seq; database phylum Phoronida; BOLD phylum Brachiopoda; no fitting genus: remove or check	2026-10-23
+Stereobalanus		1 seq; database phylum Hemichordata; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 560609:Hemichordata/Enteropneusta	2026-10-23
+Wuchereria		1 seq; database phylum Nematoda; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 6292:Nematoda/Chromadorea	2026-10-23
+Conchoecia		1 seq; database phylum Arthropoda; BOLD phylum Annelida; no fitting genus: remove or check; NCBI genera of that name: 178839:Arthropoda/Ostracoda	2026-10-23
+Diastylis		1 seq; database phylum Arthropoda; BOLD phylum Echinodermata; no fitting genus: remove or check; NCBI genera of that name: 27414:Arthropoda/Malacostraca	2026-10-23
+B.longirostris		1 seq; database phylum Arthropoda; BOLD phylum Platyhelminthes; no fitting genus: remove or check	2026-10-23
+D.galeata		1 seq; database phylum Arthropoda; BOLD phylum Platyhelminthes; no fitting genus: remove or check	2026-10-23
+Cyanidioschyzon		1 seq; database phylum Rhodophyta; BOLD phylum Discosea; no fitting genus: remove or check; NCBI genera of that name: 45156:Rhodophyta/Bangiophyceae	2026-10-23
+Pyropia		1 seq; database phylum Rhodophyta; BOLD phylum Ciliophora; no fitting genus: remove or check; NCBI genera of that name: 1094566:Rhodophyta/Bangiophyceae	2026-10-23
+Kumanoa		1 seq; database phylum Rhodophyta; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 644269:Rhodophyta/Florideophyceae	2026-10-23
+Pinnularia		1 seq; database phylum Ochrophyta; BOLD phylum Chlorophyta; no fitting genus: remove or check; NCBI genera of that name: 216736:Bacillariophyta/Bacillariophyceae	2026-10-23
+Polyrhabdina		1 seq; database phylum Apicomplexa; BOLD phylum Basidiomycota; no fitting genus: remove or check; NCBI genera of that name: 2267217:Apicomplexa/Conoidasida	2026-10-23
+Ammonia		1 seq; database phylum Foraminifera; BOLD phylum Apicomplexa; no fitting genus: remove or check; NCBI genera of that name: 29189:Foraminifera/?	2026-10-23
+Minchinia		5 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 38078:Endomyxa/Ascetosporea	2026-10-23
+Haplosporidium		17 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 31295:Endomyxa/Ascetosporea	2026-10-23
+Plasmodiophora		3 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 37359:Endomyxa/Phytomyxea	2026-10-23
+Urosporidium		3 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 45883:Endomyxa/Ascetosporea	2026-10-23
+Vampyrella		2 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 941459:Endomyxa/?	2026-10-23
+Leptophrys		2 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 1108493:Endomyxa/?	2026-10-23
+Ambispora		8 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 453566:Glomeromycota/Glomeromycetes	2026-10-23
+Mortierella		13 seq; database phylum Mortierellomycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 4855:Mortierellomycota/Mortierellomycetes	2026-10-23
+Bonamia		4 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 126727:Endomyxa/Ascetosporea; 142579:Streptophyta/Magnoliopsida	2026-10-23
+Ramicandelaber		3 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 304330:Kickxellomycota/?	2026-10-23
+Pinnaticoemansia		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 417174:Kickxellomycota/Kickxellomycetes	2026-10-23
+Coemansia		15 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 4863:Kickxellomycota/Kickxellomycetes	2026-10-23
+Mycoemilia		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 417183:Kickxellomycota/Kickxellomycetes	2026-10-23
+Myconymphaea		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 417181:Kickxellomycota/Kickxellomycetes	2026-10-23
+Paradinium		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 492102:Endomyxa/Ascetosporea	2026-10-23
+Linderina		4 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 4867:Kickxellomycota/Kickxellomycetes	2026-10-23
+Calcarisporiella		3 seq; database phylum Calcarisporiellomycota; BOLD phylum Ascomycota; no fitting genus: remove or check; NCBI genera of that name: 937848:Calcarisporiellomycota/Calcarisporiellomycetes	2026-10-23
+Trichoglossus		1 seq; database phylum Chordata; BOLD phylum Apicomplexa; no fitting genus: remove or check; NCBI genera of that name: 176048:Chordata/Aves	2026-10-23
+Spironema		1 seq; database phylum Hemimastigophora; BOLD phylum Haptophyta; no fitting genus: remove or check; NCBI genera of that name: 2027452:Hemimastigophora/?	2026-10-23
+Arachnula		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 498001:Endomyxa/?	2026-10-23
+Phaseolus		3 seq; database phylum Streptophyta; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 3883:Streptophyta/Magnoliopsida	2026-10-23
+Stemonitis		2 seq; database phylum Evosea; BOLD phylum Apicomplexa, Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 137616:Evosea/Eumycetozoa	2026-10-23
+Furculomyces		2 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 61423:Kickxellomycota/Harpellomycetes	2026-10-23
+Spiromyces		2 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 61417:Kickxellomycota/Kickxellomycetes	2026-10-23
+Dipsacomyces		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 4865:Kickxellomycota/Kickxellomycetes	2026-10-23
+Kickxella		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 61396:Kickxellomycota/Kickxellomycetes	2026-10-23
+Martensiomyces		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 61413:Kickxellomycota/Kickxellomycetes	2026-10-23
+Spirodactylon		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 61415:Kickxellomycota/Kickxellomycetes	2026-10-23
+Zancudomyces		2 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 1213188:Kickxellomycota/Harpellomycetes	2026-10-23
+Racocetra		3 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 940663:Glomeromycota/Glomeromycetes	2026-10-23
+Zoophthora		6 seq; database phylum Entomophthoromycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 34482:Entomophthoromycota/Entomophthoromycetes	2026-10-23
+Eryniopsis		2 seq; database phylum Entomophthoromycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 76014:Entomophthoromycota/Entomophthoromycetes	2026-10-23
+Strongwellsea		1 seq; database phylum Entomophthoromycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 76018:Entomophthoromycota/Entomophthoromycetes	2026-10-23
+Entomophthora		6 seq; database phylum Entomophthoromycota; BOLD phylum Arthropoda, Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 34484:Entomophthoromycota/Entomophthoromycetes	2026-10-23
+Conidiobolus		10 seq; database phylum Entomophthoromycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 34487:Entomophthoromycota/Entomophthoromycetes	2026-10-23
+Lobosporangium		1 seq; database phylum Mortierellomycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 299330:Mortierellomycota/Mortierellomycetes	2026-10-23
+Limanda		1 seq; database phylum Perkinsozoa; BOLD phylum Apicomplexa; no fitting genus: remove or check; NCBI genera of that name: 8257:Chordata/Actinopteri	2026-10-23
+Claroideoglomus		3 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check	2026-10-23
+Angulamoeba		3 seq; database phylum Evosea; BOLD phylum Discosea; no fitting genus: remove or check; NCBI genera of that name: 1654977:Evosea/Variosea	2026-10-23
+Funneliformis		10 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 1117308:Glomeromycota/Glomeromycetes	2026-10-23
+Dissophora		1 seq; database phylum Mortierellomycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 101100:Mortierellomycota/Mortierellomycetes	2026-10-23
+Planctomyxa		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 2040252:Endomyxa/?	2026-10-23
+Arachnomyxa		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 2040250:Endomyxa/?	2026-10-23
+Klebsormidium		1 seq; database phylum Streptophyta; BOLD phylum Chlorophyta; no fitting genus: remove or check; NCBI genera of that name: 3174:Streptophyta/Klebsormidiophyceae	2026-10-23
+Smittium		24 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 4888:Kickxellomycota/Harpellomycetes	2026-10-23
+Thlaspi		1 seq; database phylum Streptophyta; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 13287:Streptophyta/Magnoliopsida	2026-10-23
+Furia		1 seq; database phylum Entomophthoromycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 176679:Entomophthoromycota/Entomophthoromycetes	2026-10-23
+Pandora		5 seq; database phylum Entomophthoromycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 76016:Entomophthoromycota/Entomophthoromycetes; 120446:Mollusca/Bivalvia	2026-10-23
+Erynia		3 seq; database phylum Entomophthoromycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 181050:Entomophthoromycota/Entomophthoromycetes	2026-10-23
+Schizangiella		1 seq; database phylum Basidiobolomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 181059:Basidiobolomycota/Basidiobolomycetes	2026-10-23
+Arachis		2 seq; database phylum Streptophyta; BOLD phylum Annelida, Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 3817:Streptophyta/Magnoliopsida	2026-10-23
+Adenoides		2 seq; database phylum Dinoflagellata; BOLD phylum Chlorophyta; no fitting genus: remove or check; NCBI genera of that name: 160622:?/Dinophyceae	2026-10-23
+Glomus		10 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 4875:Glomeromycota/Glomeromycetes	2026-10-23
+Isoetes		1 seq; database phylum Streptophyta; BOLD phylum Pseudomonadota; no fitting genus: remove or check; NCBI genera of that name: 13838:Streptophyta/Lycopodiopsida	2026-10-23
+Protosteliopsis		3 seq; database phylum Evosea; BOLD phylum Discosea; no fitting genus: remove or check; NCBI genera of that name: 668363:Evosea/Variosea	2026-10-23
+Sclerocystis		1 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 1150878:Glomeromycota/Glomeromycetes	2026-10-23
+Scutellospora		13 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 27382:Glomeromycota/Glomeromycetes	2026-10-23
+Diversispora		9 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 308926:Glomeromycota/Glomeromycetes	2026-10-23
+Gigaspora		13 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 4873:Glomeromycota/Glomeromycetes	2026-10-23
+Rhizophagus		21 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 295919:Arthropoda/Insecta; 1129544:Glomeromycota/Glomeromycetes	2026-10-23
+Paraglomus		3 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 144537:Glomeromycota/Glomeromycetes	2026-10-23
+Dentiscutata		4 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 756610:Glomeromycota/Glomeromycetes	2026-10-23
+Acaulospora		13 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 27372:Glomeromycota/Glomeromycetes	2026-10-23
+Cetraspora		2 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 940661:Glomeromycota/Glomeromycetes	2026-10-23
+Pacispora		3 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 259896:Glomeromycota/Glomeromycetes	2026-10-23
+Albugo		1 seq; database phylum Oomycota; BOLD phylum Ascomycota; no fitting genus: remove or check; NCBI genera of that name: 65356:Oomycota/Peronosporomycetes	2026-10-23
+Archaeospora		2 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 144514:Glomeromycota/Glomeromycetes	2026-10-23
+Geosiphon		2 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 50955:Glomeromycota/Glomeromycetes	2026-10-23
+Monochrysis		1 seq; database phylum Ochrophyta; BOLD phylum Haptophyta; no fitting genus: remove or check; NCBI genera of that name: 156215:?/Chrysophyceae	2026-10-23
+Lethrinus		1 seq; database phylum Chordata; BOLD phylum Nematoda; no fitting genus: remove or check; NCBI genera of that name: 119720:Chordata/Actinopteri	2026-10-23
+Siganus		1 seq; database phylum Chordata; BOLD phylum Nematoda; no fitting genus: remove or check; NCBI genera of that name: 75041:Chordata/Actinopteri	2026-10-23
+Spongospora		4 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 70185:Endomyxa/Phytomyxea	2026-10-23
+Redeckera		1 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 1263256:Glomeromycota/Glomeromycetes	2026-10-23
+Nannochloropsis		3 seq; database phylum Ochrophyta; BOLD phylum Chlorophyta; no fitting genus: remove or check; NCBI genera of that name: 5748:?/Eustigmatophyceae	2026-10-23
+Exuviaella		1 seq; database phylum Dinoflagellata; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 373092:?/Dinophyceae	2026-10-23
+Melita		1 seq; database phylum Arthropoda; BOLD phylum Ciliophora; no fitting genus: remove or check; NCBI genera of that name: 315597:Arthropoda/Malacostraca	2026-10-23
+Echinogammarus		1 seq; database phylum Arthropoda; BOLD phylum Rotifera; no fitting genus: remove or check; NCBI genera of that name: 248952:Arthropoda/Malacostraca	2026-10-23
+Eosphagnum		1 seq; database phylum Streptophyta; BOLD phylum Pseudomonadota; no fitting genus: remove or check; NCBI genera of that name: 879271:Streptophyta/Sphagnopsida	2026-10-23
+Platyreta		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 626140:Endomyxa/?	2026-10-23
+Ammopiptanthus		1 seq; database phylum Streptophyta; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 111850:Streptophyta/Magnoliopsida	2026-10-23
+Catenomyces		1 seq; database phylum Blastocladiomycota; BOLD phylum Chytridiomycota; no fitting genus: remove or check; NCBI genera of that name: 281912:Blastocladiomycota/Blastocladiomycetes	2026-10-23
+Woronina		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 1484335:Endomyxa/Phytomyxea	2026-10-23
+Danio		2 seq; database phylum Chordata; BOLD phylum Arthropoda, Basidiomycota; no fitting genus: remove or check; NCBI genera of that name: 7954:Chordata/Actinopteri	2026-10-23
+Prorocentrum		2 seq; database phylum Dinoflagellata; BOLD phylum Ciliophora, Haptophyta; no fitting genus: remove or check; NCBI genera of that name: 2944:?/Dinophyceae	2026-10-23
+Anguilla		1 seq; database phylum Chordata; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 7935:Chordata/Actinopteri	2026-10-23
+Harpochytrium		2 seq; database phylum Monoblepharomycota; BOLD phylum Chytridiomycota; no fitting genus: remove or check; NCBI genera of that name: 109763:Monoblepharomycota/Monoblepharidomycetes	2026-10-23
+Monoblepharis		1 seq; database phylum Monoblepharomycota; BOLD phylum Chytridiomycota; no fitting genus: remove or check; NCBI genera of that name: 79276:Monoblepharomycota/Monoblepharidomycetes	2026-10-23
+Gonapodya		4 seq; database phylum Monoblepharomycota; BOLD phylum Chytridiomycota; no fitting genus: remove or check; NCBI genera of that name: 109944:Monoblepharomycota/Monoblepharidomycetes	2026-10-23
+Monoblepharella		1 seq; database phylum Monoblepharomycota; BOLD phylum Chytridiomycota; no fitting genus: remove or check; NCBI genera of that name: 79274:Monoblepharomycota/Monoblepharidomycetes	2026-10-23
+Hyalodiscus		3 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 265597:Bacillariophyta/Melosirophyceae; 1919069:Endomyxa/?	2026-10-23
+Polymyxa		5 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 41455:Endomyxa/Phytomyxea	2026-10-23
+Lepisosteus		2 seq; database phylum Chordata; BOLD phylum Basidiomycota; no fitting genus: remove or check; NCBI genera of that name: 7916:Chordata/Actinopteri	2026-10-23
+Phagomyxa		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 167534:Endomyxa/Phytomyxea	2026-10-23
+Sorosphaerula		2 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 1484338:Endomyxa/Phytomyxea	2026-10-23
+Gadus		2 seq; database phylum Chordata; BOLD phylum Ascomycota, Basidiomycota; no fitting genus: remove or check; NCBI genera of that name: 8048:Chordata/Actinopteri	2026-10-23
+Maullinia		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 187661:Endomyxa/Phytomyxea	2026-10-23
+Saccharum		2 seq; database phylum Streptophyta; BOLD phylum Arthropoda, Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 4546:Streptophyta/Magnoliopsida	2026-10-23
+Juncus		1 seq; database phylum Streptophyta; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 13578:Streptophyta/Magnoliopsida	2026-10-23
+Pseudodifflugia		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 178377:Endomyxa/?	2026-10-23
+Melanotaenia		1 seq; database phylum Chordata; BOLD phylum Basidiomycota; no fitting genus: remove or check; NCBI genera of that name: 32459:Chordata/Actinopteri	2026-10-23
+Gammarus		1 seq; database phylum Arthropoda; BOLD phylum Ciliophora; no fitting genus: remove or check; NCBI genera of that name: 45625:Arthropoda/Malacostraca	2026-10-23
+Perca		1 seq; database phylum Chordata; BOLD phylum Mollusca; no fitting genus: remove or check; NCBI genera of that name: 8166:Chordata/Actinopteri	2026-10-23
+Gynostemma		1 seq; database phylum Streptophyta; BOLD phylum Cyanobacteriota; no fitting genus: remove or check; NCBI genera of that name: 182083:Streptophyta/Magnoliopsida	2026-10-23
+Mangifera		5 seq; database phylum Streptophyta; BOLD phylum Arthropoda, Ascomycota; no fitting genus: remove or check; NCBI genera of that name: 23461:Streptophyta/Magnoliopsida	2026-10-23
+Punica		2 seq; database phylum Streptophyta; BOLD phylum Arthropoda, Basidiomycota; no fitting genus: remove or check; NCBI genera of that name: 22662:Streptophyta/Magnoliopsida	2026-10-23
+Zygopolaris		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370247:Kickxellomycota/Harpellomycetes	2026-10-23
+Ommatogammarus		1 seq; database phylum Arthropoda; BOLD phylum Ciliophora; no fitting genus: remove or check; NCBI genera of that name: 75827:Arthropoda/Malacostraca	2026-10-23
+Harpella		3 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370238:Kickxellomycota/Harpellomycetes; 1073691:Arthropoda/Insecta	2026-10-23
+Olpidium		1 seq; database phylum Olpidiomycota; BOLD phylum Chytridiomycota; no fitting genus: remove or check; NCBI genera of that name: 70188:Olpidiomycota/Olpidiomycetes	2026-10-23
+Plecopteromyces		3 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370242:Kickxellomycota/Harpellomycetes	2026-10-23
+Tetraselmis		1 seq; database phylum Chlorophyta; BOLD phylum Pseudomonadota; no fitting genus: remove or check; NCBI genera of that name: 3164:Chlorophyta/Chlorodendrophyceae	2026-10-23
+Asellus		1 seq; database phylum Arthropoda; BOLD phylum Ciliophora; no fitting genus: remove or check; NCBI genera of that name: 92524:Arthropoda/Malacostraca	2026-10-23
+Cenchrus		1 seq; database phylum Streptophyta; BOLD phylum Tubulinea; no fitting genus: remove or check; NCBI genera of that name: 4583:Streptophyta/Magnoliopsida	2026-10-23
+Basidiobolus		5 seq; database phylum Basidiobolomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 4859:Basidiobolomycota/Basidiobolomycetes	2026-10-23
+Amia		1 seq; database phylum Chordata; BOLD phylum Ascomycota; no fitting genus: remove or check; NCBI genera of that name: 7923:Chordata/Actinopteri	2026-10-23
+Alosa		2 seq; database phylum Chordata; BOLD phylum Platyhelminthes; no fitting genus: remove or check; NCBI genera of that name: 34772:Chordata/Actinopteri	2026-10-23
+Pallasea		1 seq; database phylum Arthropoda; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 52947:Arthropoda/Malacostraca	2026-10-23
+Colobanthus		1 seq; database phylum Streptophyta; BOLD phylum Nematoda; no fitting genus: remove or check; NCBI genera of that name: 191456:Streptophyta/Magnoliopsida	2026-10-23
+Stachylina		2 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370246:Kickxellomycota/Harpellomycetes	2026-10-23
+Genistelloides		2 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 4886:Kickxellomycota/Harpellomycetes	2026-10-23
+Bojamyces		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370118:Kickxellomycota/Harpellomycetes	2026-10-23
+Orphella		8 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 324624:Kickxellomycota/?	2026-10-23
+Morus		1 seq; database phylum Streptophyta; BOLD phylum Ascomycota; no fitting genus: remove or check; NCBI genera of that name: 3497:Streptophyta/Magnoliopsida; 37577:Chordata/Aves	2026-10-23
+Harpellomyces		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370239:Kickxellomycota/Harpellomycetes	2026-10-23
+Thalassomyxa		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 1367439:Endomyxa/?	2026-10-23
+Plasmopara		1 seq; database phylum Oomycota; BOLD phylum Heterolobosea; no fitting genus: remove or check; NCBI genera of that name: 4780:Oomycota/Peronosporomycetes	2026-10-23
+Tinamus		1 seq; database phylum Chordata; BOLD phylum Nematoda; no fitting genus: remove or check; NCBI genera of that name: 30467:Chordata/Aves	2026-10-23
+Sacculospora		3 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 1670438:Glomeromycota/Glomeromycetes	2026-10-23
+Triticum		2 seq; database phylum Streptophyta; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 4564:Streptophyta/Magnoliopsida	2026-10-23
+uncultured		1 seq; database phylum Oomycota; BOLD phylum Ascomycota; no fitting genus: remove or check	2026-10-23
+Puccinia		2 seq; database phylum Basidiomycota; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 5296:Basidiomycota/Pucciniomycetes	2026-10-23
+Ligniera		1 seq; database phylum Endomyxa; BOLD phylum Cercozoa; no fitting genus: remove or check; NCBI genera of that name: 70183:Endomyxa/Phytomyxea	2026-10-23
+Septoglomus		1 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 1144751:Glomeromycota/Glomeromycetes	2026-10-23
+Otospora		1 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 1035156:Glomeromycota/Glomeromycetes	2026-10-23
+Entrophospora		1 seq; database phylum Glomeromycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 27375:Glomeromycota/Glomeromycetes	2026-10-23
+Pseudoharpella		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370245:Kickxellomycota/Harpellomycetes	2026-10-23
+Lancisporomyces		2 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 1214017:Kickxellomycota/Harpellomycetes	2026-10-23
+Rhizophydium		1 seq; database phylum Chytridiomycota; BOLD phylum Neocallimastigomycota; no fitting genus: remove or check; NCBI genera of that name: 60186:Chytridiomycota/Chytridiomycetes	2026-10-23
+Spartiella		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 1214019:Kickxellomycota/Harpellomycetes	2026-10-23
+Coleopteromyces		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 1214015:Kickxellomycota/Harpellomycetes	2026-10-23
+Graminella		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 30125:Arthropoda/Insecta; 1213186:Kickxellomycota/Harpellomycetes	2026-10-23
+Entomophaga		2 seq; database phylum Entomophthoromycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 39186:Entomophthoromycota/Entomophthoromycetes; 3081880:Arthropoda/Insecta	2026-10-23
+Pennella		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370241:Kickxellomycota/Harpellomycetes; 1925253:Arthropoda/Copepoda	2026-10-23
+Caudomyces		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 1306360:Kickxellomycota/Harpellomycetes	2026-10-23
+Nematostella		1 seq; database phylum Cnidaria; BOLD phylum Heterolobosea; no fitting genus: remove or check; NCBI genera of that name: 45350:Cnidaria/Anthozoa	2026-10-23
+Legeriomyces		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 370240:Kickxellomycota/Harpellomycetes	2026-10-23
+Parmotrema		1 seq; database phylum Ascomycota; BOLD phylum Basidiomycota; no fitting genus: remove or check; NCBI genera of that name: 172634:Ascomycota/Lecanoromycetes	2026-10-23
+Legerioides		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 1403009:Kickxellomycota/Harpellomycetes	2026-10-23
+Legeriosimilis		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 1403016:Kickxellomycota/Harpellomycetes	2026-10-23
+Barbatospora		1 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 400016:Kickxellomycota/?	2026-10-23
+Capniomyces		2 seq; database phylum Kickxellomycota; BOLD phylum Zoopagomycota; no fitting genus: remove or check; NCBI genera of that name: 4884:Kickxellomycota/Harpellomycetes	2026-10-23
+Modicella		1 seq; database phylum Mortierellomycota; BOLD phylum Mucoromycota; no fitting genus: remove or check; NCBI genera of that name: 1440132:Mortierellomycota/Mortierellomycetes	2026-10-23
+Hyaloraphidium		1 seq; database phylum Monoblepharomycota; BOLD phylum Chytridiomycota; no fitting genus: remove or check; NCBI genera of that name: 82267:Monoblepharomycota/Hyaloraphidiomycetes	2026-10-23
+Cyprinodon		1 seq; database phylum Chordata; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 28741:Chordata/Actinopteri	2026-10-23
+Ovis		1 seq; database phylum Chordata; BOLD phylum Apicomplexa; no fitting genus: remove or check; NCBI genera of that name: 9935:Chordata/Mammalia	2026-10-23
+Protobothrops		1 seq; database phylum Chordata; BOLD phylum Platyhelminthes; no fitting genus: remove or check; NCBI genera of that name: 103943:Chordata/Lepidosauria	2026-10-23
+Trebouxia		1 seq; database phylum Chlorophyta; BOLD phylum Cyanobacteriota; no fitting genus: remove or check; NCBI genera of that name: 13786:Chlorophyta/Trebouxiophyceae	2026-10-23
+Acanthaster		1 seq; database phylum Echinodermata; BOLD phylum Xenacoelomorpha; no fitting genus: remove or check; NCBI genera of that name: 133433:Echinodermata/Asteroidea	2026-10-23
+Cladosiphon		1 seq; database phylum Ochrophyta; BOLD phylum Pseudomonadota; no fitting genus: remove or check; NCBI genera of that name: 309736:?/Phaeophyceae	2026-10-23
+Picea		1 seq; database phylum Streptophyta; BOLD phylum Cyanobacteriota; no fitting genus: remove or check; NCBI genera of that name: 3328:Streptophyta/Pinopsida	2026-10-23
+Zoysia		1 seq; database phylum Streptophyta; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 38721:Streptophyta/Magnoliopsida	2026-10-23
+Aspergillus		1 seq; database phylum Ascomycota; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 5052:Ascomycota/Eurotiomycetes	2026-10-23
+Sorex		1 seq; database phylum Chordata; BOLD phylum Nematoda; no fitting genus: remove or check; NCBI genera of that name: 9379:Chordata/Mammalia	2026-10-23
+Oryza		2 seq; database phylum Streptophyta; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 4527:Streptophyta/Magnoliopsida	2026-10-23
+Corchorus		2 seq; database phylum Streptophyta; BOLD phylum Cercozoa, Ciliophora; no fitting genus: remove or check; NCBI genera of that name: 93758:Streptophyta/Magnoliopsida	2026-10-23
+Eimeria		1 seq; database phylum Apicomplexa; BOLD phylum Cnidaria; no fitting genus: remove or check; NCBI genera of that name: 5800:Apicomplexa/Conoidasida	2026-10-23
+Nicotiana		4 seq; database phylum Streptophyta; BOLD phylum Arthropoda, Cyanobacteriota; no fitting genus: remove or check; NCBI genera of that name: 4085:Streptophyta/Magnoliopsida	2026-10-23
+Lupinus		1 seq; database phylum Streptophyta; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 3869:Streptophyta/Magnoliopsida	2026-10-23
+Hyaloperonospora		2 seq; database phylum Oomycota; BOLD phylum Nematoda, Streptophyta; no fitting genus: remove or check; NCBI genera of that name: 184462:Oomycota/Peronosporomycetes	2026-10-23
+Atalantia		1 seq; database phylum Streptophyta; BOLD phylum Ascomycota; no fitting genus: remove or check; NCBI genera of that name: 76950:Streptophyta/Magnoliopsida	2026-10-23
+Pinus		1 seq; database phylum Streptophyta; BOLD phylum Ascomycota; no fitting genus: remove or check; NCBI genera of that name: 3337:Streptophyta/Pinopsida	2026-10-23
+Schistosoma		1 seq; database phylum Platyhelminthes; BOLD phylum Nematoda; no fitting genus: remove or check; NCBI genera of that name: 6181:Platyhelminthes/Trematoda	2026-10-23
+Myotis		1 seq; database phylum Chordata; BOLD phylum Platyhelminthes; no fitting genus: remove or check; NCBI genera of that name: 9434:Chordata/Mammalia	2026-10-23
+Humulus		1 seq; database phylum Streptophyta; BOLD phylum Ascomycota; no fitting genus: remove or check; NCBI genera of that name: 3484:Streptophyta/Magnoliopsida	2026-10-23
+Biomphalaria		1 seq; database phylum Mollusca; BOLD phylum Rotifera; no fitting genus: remove or check; NCBI genera of that name: 6525:Mollusca/Gastropoda	2026-10-23
+Radix		1 seq; database phylum Mollusca; BOLD phylum Gastrotricha; no fitting genus: remove or check; NCBI genera of that name: 55689:Mollusca/Gastropoda	2026-10-23
+Homo		1 seq; database phylum Chordata; BOLD phylum Streptophyta; no fitting genus: remove or check; NCBI genera of that name: 9605:Chordata/Mammalia	2026-10-23
+Lottia		1 seq; database phylum Mollusca; BOLD phylum Arthropoda; no fitting genus: remove or check; NCBI genera of that name: 72691:Mollusca/Gastropoda	2026-10-23
+Saccharina		1 seq; database phylum Ochrophyta; BOLD phylum Chordata; no fitting genus: remove or check; NCBI genera of that name: 309357:?/Phaeophyceae	2026-10-23
+Hyalella		1 seq; database phylum Arthropoda; BOLD phylum Rotifera; no fitting genus: remove or check; NCBI genera of that name: 199487:Arthropoda/Malacostraca	2026-10-23
+Physarum		1 seq; database phylum Evosea; BOLD phylum Chordata; no fitting genus: remove or check; NCBI genera of that name: 5790:Evosea/Eumycetozoa	2026-10-23

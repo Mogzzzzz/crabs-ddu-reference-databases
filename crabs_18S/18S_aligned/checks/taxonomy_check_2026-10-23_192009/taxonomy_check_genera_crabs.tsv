@@ -1,0 +1,209 @@
+genus	n_sequences	n_names	db_phylum	bold_phylum	proposed_phylum	verdict	ncbi_genera_of_that_name
+Glycera	1	1	Annelida	Arthropoda		no fitting genus: remove or check	6349:Annelida/Polychaeta
+Phyllochaetopterus	1	1	Annelida	Arthropoda		no fitting genus: remove or check	315403:Annelida/Polychaeta
+Eimeria	1	1	Apicomplexa	Cnidaria		no fitting genus: remove or check	5800:Apicomplexa/Conoidasida
+Polyrhabdina	1	1	Apicomplexa	Basidiomycota		no fitting genus: remove or check	2267217:Apicomplexa/Conoidasida
+Asellus	1	1	Arthropoda	Ciliophora		no fitting genus: remove or check	92524:Arthropoda/Malacostraca
+B.longirostris	1	1	Arthropoda	Platyhelminthes		no fitting genus: remove or check	
+Conchoecia	1	1	Arthropoda	Annelida		no fitting genus: remove or check	178839:Arthropoda/Ostracoda
+D.galeata	1	1	Arthropoda	Platyhelminthes		no fitting genus: remove or check	
+Diastylis	1	1	Arthropoda	Echinodermata		no fitting genus: remove or check	27414:Arthropoda/Malacostraca
+Echinogammarus	1	1	Arthropoda	Rotifera		no fitting genus: remove or check	248952:Arthropoda/Malacostraca
+Gammarus	1	1	Arthropoda	Ciliophora		no fitting genus: remove or check	45625:Arthropoda/Malacostraca
+Hyalella	1	1	Arthropoda	Rotifera		no fitting genus: remove or check	199487:Arthropoda/Malacostraca
+Melita	1	1	Arthropoda	Ciliophora		no fitting genus: remove or check	315597:Arthropoda/Malacostraca
+Ommatogammarus	1	1	Arthropoda	Ciliophora		no fitting genus: remove or check	75827:Arthropoda/Malacostraca
+Pallasea	1	1	Arthropoda	Cercozoa		no fitting genus: remove or check	52947:Arthropoda/Malacostraca
+Aspergillus	1	1	Ascomycota	Arthropoda		no fitting genus: remove or check	5052:Ascomycota/Eurotiomycetes
+Parmotrema	1	1	Ascomycota	Basidiomycota		no fitting genus: remove or check	172634:Ascomycota/Lecanoromycetes
+Basidiobolus	5	5	Basidiobolomycota	Zoopagomycota		no fitting genus: remove or check	4859:Basidiobolomycota/Basidiobolomycetes
+Schizangiella	1	1	Basidiobolomycota	Zoopagomycota		no fitting genus: remove or check	181059:Basidiobolomycota/Basidiobolomycetes
+Puccinia	2	2	Basidiomycota	Arthropoda		no fitting genus: remove or check	5296:Basidiomycota/Pucciniomycetes
+Catenomyces	1	1	Blastocladiomycota	Chytridiomycota		no fitting genus: remove or check	281912:Blastocladiomycota/Blastocladiomycetes
+Membranipora	1	1	Bryozoa	Arthropoda		no fitting genus: remove or check	95169:Bryozoa/Gymnolaemata
+Scruparia	1	1	Bryozoa	Mollusca		no fitting genus: remove or check	450188:Bryozoa/Gymnolaemata
+Tubulipora	1	1	Bryozoa	Nemertea		no fitting genus: remove or check	365324:Bryozoa/Stenolaemata
+Calcarisporiella	3	2	Calcarisporiellomycota	Ascomycota		no fitting genus: remove or check	937848:Calcarisporiellomycota/Calcarisporiellomycetes
+Tetraselmis	1	1	Chlorophyta	Pseudomonadota		no fitting genus: remove or check	3164:Chlorophyta/Chlorodendrophyceae
+Trebouxia	1	1	Chlorophyta	Cyanobacteriota		no fitting genus: remove or check	13786:Chlorophyta/Trebouxiophyceae
+Alosa	2	1	Chordata	Platyhelminthes		no fitting genus: remove or check	34772:Chordata/Actinopteri
+Amia	1	1	Chordata	Ascomycota		no fitting genus: remove or check	7923:Chordata/Actinopteri
+Anguilla	1	1	Chordata	Arthropoda		no fitting genus: remove or check	7935:Chordata/Actinopteri
+Cyprinodon	1	1	Chordata	Arthropoda		no fitting genus: remove or check	28741:Chordata/Actinopteri
+Danio	2	1	Chordata	Arthropoda, Basidiomycota		no fitting genus: remove or check	7954:Chordata/Actinopteri
+Gadus	2	1	Chordata	Ascomycota, Basidiomycota		no fitting genus: remove or check	8048:Chordata/Actinopteri
+Homo	1	1	Chordata	Streptophyta		no fitting genus: remove or check	9605:Chordata/Mammalia
+Lepisosteus	2	1	Chordata	Basidiomycota		no fitting genus: remove or check	7916:Chordata/Actinopteri
+Lethrinus	1	1	Chordata	Nematoda		no fitting genus: remove or check	119720:Chordata/Actinopteri
+Melanotaenia	1	1	Chordata	Basidiomycota		no fitting genus: remove or check	32459:Chordata/Actinopteri
+Myotis	1	1	Chordata	Platyhelminthes		no fitting genus: remove or check	9434:Chordata/Mammalia
+Ovis	1	1	Chordata	Apicomplexa		no fitting genus: remove or check	9935:Chordata/Mammalia
+Perca	1	1	Chordata	Mollusca		no fitting genus: remove or check	8166:Chordata/Actinopteri
+Protobothrops	1	1	Chordata	Platyhelminthes		no fitting genus: remove or check	103943:Chordata/Lepidosauria
+Siganus	1	1	Chordata	Nematoda		no fitting genus: remove or check	75041:Chordata/Actinopteri
+Sorex	1	1	Chordata	Nematoda		no fitting genus: remove or check	9379:Chordata/Mammalia
+Tinamus	1	1	Chordata	Nematoda		no fitting genus: remove or check	30467:Chordata/Aves
+Trichoglossus	1	1	Chordata	Apicomplexa		no fitting genus: remove or check	176048:Chordata/Aves
+Rhizophydium	1	1	Chytridiomycota	Neocallimastigomycota		no fitting genus: remove or check	60186:Chytridiomycota/Chytridiomycetes
+Junceella	1	1	Cnidaria	Arthropoda		no fitting genus: remove or check	86560:Cnidaria/Anthozoa
+Nematostella	1	1	Cnidaria	Heterolobosea		no fitting genus: remove or check	45350:Cnidaria/Anthozoa
+Subergorgia	1	1	Cnidaria	Mollusca		no fitting genus: remove or check	328235:Cnidaria/Anthozoa
+UNVERIFIED_ORG:	1	1	Cnidaria	Arthropoda		no fitting genus: remove or check	
+Adenoides	2	1	Dinoflagellata	Chlorophyta		no fitting genus: remove or check	160622:?/Dinophyceae
+Exuviaella	1	1	Dinoflagellata	Cercozoa		no fitting genus: remove or check	373092:?/Dinophyceae
+Prorocentrum	2	2	Dinoflagellata	Ciliophora, Haptophyta		no fitting genus: remove or check	2944:?/Dinophyceae
+Acanthaster	1	1	Echinodermata	Xenacoelomorpha		no fitting genus: remove or check	133433:Echinodermata/Asteroidea
+Arachnomyxa	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	2040250:Endomyxa/?
+Arachnula	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	498001:Endomyxa/?
+Bonamia	4	4	Endomyxa	Cercozoa		no fitting genus: remove or check	126727:Endomyxa/Ascetosporea; 142579:Streptophyta/Magnoliopsida
+Haplosporidium	17	16	Endomyxa	Cercozoa		no fitting genus: remove or check	31295:Endomyxa/Ascetosporea
+Hyalodiscus	3	3	Endomyxa	Cercozoa		no fitting genus: remove or check	265597:Bacillariophyta/Melosirophyceae; 1919069:Endomyxa/?
+Leptophrys	2	1	Endomyxa	Cercozoa		no fitting genus: remove or check	1108493:Endomyxa/?
+Ligniera	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	70183:Endomyxa/Phytomyxea
+Maullinia	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	187661:Endomyxa/Phytomyxea
+Minchinia	5	5	Endomyxa	Cercozoa		no fitting genus: remove or check	38078:Endomyxa/Ascetosporea
+Paradinium	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	492102:Endomyxa/Ascetosporea
+Phagomyxa	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	167534:Endomyxa/Phytomyxea
+Planctomyxa	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	2040252:Endomyxa/?
+Plasmodiophora	3	1	Endomyxa	Cercozoa		no fitting genus: remove or check	37359:Endomyxa/Phytomyxea
+Platyreta	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	626140:Endomyxa/?
+Polymyxa	5	2	Endomyxa	Cercozoa		no fitting genus: remove or check	41455:Endomyxa/Phytomyxea
+Pseudodifflugia	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	178377:Endomyxa/?
+Sorosphaerula	2	2	Endomyxa	Cercozoa		no fitting genus: remove or check	1484338:Endomyxa/Phytomyxea
+Spongospora	4	3	Endomyxa	Cercozoa		no fitting genus: remove or check	70185:Endomyxa/Phytomyxea
+Thalassomyxa	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	1367439:Endomyxa/?
+Urosporidium	3	3	Endomyxa	Cercozoa		no fitting genus: remove or check	45883:Endomyxa/Ascetosporea
+Vampyrella	2	2	Endomyxa	Cercozoa		no fitting genus: remove or check	941459:Endomyxa/?
+Woronina	1	1	Endomyxa	Cercozoa		no fitting genus: remove or check	1484335:Endomyxa/Phytomyxea
+Conidiobolus	10	9	Entomophthoromycota	Zoopagomycota		no fitting genus: remove or check	34487:Entomophthoromycota/Entomophthoromycetes
+Entomophaga	2	2	Entomophthoromycota	Zoopagomycota		no fitting genus: remove or check	39186:Entomophthoromycota/Entomophthoromycetes; 3081880:Arthropoda/Insecta
+Entomophthora	6	5	Entomophthoromycota	Arthropoda, Zoopagomycota		no fitting genus: remove or check	34484:Entomophthoromycota/Entomophthoromycetes
+Erynia	3	3	Entomophthoromycota	Zoopagomycota		no fitting genus: remove or check	181050:Entomophthoromycota/Entomophthoromycetes
+Eryniopsis	2	2	Entomophthoromycota	Zoopagomycota		no fitting genus: remove or check	76014:Entomophthoromycota/Entomophthoromycetes
+Furia	1	1	Entomophthoromycota	Zoopagomycota		no fitting genus: remove or check	176679:Entomophthoromycota/Entomophthoromycetes
+Pandora	5	5	Entomophthoromycota	Zoopagomycota		no fitting genus: remove or check	76016:Entomophthoromycota/Entomophthoromycetes; 120446:Mollusca/Bivalvia
+Strongwellsea	1	1	Entomophthoromycota	Zoopagomycota		no fitting genus: remove or check	76018:Entomophthoromycota/Entomophthoromycetes
+Zoophthora	6	3	Entomophthoromycota	Zoopagomycota		no fitting genus: remove or check	34482:Entomophthoromycota/Entomophthoromycetes
+Angulamoeba	3	3	Evosea	Discosea		no fitting genus: remove or check	1654977:Evosea/Variosea
+Physarum	1	1	Evosea	Chordata		no fitting genus: remove or check	5790:Evosea/Eumycetozoa
+Protosteliopsis	3	1	Evosea	Discosea		no fitting genus: remove or check	668363:Evosea/Variosea
+Stemonitis	2	2	Evosea	Apicomplexa, Arthropoda		no fitting genus: remove or check	137616:Evosea/Eumycetozoa
+Ammonia	1	1	Foraminifera	Apicomplexa		no fitting genus: remove or check	29189:Foraminifera/?
+Acaulospora	13	10	Glomeromycota	Mucoromycota		no fitting genus: remove or check	27372:Glomeromycota/Glomeromycetes
+Ambispora	8	3	Glomeromycota	Mucoromycota		no fitting genus: remove or check	453566:Glomeromycota/Glomeromycetes
+Archaeospora	2	2	Glomeromycota	Mucoromycota		no fitting genus: remove or check	144514:Glomeromycota/Glomeromycetes
+Cetraspora	2	2	Glomeromycota	Mucoromycota		no fitting genus: remove or check	940661:Glomeromycota/Glomeromycetes
+Claroideoglomus	3	3	Glomeromycota	Mucoromycota		no fitting genus: remove or check	
+Dentiscutata	4	4	Glomeromycota	Mucoromycota		no fitting genus: remove or check	756610:Glomeromycota/Glomeromycetes
+Diversispora	9	7	Glomeromycota	Mucoromycota		no fitting genus: remove or check	308926:Glomeromycota/Glomeromycetes
+Entrophospora	1	1	Glomeromycota	Mucoromycota		no fitting genus: remove or check	27375:Glomeromycota/Glomeromycetes
+Funneliformis	10	4	Glomeromycota	Mucoromycota		no fitting genus: remove or check	1117308:Glomeromycota/Glomeromycetes
+Geosiphon	2	1	Glomeromycota	Mucoromycota		no fitting genus: remove or check	50955:Glomeromycota/Glomeromycetes
+Gigaspora	13	5	Glomeromycota	Mucoromycota		no fitting genus: remove or check	4873:Glomeromycota/Glomeromycetes
+Glomus	10	8	Glomeromycota	Mucoromycota		no fitting genus: remove or check	4875:Glomeromycota/Glomeromycetes
+Otospora	1	1	Glomeromycota	Mucoromycota		no fitting genus: remove or check	1035156:Glomeromycota/Glomeromycetes
+Pacispora	3	2	Glomeromycota	Mucoromycota		no fitting genus: remove or check	259896:Glomeromycota/Glomeromycetes
+Paraglomus	3	3	Glomeromycota	Mucoromycota		no fitting genus: remove or check	144537:Glomeromycota/Glomeromycetes
+Racocetra	3	3	Glomeromycota	Mucoromycota		no fitting genus: remove or check	940663:Glomeromycota/Glomeromycetes
+Redeckera	1	1	Glomeromycota	Mucoromycota		no fitting genus: remove or check	1263256:Glomeromycota/Glomeromycetes
+Rhizophagus	21	7	Glomeromycota	Mucoromycota		no fitting genus: remove or check	295919:Arthropoda/Insecta; 1129544:Glomeromycota/Glomeromycetes
+Sacculospora	3	1	Glomeromycota	Mucoromycota		no fitting genus: remove or check	1670438:Glomeromycota/Glomeromycetes
+Sclerocystis	1	1	Glomeromycota	Mucoromycota		no fitting genus: remove or check	1150878:Glomeromycota/Glomeromycetes
+Scutellospora	13	6	Glomeromycota	Mucoromycota		no fitting genus: remove or check	27382:Glomeromycota/Glomeromycetes
+Septoglomus	1	1	Glomeromycota	Mucoromycota		no fitting genus: remove or check	1144751:Glomeromycota/Glomeromycetes
+Stereobalanus	1	1	Hemichordata	Arthropoda		no fitting genus: remove or check	560609:Hemichordata/Enteropneusta
+Spironema	1	1	Hemimastigophora	Haptophyta		no fitting genus: remove or check	2027452:Hemimastigophora/?
+Barbatospora	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	400016:Kickxellomycota/?
+Bojamyces	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370118:Kickxellomycota/Harpellomycetes
+Capniomyces	2	2	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	4884:Kickxellomycota/Harpellomycetes
+Caudomyces	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	1306360:Kickxellomycota/Harpellomycetes
+Coemansia	15	13	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	4863:Kickxellomycota/Kickxellomycetes
+Coleopteromyces	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	1214015:Kickxellomycota/Harpellomycetes
+Dipsacomyces	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	4865:Kickxellomycota/Kickxellomycetes
+Furculomyces	2	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	61423:Kickxellomycota/Harpellomycetes
+Genistelloides	2	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	4886:Kickxellomycota/Harpellomycetes
+Graminella	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	30125:Arthropoda/Insecta; 1213186:Kickxellomycota/Harpellomycetes
+Harpella	3	3	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370238:Kickxellomycota/Harpellomycetes; 1073691:Arthropoda/Insecta
+Harpellomyces	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370239:Kickxellomycota/Harpellomycetes
+Kickxella	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	61396:Kickxellomycota/Kickxellomycetes
+Lancisporomyces	2	2	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	1214017:Kickxellomycota/Harpellomycetes
+Legerioides	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	1403009:Kickxellomycota/Harpellomycetes
+Legeriomyces	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370240:Kickxellomycota/Harpellomycetes
+Legeriosimilis	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	1403016:Kickxellomycota/Harpellomycetes
+Linderina	4	2	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	4867:Kickxellomycota/Kickxellomycetes
+Martensiomyces	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	61413:Kickxellomycota/Kickxellomycetes
+Mycoemilia	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	417183:Kickxellomycota/Kickxellomycetes
+Myconymphaea	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	417181:Kickxellomycota/Kickxellomycetes
+Orphella	8	7	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	324624:Kickxellomycota/?
+Pennella	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370241:Kickxellomycota/Harpellomycetes; 1925253:Arthropoda/Copepoda
+Pinnaticoemansia	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	417174:Kickxellomycota/Kickxellomycetes
+Plecopteromyces	3	3	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370242:Kickxellomycota/Harpellomycetes
+Pseudoharpella	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370245:Kickxellomycota/Harpellomycetes
+Ramicandelaber	3	3	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	304330:Kickxellomycota/?
+Smittium	24	19	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	4888:Kickxellomycota/Harpellomycetes
+Spartiella	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	1214019:Kickxellomycota/Harpellomycetes
+Spirodactylon	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	61415:Kickxellomycota/Kickxellomycetes
+Spiromyces	2	2	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	61417:Kickxellomycota/Kickxellomycetes
+Stachylina	2	2	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370246:Kickxellomycota/Harpellomycetes
+Zancudomyces	2	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	1213188:Kickxellomycota/Harpellomycetes
+Zygopolaris	1	1	Kickxellomycota	Zoopagomycota		no fitting genus: remove or check	370247:Kickxellomycota/Harpellomycetes
+Biomphalaria	1	1	Mollusca	Rotifera		no fitting genus: remove or check	6525:Mollusca/Gastropoda
+Helicoradomenia	1	1	Mollusca	Annelida		no fitting genus: remove or check	211849:Mollusca/Solenogastres
+Lottia	1	1	Mollusca	Arthropoda		no fitting genus: remove or check	72691:Mollusca/Gastropoda
+Radix	1	1	Mollusca	Gastrotricha		no fitting genus: remove or check	55689:Mollusca/Gastropoda
+Tritonia	1	1	Mollusca	Cnidaria		no fitting genus: remove or check	70852:Mollusca/Gastropoda; 152758:Streptophyta/Magnoliopsida
+Gonapodya	4	3	Monoblepharomycota	Chytridiomycota		no fitting genus: remove or check	109944:Monoblepharomycota/Monoblepharidomycetes
+Harpochytrium	2	2	Monoblepharomycota	Chytridiomycota		no fitting genus: remove or check	109763:Monoblepharomycota/Monoblepharidomycetes
+Hyaloraphidium	1	1	Monoblepharomycota	Chytridiomycota		no fitting genus: remove or check	82267:Monoblepharomycota/Hyaloraphidiomycetes
+Monoblepharella	1	1	Monoblepharomycota	Chytridiomycota		no fitting genus: remove or check	79274:Monoblepharomycota/Monoblepharidomycetes
+Monoblepharis	1	1	Monoblepharomycota	Chytridiomycota		no fitting genus: remove or check	79276:Monoblepharomycota/Monoblepharidomycetes
+Dissophora	1	1	Mortierellomycota	Mucoromycota		no fitting genus: remove or check	101100:Mortierellomycota/Mortierellomycetes
+Lobosporangium	1	1	Mortierellomycota	Mucoromycota		no fitting genus: remove or check	299330:Mortierellomycota/Mortierellomycetes
+Modicella	1	1	Mortierellomycota	Mucoromycota		no fitting genus: remove or check	1440132:Mortierellomycota/Mortierellomycetes
+Mortierella	13	12	Mortierellomycota	Mucoromycota		no fitting genus: remove or check	4855:Mortierellomycota/Mortierellomycetes
+Wuchereria	1	1	Nematoda	Arthropoda		no fitting genus: remove or check	6292:Nematoda/Chromadorea
+Cladosiphon	1	1	Ochrophyta	Pseudomonadota		no fitting genus: remove or check	309736:?/Phaeophyceae
+Monochrysis	1	1	Ochrophyta	Haptophyta		no fitting genus: remove or check	156215:?/Chrysophyceae
+Nannochloropsis	3	1	Ochrophyta	Chlorophyta		no fitting genus: remove or check	5748:?/Eustigmatophyceae
+Pinnularia	1	1	Ochrophyta	Chlorophyta		no fitting genus: remove or check	216736:Bacillariophyta/Bacillariophyceae
+Saccharina	1	1	Ochrophyta	Chordata		no fitting genus: remove or check	309357:?/Phaeophyceae
+Olpidium	1	1	Olpidiomycota	Chytridiomycota		no fitting genus: remove or check	70188:Olpidiomycota/Olpidiomycetes
+Albugo	1	1	Oomycota	Ascomycota		no fitting genus: remove or check	65356:Oomycota/Peronosporomycetes
+Hyaloperonospora	2	1	Oomycota	Nematoda, Streptophyta		no fitting genus: remove or check	184462:Oomycota/Peronosporomycetes
+Plasmopara	1	1	Oomycota	Heterolobosea		no fitting genus: remove or check	4780:Oomycota/Peronosporomycetes
+uncultured	1	1	Oomycota	Ascomycota		no fitting genus: remove or check	
+Limanda	1	1	Perkinsozoa	Apicomplexa		no fitting genus: remove or check	8257:Chordata/Actinopteri
+Actinotrocha	2	2	Phoronida	Brachiopoda		no fitting genus: remove or check	
+Phoronis	10	9	Phoronida	Annelida, Brachiopoda		no fitting genus: remove or check	33504:Phoronida/?
+Nematoplana	1	1	Platyhelminthes	Nemertea		no fitting genus: remove or check	57453:Platyhelminthes/?
+Schistosoma	1	1	Platyhelminthes	Nematoda		no fitting genus: remove or check	6181:Platyhelminthes/Trematoda
+Haliclona	1	1	Porifera	Basidiomycota		no fitting genus: remove or check	6057:Porifera/Demospongiae
+Xestospongia	1	1	Porifera	Annelida		no fitting genus: remove or check	178550:Porifera/Demospongiae
+Cyanidioschyzon	1	1	Rhodophyta	Discosea		no fitting genus: remove or check	45156:Rhodophyta/Bangiophyceae
+Kumanoa	1	1	Rhodophyta	Cercozoa		no fitting genus: remove or check	644269:Rhodophyta/Florideophyceae
+Pyropia	1	1	Rhodophyta	Ciliophora		no fitting genus: remove or check	1094566:Rhodophyta/Bangiophyceae
+Ammopiptanthus	1	1	Streptophyta	Cercozoa		no fitting genus: remove or check	111850:Streptophyta/Magnoliopsida
+Arachis	2	2	Streptophyta	Annelida, Arthropoda		no fitting genus: remove or check	3817:Streptophyta/Magnoliopsida
+Atalantia	1	1	Streptophyta	Ascomycota		no fitting genus: remove or check	76950:Streptophyta/Magnoliopsida
+Cenchrus	1	1	Streptophyta	Tubulinea		no fitting genus: remove or check	4583:Streptophyta/Magnoliopsida
+Colobanthus	1	1	Streptophyta	Nematoda		no fitting genus: remove or check	191456:Streptophyta/Magnoliopsida
+Corchorus	2	1	Streptophyta	Cercozoa, Ciliophora		no fitting genus: remove or check	93758:Streptophyta/Magnoliopsida
+Eosphagnum	1	1	Streptophyta	Pseudomonadota		no fitting genus: remove or check	879271:Streptophyta/Sphagnopsida
+Gynostemma	1	1	Streptophyta	Cyanobacteriota		no fitting genus: remove or check	182083:Streptophyta/Magnoliopsida
+Humulus	1	1	Streptophyta	Ascomycota		no fitting genus: remove or check	3484:Streptophyta/Magnoliopsida
+Isoetes	1	1	Streptophyta	Pseudomonadota		no fitting genus: remove or check	13838:Streptophyta/Lycopodiopsida
+Juncus	1	1	Streptophyta	Cercozoa		no fitting genus: remove or check	13578:Streptophyta/Magnoliopsida
+Klebsormidium	1	1	Streptophyta	Chlorophyta		no fitting genus: remove or check	3174:Streptophyta/Klebsormidiophyceae
+Lupinus	1	1	Streptophyta	Arthropoda		no fitting genus: remove or check	3869:Streptophyta/Magnoliopsida
+Mangifera	5	1	Streptophyta	Arthropoda, Ascomycota		no fitting genus: remove or check	23461:Streptophyta/Magnoliopsida
+Morus	1	1	Streptophyta	Ascomycota		no fitting genus: remove or check	3497:Streptophyta/Magnoliopsida; 37577:Chordata/Aves
+Nicotiana	4	2	Streptophyta	Arthropoda, Cyanobacteriota		no fitting genus: remove or check	4085:Streptophyta/Magnoliopsida
+Oryza	2	2	Streptophyta	Arthropoda		no fitting genus: remove or check	4527:Streptophyta/Magnoliopsida
+Phaseolus	3	1	Streptophyta	Arthropoda		no fitting genus: remove or check	3883:Streptophyta/Magnoliopsida
+Picea	1	1	Streptophyta	Cyanobacteriota		no fitting genus: remove or check	3328:Streptophyta/Pinopsida
+Pinus	1	1	Streptophyta	Ascomycota		no fitting genus: remove or check	3337:Streptophyta/Pinopsida
+Punica	2	1	Streptophyta	Arthropoda, Basidiomycota		no fitting genus: remove or check	22662:Streptophyta/Magnoliopsida
+Saccharum	2	1	Streptophyta	Arthropoda, Cercozoa		no fitting genus: remove or check	4546:Streptophyta/Magnoliopsida
+Thlaspi	1	1	Streptophyta	Arthropoda		no fitting genus: remove or check	13287:Streptophyta/Magnoliopsida
+Triticum	2	1	Streptophyta	Arthropoda		no fitting genus: remove or check	4564:Streptophyta/Magnoliopsida
+Zoysia	1	1	Streptophyta	Arthropoda		no fitting genus: remove or check	38721:Streptophyta/Magnoliopsida

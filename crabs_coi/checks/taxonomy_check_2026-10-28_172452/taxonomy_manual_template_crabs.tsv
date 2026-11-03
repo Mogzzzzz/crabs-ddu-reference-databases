@@ -1,0 +1,5 @@
+# Manual taxonomy decisions (step 10_taxonomy_fix of the database script).
+# Fill 'action' with keep or remove (and adapt 'reason'), delete the lines you do not want to decide,
+# then add the lines to taxonomy_manual_crabs.tsv in the database folder (create it from this file the first time).
+# taxon = genus (applies only to its flagged sequences) or seq_id.
+taxon	action	reason	decided

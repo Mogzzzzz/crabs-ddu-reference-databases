@@ -1,0 +1,6 @@
+genus	n_sequences	n_names	db_phylum	bold_phylum	proposed_phylum	verdict	ncbi_genera_of_that_name
+Trichia	1	1	Arthropoda	Mollusca	Arthropoda	homonym: correct lineage	219850:Evosea/Eumycetozoa; 2849489:Arthropoda/Malacostraca
+Caledoniella	3	2	Mollusca	Porifera	Mollusca	homonym: correct lineage	2797887:Mollusca/Gastropoda
+Roperia	8	1	Ochrophyta	Mollusca	Bacillariophyta	homonym: correct lineage	3720195:Bacillariophyta/Coscinodiscophyceae
+Anoplostrongylus	2	1	Platyhelminthes	Nematoda	Platyhelminthes	homonym: correct lineage	2994834:Platyhelminthes/Cestoda
+Chondrus	1	1	Rhodophyta	Mollusca	Rhodophyta	homonym: correct lineage	2768:Rhodophyta/Florideophyceae

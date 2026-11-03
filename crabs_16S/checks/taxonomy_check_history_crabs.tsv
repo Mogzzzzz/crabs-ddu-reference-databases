@@ -1,0 +1,4 @@
+date	script_version	database	database_sha256	database_modified	n_sequences	n_flagged	n_genera	n_correctable	n_to_remove_or_check	ncbi_taxonomy_date	results_folder
+2026-10-23 18:12:34	1.4	results/16S_mt_marine_invertebrates.tsv	ae3c2b0b76c9e719	2026-10-23 18:11	74456	0	0	0	0	2026-10-19	taxonomy_check_2026-10-23_181223
+2026-10-26 14:34:27	1.7	results/16S_mt_marine_invertebrates.tsv	b2c27f34bae5ef44	2026-10-26 14:27	34880	0	0	0	0	2026-10-19	taxonomy_check_2026-10-26_143416
+2026-10-28 17:25:03	1.7.1	results/16S_mt_marine_invertebrates.tsv	b2c27f34bae5ef44	2026-10-26 14:27	34880	0	0	0	0	2026-10-19	taxonomy_check_2026-10-28_172452

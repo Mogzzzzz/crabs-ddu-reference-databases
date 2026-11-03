@@ -1,0 +1,63 @@
+group	source	taxid	rank	phylum	comparison_group
+Annelida	BOLD	6340	phylum	Annelida	Annelida
+Sipuncula	BOLD	6433	class	Annelida	Annelida
+Annelida	NCBI GenBank	6340	phylum	Annelida	Annelida
+Sipuncula	NCBI GenBank	6433	class	Annelida	Annelida
+Brachiopoda	BOLD	7568	phylum	Brachiopoda	Brachiopoda
+Brachiopoda	NCBI GenBank	7568	phylum	Brachiopoda	Brachiopoda
+Bryozoa	BOLD	10205	phylum	Bryozoa	Bryozoa
+Bryozoa	NCBI GenBank	10205	phylum	Bryozoa	Bryozoa
+Leptocardii	BOLD	2682552	class	Chordata	Cephalochordata
+Cephalochordata	NCBI GenBank	7735	subphylum	Chordata	Cephalochordata
+Chaetognatha	BOLD	10229	phylum	Chaetognatha	Chaetognatha
+Chaetognatha	NCBI GenBank	10229	phylum	Chaetognatha	Chaetognatha
+Cnidaria	BOLD	6073	phylum	Cnidaria	Cnidaria
+Cnidaria	NCBI GenBank	6073	phylum	Cnidaria	Cnidaria
+Branchiopoda	BOLD	6658	class	Arthropoda	Crustacea
+Cephalocarida	BOLD	72040	class	Arthropoda	Crustacea
+Copepoda	BOLD	6830	class	Arthropoda	Crustacea
+Malacostraca	BOLD	6681	class	Arthropoda	Crustacea
+Ostracoda	BOLD	6670	class	Arthropoda	Crustacea
+Remipedia	BOLD	84343	class	Arthropoda	Crustacea
+Thecostraca	BOLD	116172	class	Arthropoda	Crustacea
+Crustacea	NCBI GenBank			Arthropoda	Crustacea
+Ctenophora	BOLD	10197	phylum	Ctenophora	Ctenophora
+Ctenophora	NCBI GenBank	10197	phylum	Ctenophora	Ctenophora
+Echinodermata	BOLD	7586	phylum	Echinodermata	Echinodermata
+Echinodermata	NCBI GenBank	7586	phylum	Echinodermata	Echinodermata
+Entoprocta	BOLD	43120	phylum	Entoprocta	Entoprocta
+Entoprocta	NCBI GenBank	43120	phylum	Entoprocta	Entoprocta
+Gastrotricha	BOLD	33313	phylum	Gastrotricha	Gastrotricha
+Gastrotricha	NCBI GenBank	33313	phylum	Gastrotricha	Gastrotricha
+Hemichordata	BOLD	10219	phylum	Hemichordata	Hemichordata
+Hemichordata	NCBI GenBank	10219	phylum	Hemichordata	Hemichordata
+Kinorhyncha	BOLD	51516	phylum	Kinorhyncha	Kinorhyncha
+Kinorhyncha	NCBI GenBank	51516	phylum	Kinorhyncha	Kinorhyncha
+Xiphosura	NCBI GenBank	6845	order	Arthropoda	Merostomata
+Mollusca	BOLD	6447	phylum	Mollusca	Mollusca
+Mollusca	NCBI GenBank	6447	phylum	Mollusca	Mollusca
+Nematoda	BOLD	6231	phylum	Nematoda	Nematoda
+Nematoda	NCBI GenBank	6231	phylum	Nematoda	Nematoda
+Nemertea	BOLD	6217	phylum	Nemertea	Nemertea
+Nemertea	NCBI GenBank	6217	phylum	Nemertea	Nemertea
+Phoronida	BOLD	120557	phylum	Phoronida	Phoronida
+Phoronida	NCBI GenBank	120557	phylum	Phoronida	Phoronida
+Placozoa	BOLD	10226	phylum	Placozoa	Placozoa
+Placozoa	NCBI GenBank	10226	phylum	Placozoa	Placozoa
+Platyhelminthes	BOLD	6157	phylum	Platyhelminthes	Platyhelminthes
+Platyhelminthes	NCBI GenBank	6157	phylum	Platyhelminthes	Platyhelminthes
+Porifera	BOLD	6040	phylum	Porifera	Porifera
+Porifera	NCBI GenBank	6040	phylum	Porifera	Porifera
+Priapulida	BOLD	33467	phylum	Priapulida	Priapulida
+Priapulida	NCBI GenBank	33467	phylum	Priapulida	Priapulida
+Pycnogonida	BOLD	57294	class	Arthropoda	Pycnogonida
+Pycnogonida	NCBI GenBank	57294	class	Arthropoda	Pycnogonida
+Tardigrada	BOLD	42241	phylum	Tardigrada	Tardigrada
+Tardigrada	NCBI GenBank	42241	phylum	Tardigrada	Tardigrada
+Appendicularia	BOLD	30302	class	Chordata	Tunicata
+Ascidiacea	BOLD	7713	class	Chordata	Tunicata
+Thaliacea	BOLD	30304	class	Chordata	Tunicata
+Tunicata	NCBI GenBank	7712	subphylum	Chordata	Tunicata
+Xenacoelomorpha	BOLD	1312402	phylum	Xenacoelomorpha	Xenacoelomorpha
+Xenacoelomorpha	NCBI GenBank	1312402	phylum	Xenacoelomorpha	Xenacoelomorpha
+Merostomata	BOLD	6844	class	Arthropoda	Xiphosura

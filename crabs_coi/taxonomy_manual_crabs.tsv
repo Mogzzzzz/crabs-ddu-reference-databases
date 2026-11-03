@@ -1,0 +1,8 @@
+# Manual taxonomy decisions for crabs_coi.sh (step 10_taxonomy_fix)
+# taxon = genus (applies only to its sequences flagged by the check) or seq_id; action = keep | remove
+taxon	action	reason	decided
+Caledoniella	keep	gastropod (Caledoniellidae, parasitic on stomatopods): the BOLD phylum Porifera is a BOLD error, NCBI lineage Mollusca correct	2026-10-23
+Roperia	remove	BOLD Mollusca (Roperia poulsoni, Muricidae) filed under the diatom homonym; the mollusc genus is absent from the NCBI taxonomy	2026-10-23
+Trichia	remove	BOLD Mollusca (land snail, Hygromiidae) filed under a crustacean homonym; the mollusc genus is absent from the NCBI taxonomy	2026-10-23
+Anoplostrongylus	remove	BOLD Nematoda (strongylid parasite of mammals) filed under Cestoda; off target in any case	2026-10-23
+Chondrus	remove	BOLD record filed under Mollusca: unclear whether the sequence comes from the red alga or the animal	2026-10-23

@@ -1,0 +1,25 @@
+group	source	taxid	rank	phylum	comparison_group
+Chlorophyta	BOLD	3041	phylum	Chlorophyta	Chlorophyta
+Chlorophyta	NCBI GenBank	3041	phylum	Chlorophyta	Chlorophyta
+Cryptophyceae	NCBI GenBank	3027	class	Cryptophyta	Cryptophyta
+Glaucocystophyceae	NCBI GenBank	38254	class	Glaucophyta	Glaucocystophyceae
+Haptophyta	BOLD	2830	phylum	Haptophyta	Haptophyta
+Haptophyta	NCBI GenBank	2830	phylum	Haptophyta	Haptophyta
+Ochrophyta	BOLD	2696291	clade	Ochrophyta	Ochrophyta
+Bacillariophyta	NCBI GenBank	2836	phylum	Ochrophyta	Ochrophyta
+Bolidophyceae	NCBI GenBank	91989	class	Ochrophyta	Ochrophyta
+Chrysophyceae	NCBI GenBank	2825	class	Ochrophyta	Ochrophyta
+Dictyochophyceae	NCBI GenBank	39119	class	Ochrophyta	Ochrophyta
+Eustigmatophyceae	NCBI GenBank	5747	class	Ochrophyta	Ochrophyta
+Pelagophyceae	NCBI GenBank	35675	class	Ochrophyta	Ochrophyta
+Phaeophyceae	NCBI GenBank	2870	class	Ochrophyta	Ochrophyta
+Raphidophyceae	NCBI GenBank	38410	class	Ochrophyta	Ochrophyta
+Xanthophyceae	NCBI GenBank	2833	class	Ochrophyta	Ochrophyta
+Rhodophyta	BOLD	2763	phylum	Rhodophyta	Rhodophyta
+Rhodophyta	NCBI GenBank	2763	phylum	Rhodophyta	Rhodophyta
+Cymodoceaceae	BOLD	25926	family	Streptophyta	Seagrasses
+Posidoniaceae	BOLD	55435	family	Streptophyta	Seagrasses
+Zosteraceae	BOLD	27254	family	Streptophyta	Seagrasses
+Cymodoceaceae	NCBI GenBank	25926	family	Streptophyta	Seagrasses
+Posidoniaceae	NCBI GenBank	55435	family	Streptophyta	Seagrasses
+Zosteraceae	NCBI GenBank	27254	family	Streptophyta	Seagrasses

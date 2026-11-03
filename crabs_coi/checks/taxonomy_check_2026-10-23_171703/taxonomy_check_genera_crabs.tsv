@@ -1,0 +1,95 @@
+genus	n_sequences	n_names	db_phylum	bold_phylum	proposed_phylum	verdict	ncbi_genera_of_that_name
+Alofia	3	2	Arthropoda			no fitting genus: remove or check	1890379:Arthropoda/Ichthyostraca
+Argulus	47	11	Arthropoda			no fitting genus: remove or check	179104:Arthropoda/Ichthyostraca
+Armillifer	5	3	Arthropoda			no fitting genus: remove or check	260803:Arthropoda/Ichthyostraca
+Chondracanthus	1	1	Arthropoda	Rhodophyta	Rhodophyta	homonym: correct lineage	29218:Rhodophyta/Florideophyceae; 164117:Arthropoda/Copepoda
+Chonopeltis	2	1	Arthropoda			no fitting genus: remove or check	2723879:Arthropoda/Ichthyostraca
+Derocheilocaris	1	1	Arthropoda			no fitting genus: remove or check	84306:Arthropoda/Mystacocarida
+Dolops	2	2	Arthropoda			no fitting genus: remove or check	397513:Arthropoda/Ichthyostraca
+Donax	67	3	Arthropoda, Streptophyta	Mollusca	Mollusca	homonym: correct lineage	40129:Mollusca/Bivalvia; 96512:Streptophyta/Magnoliopsida
+Kiricephalus	3	1	Arthropoda			no fitting genus: remove or check	1183247:Arthropoda/Ichthyostraca
+Levisunguis	4	1	Arthropoda			no fitting genus: remove or check	2589006:Arthropoda/Ichthyostraca
+Linguatula	9	3	Arthropoda			no fitting genus: remove or check	646051:Arthropoda/Ichthyostraca
+Raillietiella	18	5	Arthropoda			no fitting genus: remove or check	311330:Arthropoda/Ichthyostraca
+Sebekia	2	2	Arthropoda			no fitting genus: remove or check	65514:Actinomycetota/Actinomycetes; 147239:Arthropoda/Ichthyostraca
+Trichia	1	1	Arthropoda	Mollusca	Arthropoda	homonym: correct lineage	219850:Evosea/Eumycetozoa; 2849489:Arthropoda/Malacostraca
+Asterina	9	2	Ascomycota	Echinodermata	Echinodermata	homonym: correct lineage	7593:Echinodermata/Asteroidea; 859380:Ascomycota/Dothideomycetes
+Fulvia	2	1	Ascomycota	Mollusca	Mollusca	homonym: correct lineage	80827:Mollusca/Bivalvia; 2897311:Ascomycota/Dothideomycetes
+Hendersonia	2	1	Ascomycota	Mollusca		no fitting genus: remove or check	1485177:Ascomycota/Dothideomycetes
+Nais	105	14	Ascomycota	Annelida	Annelida	homonym: correct lineage	74730:Annelida/Clitellata; 85919:Ascomycota/Sordariomycetes
+Parastenella	2	2	Ascomycota	Cnidaria	Cnidaria	homonym: correct lineage	355652:Cnidaria/Anthozoa; 1112942:Ascomycota/Dothideomycetes
+Pontoporeia	7	1	Ascomycota	Arthropoda	Arthropoda	homonym: correct lineage	399046:Arthropoda/Malacostraca; 742345:Ascomycota/Dothideomycetes
+Truncatella	3	3	Ascomycota	Mollusca	Mollusca	homonym: correct lineage	55735:Mollusca/Gastropoda; 152317:Ascomycota/Sordariomycetes
+Xyleborus	11	2	Ascomycota			no fitting genus: remove or check	105119:Arthropoda/Insecta; 3024280:Ascomycota/Lecanoromycetes
+Mediterranea	1	1	Bacteroidota	Mollusca		no fitting genus: remove or check	1926659:Bacteroidota/Bacteroidia
+Colus	11	4	Basidiomycota	Mollusca	Mollusca	homonym: correct lineage	1421191:Mollusca/Gastropoda; 2546348:Basidiomycota/Agaricomycetes
+Corella	6	2	Basidiomycota	Chordata	Chordata	homonym: correct lineage	111869:Chordata/Ascidiacea; 1399810:Basidiomycota/Agaricomycetes
+Stagnicola	3	1	Basidiomycota	Mollusca	Mollusca	homonym: correct lineage	55693:Mollusca/Gastropoda; 182412:Basidiomycota/Agaricomycetes
+Muriellopsis	2	1	Chlorophyta	Mollusca		no fitting genus: remove or check	1055024:Chlorophyta/Chlorophyceae
+Nomia	4	4	Chlorophyta			no fitting genus: remove or check	178049:Arthropoda/Insecta; 3035971:Chlorophyta/Trebouxiophyceae
+Bostrychia	2	2	Chordata	Rhodophyta	Rhodophyta	homonym: correct lineage	103711:Rhodophyta/Florideophyceae; 1281446:Chordata/Aves
+Psephurus	2	1	Chordata	Mollusca		no fitting genus: remove or check	61975:Chordata/Actinopteri
+Siphonaria	108	8	Chytridiomycota	Mollusca	Mollusca	homonym: correct lineage	52930:Mollusca/Gastropoda; 252676:Chytridiomycota/Chytridiomycetes
+Myrionema	1	1	Cnidaria	Ochrophyta		several fitting genera: check	86897:?/Phaeophyceae; 1664064:Cnidaria/Hydrozoa
+Cephalothrix	79	11	Cyanobacteriota	Nemertea	Nemertea	homonym: correct lineage	166041:Nemertea/Palaeonemertea; 1844514:Cyanobacteriota/Cyanophyceae
+Herdmania	9	1	Dinoflagellata	Chordata	Chordata	homonym: correct lineage	7732:Chordata/Ascidiacea; 1434919:?/Dinophyceae
+Apistonema	1	1	Haptophyta	Ochrophyta		no fitting genus: remove or check	
+Caledoniella	3	2	Mollusca	Porifera	Mollusca	homonym: correct lineage	2797887:Mollusca/Gastropoda
+Ctenophora	2	1	Ochrophyta	Ctenophora		several fitting genera: check	516519:Arthropoda/Insecta; 1003038:Bacillariophyta/Fragilariophyceae
+Eisenia	15	4	Ochrophyta	Annelida	Annelida	homonym: correct lineage	6393:Annelida/Clitellata; 117815:?/Phaeophyceae
+Lunella	96	4	Ochrophyta	Mollusca	Mollusca	homonym: correct lineage	307060:Mollusca/Gastropoda; 2971486:Bacillariophyta/Bacillariophyceae
+Roperia	8	1	Ochrophyta	Mollusca	Bacillariophyta	homonym: correct lineage	3720195:Bacillariophyta/Coscinodiscophyceae
+Rossia	12	4	Ochrophyta	Mollusca	Mollusca	homonym: correct lineage	34532:Mollusca/Cephalopoda; 216821:Bacillariophyta/Bacillariophyceae
+Turbinaria	6	3	Ochrophyta	Cnidaria	Cnidaria	homonym: correct lineage	46697:Cnidaria/Anthozoa; 86656:?/Phaeophyceae
+Alaria	1	1	Platyhelminthes	Ochrophyta		several fitting genera: check	2888:?/Phaeophyceae; 138589:Platyhelminthes/Trematoda
+Anoplostrongylus	2	1	Platyhelminthes	Nematoda	Platyhelminthes	homonym: correct lineage	2994834:Platyhelminthes/Cestoda
+Adamsiella	8	6	Rhodophyta	Mollusca	Mollusca	homonym: correct lineage	1233767:Mollusca/Gastropoda; 2509223:Rhodophyta/Florideophyceae
+Chondrus	1	1	Rhodophyta	Mollusca	Rhodophyta	homonym: correct lineage	2768:Rhodophyta/Florideophyceae
+Grania	4	2	Rhodophyta	Annelida	Annelida	homonym: correct lineage	167816:Annelida/Clitellata; 525894:Rhodophyta/Florideophyceae
+Rissoella	14	3	Rhodophyta	Mollusca	Mollusca	homonym: correct lineage	57638:Mollusca/Gastropoda; 257594:Rhodophyta/Florideophyceae
+Acanthella	1	1	Streptophyta	Porifera	Porifera	homonym: correct lineage	85782:Porifera/Demospongiae; 1160307:Streptophyta/Magnoliopsida
+Astraea	1	1	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	159951:Mollusca/Gastropoda; 323019:Streptophyta/Magnoliopsida
+Bonellia	3	1	Streptophyta	Annelida	Annelida	homonym: correct lineage	47117:Annelida/Polychaeta; 301456:Streptophyta/Magnoliopsida
+Buchholzia	5	4	Streptophyta	Annelida	Annelida	homonym: correct lineage	188205:Annelida/Clitellata; 202670:Streptophyta/Magnoliopsida
+Chione	5	4	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	98292:Mollusca/Bivalvia; 128406:Streptophyta/Magnoliopsida
+Cristaria	1	1	Streptophyta		Mollusca	homonym: correct lineage	165445:Mollusca/Bivalvia; 254850:Streptophyta/Magnoliopsida
+Cuspidaria	15	3	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	61329:Mollusca/Bivalvia; 354069:Streptophyta/Magnoliopsida
+Cyanea	12	3	Streptophyta	Cnidaria	Cnidaria	homonym: correct lineage	27803:Cnidaria/Scyphozoa; 138109:Streptophyta/Magnoliopsida
+Cyclophorus	67	2	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	75122:Mollusca/Gastropoda; 2016497:Streptophyta/Polypodiopsida
+Diphasia	3	1	Streptophyta	Cnidaria	Cnidaria	homonym: correct lineage	308603:Cnidaria/Hydrozoa; 1762905:Streptophyta/Magnoliopsida
+Diplosoma	2	1	Streptophyta	Chordata	Chordata	homonym: correct lineage	168634:Chordata/Ascidiacea; 216023:Streptophyta/Magnoliopsida
+Dugesia	76	8	Streptophyta	Platyhelminthes	Platyhelminthes	homonym: correct lineage	6160:Platyhelminthes/?; 121909:Streptophyta/Magnoliopsida
+Fernandezia	1	1	Streptophyta	Mollusca		no fitting genus: remove or check	125117:Streptophyta/Magnoliopsida
+Fridericia	219	55	Streptophyta	Annelida	Annelida	homonym: correct lineage	77730:Annelida/Clitellata; 354074:Streptophyta/Magnoliopsida
+Galeomma	2	2	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	52933:Mollusca/Bivalvia; 984058:Streptophyta/Magnoliopsida
+Gyptis	14	2	Streptophyta	Annelida	Annelida	homonym: correct lineage	378300:Annelida/Polychaeta; 1745205:Streptophyta/Magnoliopsida
+Hancockia	2	1	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	252573:Mollusca/Gastropoda; 1006611:Streptophyta/Magnoliopsida
+Herbstia	1	1	Streptophyta	Arthropoda	Arthropoda	homonym: correct lineage	553019:Arthropoda/Malacostraca; 1851706:Streptophyta/Magnoliopsida
+Isotoma	45	1	Streptophyta			no fitting genus: remove or check	57735:Arthropoda/Collembola; 268267:Streptophyta/Magnoliopsida
+Limacia	4	1	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	71318:Mollusca/Gastropoda; 461647:Streptophyta/Magnoliopsida
+Macrostylis	211	14	Streptophyta	Arthropoda	Arthropoda	homonym: correct lineage	263194:Arthropoda/Malacostraca; 378808:Streptophyta/Magnoliopsida
+Maxwellia	4	2	Streptophyta	Mollusca		no fitting genus: remove or check	117667:Streptophyta/Magnoliopsida
+Mitrella	39	4	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	128489:Mollusca/Gastropoda; 306986:Streptophyta/Magnoliopsida
+Monotheca	1	1	Streptophyta	Cnidaria		no fitting genus: remove or check	191071:Streptophyta/Magnoliopsida
+Okenia	39	6	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	71367:Mollusca/Gastropoda; 335911:Streptophyta/Magnoliopsida
+Oligochaeta	1	1	Streptophyta			no fitting genus: remove or check	75641:Streptophyta/Magnoliopsida
+Ophioderma	22	4	Streptophyta	Echinodermata	Echinodermata	homonym: correct lineage	72726:Echinodermata/Ophiuroidea; 1975590:Streptophyta/Polypodiopsida
+Owenia	24	9	Streptophyta	Annelida	Annelida	homonym: correct lineage	6346:Annelida/Polychaeta; 356288:Streptophyta/Magnoliopsida
+Pectinaria	5	1	Streptophyta	Annelida	Annelida	homonym: correct lineage	104751:Annelida/Polychaeta; 120649:Streptophyta/Magnoliopsida
+Philyra	3	1	Streptophyta	Arthropoda	Arthropoda	homonym: correct lineage	20255:Arthropoda/Malacostraca; 72176:Streptophyta/Magnoliopsida
+Phyllacanthus	2	1	Streptophyta	Echinodermata	Echinodermata	homonym: correct lineage	107815:Echinodermata/Echinoidea; 128413:Streptophyta/Magnoliopsida
+Pieris	4	3	Streptophyta			no fitting genus: remove or check	7115:Arthropoda/Insecta; 51679:Streptophyta/Magnoliopsida
+Plathymenia	2	1	Streptophyta			no fitting genus: remove or check	148721:Streptophyta/Magnoliopsida
+Pollia	18	2	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	128411:Mollusca/Gastropoda; 168090:Streptophyta/Magnoliopsida
+Polydora	9	1	Streptophyta	Annelida	Annelida	homonym: correct lineage	46600:Annelida/Polychaeta; 1227177:Streptophyta/Magnoliopsida
+Pyramidula	12	8	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	145166:Mollusca/Gastropoda; 366448:Streptophyta/Bryopsida
+Quadrella	2	1	Streptophyta	Arthropoda	Arthropoda	homonym: correct lineage	652070:Arthropoda/Malacostraca; 1125010:Streptophyta/Magnoliopsida
+Saccocalyx	1	1	Streptophyta	Porifera	Porifera	homonym: correct lineage	582877:Porifera/Hexactinellida; 751885:Streptophyta/Magnoliopsida
+Sarcophyton	11	3	Streptophyta	Cnidaria	Cnidaria	homonym: correct lineage	51812:Cnidaria/Anthozoa; 339019:Streptophyta/Magnoliopsida
+Sergia	2	1	Streptophyta	Arthropoda	Arthropoda	homonym: correct lineage	343321:Arthropoda/Malacostraca; 2555698:Streptophyta/Magnoliopsida
+Sida	8	3	Streptophyta	Arthropoda	Arthropoda	homonym: correct lineage	77655:Arthropoda/Branchiopoda; 108335:Streptophyta/Magnoliopsida
+Squilla	4	3	Streptophyta	Arthropoda	Arthropoda	homonym: correct lineage	84349:Arthropoda/Malacostraca; 2894096:Streptophyta/Magnoliopsida
+Stuhlmannia	2	1	Streptophyta	Annelida		no fitting genus: remove or check	191955:Streptophyta/Magnoliopsida
+Tetilla	2	1	Streptophyta		Porifera	homonym: correct lineage	23274:Porifera/Demospongiae; 624270:Streptophyta/Magnoliopsida
+Tritonia	34	5	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	70852:Mollusca/Gastropoda; 152758:Streptophyta/Magnoliopsida
+Tryonia	39	2	Streptophyta	Mollusca	Mollusca	homonym: correct lineage	76240:Mollusca/Gastropoda; 1520352:Streptophyta/Polypodiopsida

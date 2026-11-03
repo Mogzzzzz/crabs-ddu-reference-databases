@@ -1,0 +1,29 @@
+parameter	value
+marker	18S rRNA (nuclear small subunit), V4 region, first 150 bp after the forward primer 18Smk1F
+primer_forward	CTGGTGCCAGCAGCCGCGGYAA (18Smk1F, Machida & Knowlton 2012)
+primer_reverse	none (forward read only)
+expected_length	150
+forward_read_length	150
+pcr_mismatch	4
+pcr_relaxed	forward primer only
+rescue_used	true
+rescue_identity	0.95
+min_length	145
+max_length	155
+max_N	2
+min_identification_rank	genus
+max_missing_ranks_above	1
+crabs_rank_na	3
+dereplication	unique_species
+excluded_taxa	Bacteria;Archaea;Insecta;Collembola;Protura;Diplura;Arachnida;Chilopoda;Diplopoda;Pauropoda;Symphyla;Onychophora
+taxonomy_fix	yes (as crabs_18S.sh 1.5: BOLD and SILVA phylum, other organisms and organelle rRNA removed, fungal phyla not compared; log logs/18S_V4_fwd150_marine_eukaryotes_10_taxonomy_fix.tsv)
+taxonomic_ranks	domain;phylum;class;order;family;genus;species
+phylum_renamed	Bacillariophyta=Ochrophyta;Heterokontophyta=Ochrophyta;Myzozoa=Dinoflagellata;Dinophyta=Dinoflagellata
+phylum_from_class	Phaeophyceae=Ochrophyta;Bacillariophyceae=Ochrophyta;Coscinodiscophyceae=Ochrophyta;Mediophyceae=Ochrophyta;Chrysophyceae=Ochrophyta;Synurophyceae=Ochrophyta;Raphidophyceae=Ochrophyta;Eustigmatophyceae=Ochrophyta;Phaeosacciophyceae=Ochrophyta;Pelagophyceae=Ochrophyta;Dictyochophyceae=Ochrophyta;Xanthophyceae=Ochrophyta;Bolidophyceae=Ochrophyta;Pinguiophyceae=Ochrophyta;Phaeothamniophyceae=Ochrophyta;Aurearenophyceae=Ochrophyta;Chrysomerophyceae=Ochrophyta;Schizocladiophyceae=Ochrophyta;Olisthodiscophyceae=Ochrophyta;Dinophyceae=Dinoflagellata
+taxonomy_reference	Adl et al. (2019) J Eukaryot Microbiol 66: 4-119
+source_database	/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_18S/18S_aligned
+bold_groups	Porifera Cnidaria Ctenophora Placozoa Xenacoelomorpha Platyhelminthes Nemertea Mollusca Annelida Sipuncula Brachiopoda Bryozoa Phoronida Entoprocta Chaetognatha Echinodermata Hemichordata Ascidiacea Thaliacea Appendicularia Leptocardii Nematoda Gastrotricha Kinorhyncha Priapulida Tardigrada Malacostraca Copepoda Ostracoda Thecostraca Branchiopoda Cephalocarida Remipedia Pycnogonida Merostomata Rhodophyta Ochrophyta
+ncbi_groups	Porifera Cnidaria Ctenophora Placozoa Xenacoelomorpha Platyhelminthes Nemertea Mollusca Annelida Sipuncula Brachiopoda Bryozoa Phoronida Entoprocta Chaetognatha Echinodermata Hemichordata Tunicata Cephalochordata Nematoda Gastrotricha Kinorhyncha Priapulida Tardigrada Crustacea Pycnogonida Xiphosura Rhodophyta Phaeophyceae Bacillariophyta
+bold_marker_filter	18S
+silva	SSU subset 138.2
+ncbi_query	"<group>"[Organism] AND ("18S ribosomal RNA"[All Fields] OR "18S rRNA"[All Fields] OR "small subunit ribosomal RNA"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT ("Bacteria"[Organism] OR "Archaea"[Organism] OR "Insecta"[Organism] OR "Collembola"[Organism] OR "Protura"[Organism] OR "Diplura"[Organism] OR "Arachnida"[Organism] OR "Chilopoda"[Organism] OR "Diplopoda"[Organism] OR "Pauropoda"[Organism] OR "Symphyla"[Organism] OR "Onychophora"[Organism])

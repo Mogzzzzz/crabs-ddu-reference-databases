@@ -1,0 +1,724 @@
+{
+  "title": "18S rRNA V4-V5 reference database (~574 bp) – marine invertebrates and other eukaryotes (18S_V4V5_marine_eukaryotes)",
+  "creator": "morgane.durand@mnhn.fr",
+  "run_start": "2026-10-28T17:18:56+0100",
+  "run_end": "2026-10-28T17:19:26+0100",
+  "marker": "18S rRNA (nuclear small subunit), V4-V5 region, ~574 bp",
+  "n_sequences": 59079,
+  "n_taxa": 36331,
+  "length_min_median_max_bp": "450 / 553 / 900",
+  "files": {
+    "fasta_obitools": "results/18S_V4V5_marine_eukaryotes.fasta",
+    "table_tsv": "results/18S_V4V5_marine_eukaryotes.tsv",
+    "crabs_format": "results/18S_V4V5_marine_eukaryotes.txt",
+    "insilico_pcr_raw": "results/insilico_pcr_raw.fasta",
+    "checksums": "metadata/checksums_sha256.txt"
+  },
+  "parameters": {
+    "marker": "18S rRNA (nuclear small subunit), V4-V5 region, ~574 bp",
+    "primer_forward": "CTGGTGCCAGCAGCCGCGGYAA (18Smk1F, Machida & Knowlton 2012)",
+    "primer_reverse": "TCCGTCAATTYCTTTAAGTT (18Smk2R, Machida & Knowlton 2012)",
+    "expected_length": "554",
+    "pcr_mismatch": "4",
+    "pcr_relaxed": "false",
+    "pga_used": "true",
+    "pga_identity": "0.95",
+    "pga_coverage": "95",
+    "pga_size_select": "10000",
+    "trim_long_amplicons": "yes (amplicons > MAX_LEN re-cut at inner primer sites; log logs/09_long_trimmed.tsv)",
+    "min_length": "450",
+    "max_length": "900",
+    "min_length_rescue": "",
+    "translation_check": "no",
+    "max_N": "2",
+    "min_identification_rank": "genus",
+    "max_missing_ranks_above": "1",
+    "crabs_rank_na": "3",
+    "dereplication": "unique_species",
+    "filters": "--environmental ",
+    "excluded_taxa": "Bacteria;Archaea;Insecta;Collembola;Protura;Diplura;Arachnida;Chilopoda;Diplopoda;Pauropoda;Symphyla;Onychophora (removed after import, after the final filters, and excluded from the NCBI queries)",
+    "taxonomy_fix": "yes (genus homonyms: BOLD and SILVA phylum; log logs/10_taxonomy_fix.tsv)",
+    "taxonomy_manual": "none",
+    "taxonomic_ranks": "domain;phylum;class;order;family;genus;species",
+    "phylum_renamed": "Bacillariophyta=Ochrophyta;Heterokontophyta=Ochrophyta;Myzozoa=Dinoflagellata;Dinophyta=Dinoflagellata",
+    "phylum_from_class": "Phaeophyceae=Ochrophyta;Bacillariophyceae=Ochrophyta;Coscinodiscophyceae=Ochrophyta;Mediophyceae=Ochrophyta;Chrysophyceae=Ochrophyta;Synurophyceae=Ochrophyta;Raphidophyceae=Ochrophyta;Eustigmatophyceae=Ochrophyta;Phaeosacciophyceae=Ochrophyta;Pelagophyceae=Ochrophyta;Dictyochophyceae=Ochrophyta;Xanthophyceae=Ochrophyta;Bolidophyceae=Ochrophyta;Pinguiophyceae=Ochrophyta;Phaeothamniophyceae=Ochrophyta;Aurearenophyceae=Ochrophyta;Chrysomerophyceae=Ochrophyta;Schizocladiophyceae=Ochrophyta;Olisthodiscophyceae=Ochrophyta;Dinophyceae=Dinoflagellata",
+    "taxonomy_reference": "Adl et al. (2019) J Eukaryot Microbiol 66: 4-119",
+    "bold_groups": "Porifera Cnidaria Ctenophora Placozoa Xenacoelomorpha Platyhelminthes Nemertea Mollusca Annelida Sipuncula Brachiopoda Bryozoa Phoronida Entoprocta Chaetognatha Echinodermata Hemichordata Ascidiacea Thaliacea Appendicularia Leptocardii Nematoda Gastrotricha Kinorhyncha Priapulida Tardigrada Malacostraca Copepoda Ostracoda Thecostraca Branchiopoda Cephalocarida Remipedia Pycnogonida Merostomata Rhodophyta Ochrophyta",
+    "ncbi_groups": "Porifera Cnidaria Ctenophora Placozoa Xenacoelomorpha Platyhelminthes Nemertea Mollusca Annelida Sipuncula Brachiopoda Bryozoa Phoronida Entoprocta Chaetognatha Echinodermata Hemichordata Tunicata Cephalochordata Nematoda Gastrotricha Kinorhyncha Priapulida Tardigrada Crustacea Pycnogonida Xiphosura Rhodophyta Phaeophyceae Bacillariophyta",
+    "bold_marker_filter": "18S",
+    "silva": "SSU subset 138.2",
+    "ncbi_query": "<group>[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])",
+    "ncbi_query_unannotated": ""
+  },
+  "software": {
+    "script": "1.5.1 (2026-10-28, shared CRABS/taxo and CRABS/reference_database_creator; 1.5: from crabs_coi.sh 1.8 + taxonomy fix of 1.7.2, SILVA lineage check)",
+    "CRABS": "1.14.0 (commit 97b3037)",
+    "cutadapt": "5.2",
+    "vsearch": "vsearch v2.32.0_macos_aarch64",
+    "makeblastdb": "makeblastdb: 2.17.0+",
+    "python": "Python 3.13.4",
+    "system": "Darwin 25.5.0 arm64"
+  },
+  "sources": [
+    {
+      "source": "NCBI Taxonomy",
+      "group": "taxdump + nucl_gb.accession2taxid",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/taxo",
+      "download_date": "2026-10-19",
+      "n_records": "-",
+      "query": "-"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Porifera",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Porifera.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "14083",
+      "query": "tax:Porifera"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Cnidaria",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Cnidaria.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "45485",
+      "query": "tax:Cnidaria"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ctenophora",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Ctenophora.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "757",
+      "query": "tax:Ctenophora"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Placozoa",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Placozoa.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "82",
+      "query": "tax:Placozoa"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Xenacoelomorpha",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Xenacoelomorpha.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "1071",
+      "query": "tax:Xenacoelomorpha"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Platyhelminthes",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Platyhelminthes.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "39973",
+      "query": "tax:Platyhelminthes"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Nemertea",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Nemertea.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "9778",
+      "query": "tax:Nemertea"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Mollusca",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Mollusca.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "322944",
+      "query": "tax:Mollusca"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Annelida",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Annelida.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "139358",
+      "query": "tax:Annelida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Sipuncula",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Sipuncula.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "1404",
+      "query": "tax:Sipuncula"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Brachiopoda",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Brachiopoda.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "660",
+      "query": "tax:Brachiopoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Bryozoa",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Bryozoa.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "6717",
+      "query": "tax:Bryozoa"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Phoronida",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Phoronida.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "333",
+      "query": "tax:Phoronida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Entoprocta",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Entoprocta.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "120",
+      "query": "tax:Entoprocta"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Chaetognatha",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Chaetognatha.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "1906",
+      "query": "tax:Chaetognatha"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Echinodermata",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Echinodermata.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "50736",
+      "query": "tax:Echinodermata"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Hemichordata",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Hemichordata.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "505",
+      "query": "tax:Hemichordata"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ascidiacea",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Ascidiacea.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "1531",
+      "query": "tax:Ascidiacea"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Thaliacea",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Thaliacea.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "160",
+      "query": "tax:Thaliacea"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Appendicularia",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Appendicularia.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "122",
+      "query": "tax:Appendicularia"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Leptocardii",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Leptocardii.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "259",
+      "query": "tax:Leptocardii"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Nematoda",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Nematoda.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "61740",
+      "query": "tax:Nematoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Gastrotricha",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Gastrotricha.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "1183",
+      "query": "tax:Gastrotricha"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Kinorhyncha",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Kinorhyncha.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "658",
+      "query": "tax:Kinorhyncha"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Priapulida",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Priapulida.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "352",
+      "query": "tax:Priapulida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Tardigrada",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Tardigrada.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "5992",
+      "query": "tax:Tardigrada"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Malacostraca",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Malacostraca.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "248994",
+      "query": "tax:Malacostraca"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Copepoda",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Copepoda.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "33015",
+      "query": "tax:Copepoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ostracoda",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Ostracoda.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "7650",
+      "query": "tax:Ostracoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Thecostraca",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Thecostraca.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "24662",
+      "query": "tax:Thecostraca"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Branchiopoda",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Branchiopoda.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "22931",
+      "query": "tax:Branchiopoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Cephalocarida",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Cephalocarida.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "40",
+      "query": "tax:Cephalocarida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Remipedia",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Remipedia.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "68",
+      "query": "tax:Remipedia"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Pycnogonida",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Pycnogonida.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "4441",
+      "query": "tax:Pycnogonida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Merostomata",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Merostomata.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "441",
+      "query": "tax:Merostomata"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Rhodophyta",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Rhodophyta.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "48428",
+      "query": "tax:Rhodophyta"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ochrophyta",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/crabs_coi/raw/bold_Ochrophyta.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "9303",
+      "query": "tax:Ochrophyta"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Porifera",
+      "file": "raw/ncbi_Porifera.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "4423",
+      "query": "Porifera[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cnidaria",
+      "file": "raw/ncbi_Cnidaria.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "21753",
+      "query": "Cnidaria[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Ctenophora",
+      "file": "raw/ncbi_Ctenophora.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "520",
+      "query": "Ctenophora[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Placozoa",
+      "file": "raw/ncbi_Placozoa.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "58",
+      "query": "Placozoa[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Xenacoelomorpha",
+      "file": "raw/ncbi_Xenacoelomorpha.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "891",
+      "query": "Xenacoelomorpha[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Platyhelminthes",
+      "file": "raw/ncbi_Platyhelminthes.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "16695",
+      "query": "Platyhelminthes[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Nemertea",
+      "file": "raw/ncbi_Nemertea.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "1196",
+      "query": "Nemertea[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Mollusca",
+      "file": "raw/ncbi_Mollusca.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "21198",
+      "query": "Mollusca[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Annelida",
+      "file": "raw/ncbi_Annelida.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "12959",
+      "query": "Annelida[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Sipuncula",
+      "file": "raw/ncbi_Sipuncula.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "242",
+      "query": "Sipuncula[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Brachiopoda",
+      "file": "raw/ncbi_Brachiopoda.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "298",
+      "query": "Brachiopoda[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bryozoa",
+      "file": "raw/ncbi_Bryozoa.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "1150",
+      "query": "Bryozoa[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Phoronida",
+      "file": "raw/ncbi_Phoronida.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "91",
+      "query": "Phoronida[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Entoprocta",
+      "file": "raw/ncbi_Entoprocta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "46",
+      "query": "Entoprocta[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Chaetognatha",
+      "file": "raw/ncbi_Chaetognatha.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "342",
+      "query": "Chaetognatha[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Echinodermata",
+      "file": "raw/ncbi_Echinodermata.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "2850",
+      "query": "Echinodermata[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Hemichordata",
+      "file": "raw/ncbi_Hemichordata.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "180",
+      "query": "Hemichordata[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Tunicata",
+      "file": "raw/ncbi_Tunicata.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "5855",
+      "query": "Tunicata[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cephalochordata",
+      "file": "raw/ncbi_Cephalochordata.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "120",
+      "query": "Cephalochordata[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Nematoda",
+      "file": "raw/ncbi_Nematoda.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "49923",
+      "query": "Nematoda[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Gastrotricha",
+      "file": "raw/ncbi_Gastrotricha.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "869",
+      "query": "Gastrotricha[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Kinorhyncha",
+      "file": "raw/ncbi_Kinorhyncha.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "112",
+      "query": "Kinorhyncha[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Priapulida",
+      "file": "raw/ncbi_Priapulida.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "74",
+      "query": "Priapulida[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Tardigrada",
+      "file": "raw/ncbi_Tardigrada.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "3773",
+      "query": "Tardigrada[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Crustacea",
+      "file": "raw/ncbi_Crustacea.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "28410",
+      "query": "Crustacea[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Pycnogonida",
+      "file": "raw/ncbi_Pycnogonida.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "744",
+      "query": "Pycnogonida[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Xiphosura",
+      "file": "raw/ncbi_Xiphosura.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "127",
+      "query": "Xiphosura[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Rhodophyta",
+      "file": "raw/ncbi_Rhodophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "5828",
+      "query": "Rhodophyta[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Phaeophyceae",
+      "file": "raw/ncbi_Phaeophyceae.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "1950",
+      "query": "Phaeophyceae[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bacillariophyta",
+      "file": "raw/ncbi_Bacillariophyta.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "16123",
+      "query": "Bacillariophyta[Organism] AND (\"18S ribosomal RNA\"[All Fields] OR \"18S rRNA\"[All Fields] OR \"small subunit ribosomal RNA\"[All Fields]) NOT mitochondrion[filter] NOT chloroplast[filter] AND 300:10000[SLEN] NOT (\"Bacteria\"[Organism] OR \"Archaea\"[Organism] OR \"Insecta\"[Organism] OR \"Collembola\"[Organism] OR \"Protura\"[Organism] OR \"Diplura\"[Organism] OR \"Arachnida\"[Organism] OR \"Chilopoda\"[Organism] OR \"Diplopoda\"[Organism] OR \"Pauropoda\"[Organism] OR \"Symphyla\"[Organism] OR \"Onychophora\"[Organism])"
+    },
+    {
+      "source": "SILVA SSU subset",
+      "group": "all",
+      "file": "raw/silva_SSU_subset_138.2.fasta",
+      "download_date": "2026-10-23",
+      "n_records": "510495",
+      "query": "release 138.2"
+    }
+  ],
+  "counts_per_step": [
+    {
+      "step": "import_bold",
+      "file": "imported/bold_all.txt",
+      "n_sequences": "77807"
+    },
+    {
+      "step": "import_ncbi",
+      "file": "imported/ncbi_all.txt",
+      "n_sequences": "198536"
+    },
+    {
+      "step": "import_silva",
+      "file": "imported/silva_all.txt",
+      "n_sequences": "458470"
+    },
+    {
+      "step": "01_merged",
+      "file": "steps/01_merged.txt",
+      "n_sequences": "722505"
+    },
+    {
+      "step": "01b_lineage_rescued",
+      "file": "steps/01b_lineage_rescued.txt",
+      "n_sequences": "722505"
+    },
+    {
+      "step": "01c_taxa_excluded_early",
+      "file": "steps/01c_taxa_excluded_early.txt",
+      "n_sequences": "346661"
+    },
+    {
+      "step": "02_dereplicated_initial",
+      "file": "steps/02_dereplicated_initial.txt",
+      "n_sequences": "280247"
+    },
+    {
+      "step": "03_filtered_initial",
+      "file": "steps/03_filtered_initial.txt",
+      "n_sequences": "209930"
+    },
+    {
+      "step": "04_insilico_pcr",
+      "file": "steps/04_insilico_pcr.txt",
+      "n_sequences": "81138"
+    },
+    {
+      "step": "05_global_alignment",
+      "file": "steps/05_global_alignment.txt",
+      "n_sequences": "86292"
+    },
+    {
+      "step": "05b_long_trimmed",
+      "file": "steps/05b_long_trimmed.txt",
+      "n_sequences": "86292"
+    },
+    {
+      "step": "06_dereplicated_final",
+      "file": "steps/06_dereplicated_final.txt",
+      "n_sequences": "70214"
+    },
+    {
+      "step": "07_filtered_final",
+      "file": "steps/07_filtered_final.txt",
+      "n_sequences": "62085"
+    },
+    {
+      "step": "07b_length_rescued",
+      "file": "steps/07b_length_rescued.txt",
+      "n_sequences": "62085"
+    },
+    {
+      "step": "07c_translation_checked",
+      "file": "steps/07c_translation_checked.txt",
+      "n_sequences": "62085"
+    },
+    {
+      "step": "07d_taxonomy_fixed",
+      "file": "steps/07d_taxonomy_fixed.txt",
+      "n_sequences": "61720"
+    },
+    {
+      "step": "08_taxa_excluded",
+      "file": "steps/08_taxa_excluded.txt",
+      "n_sequences": "61668"
+    },
+    {
+      "step": "09_min_rank",
+      "file": "steps/09_min_rank.txt",
+      "n_sequences": "59079"
+    },
+    {
+      "step": "18S_V4V5_marine_eukaryotes",
+      "file": "results/18S_V4V5_marine_eukaryotes.txt",
+      "n_sequences": "59079"
+    }
+  ],
+  "cite": [
+    "Jeunen et al. (2022) CRABS. Mol Ecol Resour. doi:10.1111/1755-0998.13741",
+    "Ratnasingham & Hebert (2007) BOLD. Mol Ecol Notes. doi:10.1111/j.1471-8286.2007.01678.x",
+    "Sayers et al. NCBI GenBank / Taxonomy (https://www.ncbi.nlm.nih.gov)",
+    "Adl et al. (2019) Revisions to the classification, nomenclature, and diversity of eukaryotes. J Eukaryot Microbiol 66: 4-119. doi:10.1111/jeu.12691",
+    "Quast et al. (2013) SILVA. Nucleic Acids Res. doi:10.1093/nar/gks1219",
+    "Machida & Knowlton (2012) PCR primers for metazoan nuclear 18S and 28S ribosomal DNA sequences. PLoS ONE 7: e46180. doi:10.1371/journal.pone.0046180",
+    "Martin (2011) cutadapt. EMBnet.journal. doi:10.14806/ej.17.1.200",
+    "Rognes et al. (2016) VSEARCH. PeerJ. doi:10.7717/peerj.2584"
+  ],
+  "terms_of_use": "Data retrieved from BOLD, NCBI (and SILVA): follow the terms of use and citation requirements of each source."
+}

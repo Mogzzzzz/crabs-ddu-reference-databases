@@ -1,0 +1,35 @@
+parameter	value
+marker	rbcL (RuBisCO large subunit, plastid), ~330 bp fragment
+primer_forward	ATGCGTTGGAGAGARCGTTTC (rbcL-646F, Kelly et al. 2018)
+primer_reverse	GATCACCTTCTAATTTACCWACAACTG (rbcL-998R, Kelly et al. 2018)
+expected_length	331
+pcr_mismatch	4
+pcr_relaxed	false
+pga_used	true
+pga_identity	0.95
+pga_coverage	95
+pga_size_select	10000
+trim_long_amplicons	yes (amplicons > MAX_LEN re-cut at inner primer sites, else by alignment on normal amplicons, identity >= 0.85; log logs/09_long_trimmed.tsv)
+min_length	310
+max_length	360
+min_length_rescue	
+translation_check	yes (stop codons: TAA TAG TGA)
+max_N	2
+min_identification_rank	genus
+max_missing_ranks_above	1
+crabs_rank_na	3
+dereplication	unique_species
+filters	--environmental 
+excluded_taxa	 (removed after import, after the final filters)
+taxonomy_fix	yes (genus homonyms: BOLD phylum, then target groups + Ochrophyta;Bacillariophyta;Phaeophyceae; log logs/10_taxonomy_fix.tsv)
+taxonomy_manual	none
+taxonomic_ranks	domain;phylum;class;order;family;genus;species
+phylum_renamed	Bacillariophyta=Ochrophyta;Heterokontophyta=Ochrophyta;Myzozoa=Dinoflagellata;Dinophyta=Dinoflagellata
+phylum_from_class	Phaeophyceae=Ochrophyta;Bacillariophyceae=Ochrophyta;Coscinodiscophyceae=Ochrophyta;Mediophyceae=Ochrophyta;Chrysophyceae=Ochrophyta;Synurophyceae=Ochrophyta;Raphidophyceae=Ochrophyta;Eustigmatophyceae=Ochrophyta;Phaeosacciophyceae=Ochrophyta;Pelagophyceae=Ochrophyta;Dictyochophyceae=Ochrophyta;Xanthophyceae=Ochrophyta;Bolidophyceae=Ochrophyta;Pinguiophyceae=Ochrophyta;Phaeothamniophyceae=Ochrophyta;Aurearenophyceae=Ochrophyta;Chrysomerophyceae=Ochrophyta;Schizocladiophyceae=Ochrophyta;Olisthodiscophyceae=Ochrophyta;Dinophyceae=Dinoflagellata
+taxonomy_reference	Adl et al. (2019) J Eukaryot Microbiol 66: 4-119
+bold_groups	Rhodophyta Chlorophyta Ochrophyta Haptophyta Zosteraceae Posidoniaceae Cymodoceaceae
+ncbi_groups	Rhodophyta Chlorophyta Phaeophyceae Bacillariophyta Haptophyta Cryptophyceae Pelagophyceae Dictyochophyceae Chrysophyceae Raphidophyceae Xanthophyceae Eustigmatophyceae Bolidophyceae Glaucocystophyceae Zosteraceae Posidoniaceae Cymodoceaceae
+bold_marker_filter	rbcL
+silva	no
+ncbi_query	"<group>"[Organism] AND (rbcL[Gene] OR "ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit"[All Fields] OR "ribulose bisphosphate carboxylase large chain"[All Fields]) AND 200:300000[SLEN]
+ncbi_query_unannotated	"<group>"[Organism] AND (chloroplast[filter] OR plastid[filter]) AND (UNVERIFIED[Title] OR genome[Title] OR "chloroplast sequence"[Title] OR "plastid sequence"[Title]) AND 200:300000[SLEN]

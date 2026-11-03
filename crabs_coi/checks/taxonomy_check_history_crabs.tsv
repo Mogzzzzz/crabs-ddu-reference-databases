@@ -1,0 +1,4 @@
+date	script_version	database	database_sha256	database_modified	n_sequences	n_flagged	n_genera	n_correctable	n_to_remove_or_check	ncbi_taxonomy_date	results_folder
+2026-10-23 17:41:54	1.2	results/COI_marine_invertebrates_algae.tsv	4ba5fff6f207e9b6	2026-10-23 17:40	358156	15	5	15	0	2026-10-19	taxonomy_check_2026-10-23_174133
+2026-10-26 15:25:33	1.7	results/COI_marine_invertebrates_algae.tsv	39b1b4efb40dafbc	2026-10-26 15:24	364602	3	1	0	3	2026-10-19	taxonomy_check_2026-10-26_152519
+2026-10-28 17:25:17	1.7.1	results/COI_marine_invertebrates_algae.tsv	39b1b4efb40dafbc	2026-10-26 15:24	364602	3	1	0	3	2026-10-19	taxonomy_check_2026-10-28_172452

@@ -1,0 +1,29 @@
+phylum_group,source,n_records,groups,set
+Arthropoda,BOLD,342242,"Branchiopoda, Cephalocarida, Copepoda, Malacostraca, Merostomata, Ostracoda, Pycnogonida, Remipedia, Thecostraca",Animals
+Mollusca,BOLD,322944,Mollusca,Animals
+Annelida,BOLD,140762,"Annelida, Sipuncula",Animals
+Mollusca,NCBI GenBank,105283,Mollusca,Animals
+Arthropoda,NCBI GenBank,81902,"Crustacea, Pycnogonida, Xiphosura",Animals
+Nematoda,BOLD,61740,Nematoda,Animals
+Echinodermata,BOLD,50736,Echinodermata,Animals
+Cnidaria,BOLD,45485,Cnidaria,Animals
+Platyhelminthes,BOLD,39973,Platyhelminthes,Animals
+Annelida,NCBI GenBank,29418,"Annelida, Sipuncula",Animals
+Cnidaria,NCBI GenBank,20868,Cnidaria,Animals
+Porifera,BOLD,14083,Porifera,Animals
+Echinodermata,NCBI GenBank,11848,Echinodermata,Animals
+Other animals,BOLD,11713,"Brachiopoda, Ctenophora, Entoprocta, Gastrotricha, Hemichordata, Kinorhyncha, Phoronida, Placozoa, Priapulida, Tardigrada, Xenacoelomorpha",Animals
+Nemertea,BOLD,9778,Nemertea,Animals
+Bryozoa,BOLD,6717,Bryozoa,Animals
+Platyhelminthes,NCBI GenBank,6546,Platyhelminthes,Animals
+Nematoda,NCBI GenBank,4542,Nematoda,Animals
+Nemertea,NCBI GenBank,3776,Nemertea,Animals
+Bryozoa,NCBI GenBank,2156,Bryozoa,Animals
+Chordata,BOLD,2072,"Appendicularia, Ascidiacea, Leptocardii, Thaliacea",Animals
+Chaetognatha,BOLD,1906,Chaetognatha,Animals
+Porifera,NCBI GenBank,1140,Porifera,Animals
+Other animals,NCBI GenBank,966,"Brachiopoda, Ctenophora, Entoprocta, Gastrotricha, Hemichordata, Kinorhyncha, Phoronida, Placozoa, Priapulida, Tardigrada, Xenacoelomorpha",Animals
+Chordata,NCBI GenBank,440,"Cephalochordata, Tunicata",Animals
+Chaetognatha,NCBI GenBank,114,Chaetognatha,Animals
+Other algae,BOLD,0,,Algae
+Other algae,NCBI GenBank,0,,Algae

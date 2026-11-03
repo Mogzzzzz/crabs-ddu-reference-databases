@@ -1,0 +1,4 @@
+seq_id	source	name	genus	taxid	db_phylum	db_class	db_family	bold_group	bold_phylum	bold_class	bold_family	issue	verdict	proposed_taxid	proposed_phylum	proposed_class	proposed_order	proposed_family	ncbi_genera_of_that_name
+GBMNE10426-21.COI-5P	BOLD	Caledoniella sp. 1 RG-2020	Caledoniella	2797889	Mollusca	Gastropoda	Vanikoridae	Porifera	Porifera	Hexactinellida	Euplectellidae	bold_phylum_mismatch	manual decision: keep						2797887:Mollusca/Gastropoda
+GBMNE10427-21.COI-5P	BOLD	Caledoniella sp. 1 RG-2020	Caledoniella	2797889	Mollusca	Gastropoda	Vanikoridae	Porifera	Porifera	Hexactinellida	Euplectellidae	bold_phylum_mismatch	manual decision: keep						2797887:Mollusca/Gastropoda
+GBMNE10428-21.COI-5P	BOLD	Caledoniella sp. 2 RG-2020	Caledoniella	2797890	Mollusca	Gastropoda	Vanikoridae	Porifera	Porifera	Hexactinellida	Euplectellidae	bold_phylum_mismatch	manual decision: keep						2797887:Mollusca/Gastropoda

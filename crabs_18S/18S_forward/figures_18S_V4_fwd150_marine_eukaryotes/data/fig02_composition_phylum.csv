@@ -1,0 +1,16 @@
+set,phylum_group,Sequences,Species
+Animals,Porifera,1491,1224
+Animals,Cnidaria,4725,3630
+Animals,Platyhelminthes,4505,3604
+Animals,Other animals,4429,3611
+Animals,Mollusca,4934,3931
+Animals,Annelida,5067,4238
+Animals,Chordata,1496,523
+Animals,Nematoda,10129,7203
+Animals,Arthropoda,9312,7533
+Algae,Rhodophyta,2038,1520
+Algae,Ochrophyta,4222,2566
+Algae,Streptophyta,3536,1674
+Algae,Other algae,1817,1442
+Other eukaryotes,Other eukaryotes,3825,2867
+Other eukaryotes,Ciliophora,1294,1174

@@ -1,0 +1,35 @@
+parameter	value
+marker	16S rRNA (mitochondrial large subunit, rrnL), fragment between Sarri_F and 16Sbr-H, 180–480 bp (median 290 bp)
+primer_forward	AYAAGACGAGAAGACCC
+primer_reverse	CCGGTCTGAACTCAGATCACGT (16Sbr, Palumbi 1996)
+expected_length	290
+pcr_mismatch	4
+pcr_relaxed	false
+pga_used	true
+pga_identity	0.95
+pga_coverage	95
+pga_size_select	10000
+trim_long_amplicons	yes (amplicons > MAX_LEN re-cut at inner primer sites; log logs/09_long_trimmed.tsv)
+min_length	180
+max_length	480
+min_length_rescue	
+translation_check	no
+max_N	2
+min_identification_rank	genus
+max_missing_ranks_above	1
+crabs_rank_na	3
+dereplication	unique_species
+filters	--environmental 
+excluded_taxa	Insecta;Collembola;Protura;Diplura;Arachnida;Chilopoda;Diplopoda;Pauropoda;Symphyla;Onychophora (removed after import, after the final filters, and excluded from the NCBI queries)
+taxonomy_fix	yes (genus homonyms: BOLD phylum, then target groups + Ochrophyta;Bacillariophyta;Phaeophyceae;Ichthyostraca;Mystacocarida; log logs/10_taxonomy_fix.tsv)
+taxonomy_manual	none
+taxonomic_ranks	domain;phylum;class;order;family;genus;species
+phylum_renamed	Bacillariophyta=Ochrophyta;Heterokontophyta=Ochrophyta;Myzozoa=Dinoflagellata;Dinophyta=Dinoflagellata
+phylum_from_class	Phaeophyceae=Ochrophyta;Bacillariophyceae=Ochrophyta;Coscinodiscophyceae=Ochrophyta;Mediophyceae=Ochrophyta;Chrysophyceae=Ochrophyta;Synurophyceae=Ochrophyta;Raphidophyceae=Ochrophyta;Eustigmatophyceae=Ochrophyta;Phaeosacciophyceae=Ochrophyta;Pelagophyceae=Ochrophyta;Dictyochophyceae=Ochrophyta;Xanthophyceae=Ochrophyta;Bolidophyceae=Ochrophyta;Pinguiophyceae=Ochrophyta;Phaeothamniophyceae=Ochrophyta;Aurearenophyceae=Ochrophyta;Chrysomerophyceae=Ochrophyta;Schizocladiophyceae=Ochrophyta;Olisthodiscophyceae=Ochrophyta;Dinophyceae=Dinoflagellata
+taxonomy_reference	Adl et al. (2019) J Eukaryot Microbiol 66: 4-119
+bold_groups	Porifera Cnidaria Ctenophora Placozoa Xenacoelomorpha Platyhelminthes Nemertea Mollusca Annelida Sipuncula Brachiopoda Bryozoa Phoronida Entoprocta Chaetognatha Echinodermata Hemichordata Ascidiacea Thaliacea Appendicularia Leptocardii Nematoda Gastrotricha Kinorhyncha Priapulida Tardigrada Malacostraca Copepoda Ostracoda Thecostraca Branchiopoda Cephalocarida Remipedia Pycnogonida Merostomata
+ncbi_groups	Porifera Cnidaria Ctenophora Placozoa Xenacoelomorpha Platyhelminthes Nemertea Mollusca Annelida Sipuncula Brachiopoda Bryozoa Phoronida Entoprocta Chaetognatha Echinodermata Hemichordata Tunicata Cephalochordata Nematoda Gastrotricha Kinorhyncha Priapulida Tardigrada Crustacea Pycnogonida Xiphosura
+bold_marker_filter	16S
+silva	no
+ncbi_query	"<group>"[Organism] AND ("16S ribosomal RNA"[All Fields] OR "16S rRNA"[All Fields] OR rrnL[Gene] OR "large subunit ribosomal RNA"[All Fields] OR "l-rRNA"[All Fields]) AND mitochondrion[filter] AND 200:50000[SLEN] NOT ("Insecta"[Organism] OR "Collembola"[Organism] OR "Protura"[Organism] OR "Diplura"[Organism] OR "Arachnida"[Organism] OR "Chilopoda"[Organism] OR "Diplopoda"[Organism] OR "Pauropoda"[Organism] OR "Symphyla"[Organism] OR "Onychophora"[Organism])
+ncbi_query_unannotated	"<group>"[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR "mitochondrion sequence"[Title] OR "mitochondrial sequence"[Title]) AND 200:50000[SLEN] NOT ("Insecta"[Organism] OR "Collembola"[Organism] OR "Protura"[Organism] OR "Diplura"[Organism] OR "Arachnida"[Organism] OR "Chilopoda"[Organism] OR "Diplopoda"[Organism] OR "Pauropoda"[Organism] OR "Symphyla"[Organism] OR "Onychophora"[Organism])

@@ -1,0 +1,8 @@
+software	version
+script	1.5.1 (2026-10-28, shared CRABS/taxo and CRABS/reference_database_creator; 1.5: from crabs_coi.sh 1.8 + taxonomy fix of 1.7.2, SILVA lineage check)
+CRABS	1.14.0 (commit 97b3037)
+cutadapt	5.2
+vsearch	vsearch v2.32.0_macos_aarch64
+makeblastdb	makeblastdb: 2.17.0+
+python	Python 3.13.4
+system	Darwin 25.5.0 arm64

@@ -1,0 +1,5 @@
+date	script_version	database	database_sha256	database_modified	n_sequences	n_flagged	n_genera	n_correctable	n_to_remove_or_check	ncbi_taxonomy_date	results_folder
+2026-10-26 15:14:14	1.7	results/rbcL_marine_algae.tsv	8210500128399659	2026-10-26 15:14	13721	3	1	3	0	2026-10-19	taxonomy_check_2026-10-26_151407
+2026-10-26 15:22:35	1.7	results/rbcL_marine_algae.tsv	82729fe43014feaf	2026-10-26 15:22	13737	3	1	3	0	2026-10-19	taxonomy_check_2026-10-26_152229
+2026-10-26 15:24:54	1.7	results/rbcL_marine_algae.tsv	82729fe43014feaf	2026-10-26 15:22	13737	3	1	3	0	2026-10-19	taxonomy_check_2026-10-26_152447
+2026-10-28 17:25:23	1.7.1	results/rbcL_marine_algae.tsv	82729fe43014feaf	2026-10-26 15:22	13737	3	1	3	0	2026-10-19	taxonomy_check_2026-10-28_172452

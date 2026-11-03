@@ -1,0 +1,943 @@
+{
+  "title": "COI reference database (~313 bp) – marine invertebrates and algae (COI_marine_invertebrates_algae)",
+  "creator": "morgane.durand@mnhn.fr",
+  "run_start": "2026-10-28T17:17:29+0100",
+  "run_end": "2026-10-28T17:18:50+0100",
+  "marker": "COI-5P (cytochrome c oxidase subunit I), ~313 bp fragment (mlCOIintF / jgHCO2198)",
+  "n_sequences": 364602,
+  "n_taxa": 77086,
+  "length_min_median_max_bp": "250 / 313 / 340",
+  "files": {
+    "fasta_obitools": "results/COI_marine_invertebrates_algae.fasta",
+    "table_tsv": "results/COI_marine_invertebrates_algae.tsv",
+    "crabs_format": "results/COI_marine_invertebrates_algae.txt",
+    "insilico_pcr_raw": "results/insilico_pcr_raw.fasta",
+    "checksums": "metadata/checksums_sha256.txt"
+  },
+  "parameters": {
+    "primer_forward": "GGWACWGGWTGAACWGTWTAYCCYCC (mlCOIintF)",
+    "primer_reverse": "TANACYTCNGGRTGNCCRAARAAYCA (jgHCO2198)",
+    "pcr_mismatch": "4",
+    "pcr_relaxed": "true",
+    "pga_used": "true",
+    "pga_identity": "0.95",
+    "pga_coverage": "95",
+    "pga_size_select": "10000",
+    "trim_long_amplicons": "yes (amplicons > MAX_LEN re-cut at inner primer sites, else by alignment on normal amplicons, identity >= 0.85; log logs/09_long_trimmed.tsv)",
+    "min_length": "280",
+    "max_length": "340",
+    "min_length_rescue": "250",
+    "translation_check": "yes (stop codons: TAA TAG)",
+    "max_N": "2",
+    "min_identification_rank": "genus",
+    "max_missing_ranks_above": "1",
+    "crabs_rank_na": "3",
+    "dereplication": "unique_species",
+    "filters": "--environmental ",
+    "excluded_taxa": "Insecta;Collembola;Protura;Diplura;Arachnida;Chilopoda;Diplopoda;Pauropoda;Symphyla;Onychophora",
+    "taxonomy_fix": "yes (genus homonyms: BOLD phylum, then target groups + Ochrophyta;Bacillariophyta;Phaeophyceae;Ichthyostraca;Mystacocarida; log logs/10_taxonomy_fix.tsv)",
+    "taxonomy_manual": "taxonomy_manual_crabs.tsv (5 decisions): Caledoniella=keep; Roperia=remove; Trichia=remove; Anoplostrongylus=remove; Chondrus=remove",
+    "taxonomic_ranks": "domain;phylum;class;order;family;genus;species",
+    "phylum_renamed": "Bacillariophyta=Ochrophyta;Heterokontophyta=Ochrophyta;Myzozoa=Dinoflagellata;Dinophyta=Dinoflagellata",
+    "phylum_from_class": "Phaeophyceae=Ochrophyta;Bacillariophyceae=Ochrophyta;Coscinodiscophyceae=Ochrophyta;Mediophyceae=Ochrophyta;Chrysophyceae=Ochrophyta;Synurophyceae=Ochrophyta;Raphidophyceae=Ochrophyta;Eustigmatophyceae=Ochrophyta;Phaeosacciophyceae=Ochrophyta;Pelagophyceae=Ochrophyta;Dictyochophyceae=Ochrophyta;Xanthophyceae=Ochrophyta;Bolidophyceae=Ochrophyta;Pinguiophyceae=Ochrophyta;Phaeothamniophyceae=Ochrophyta;Aurearenophyceae=Ochrophyta;Chrysomerophyceae=Ochrophyta;Schizocladiophyceae=Ochrophyta;Olisthodiscophyceae=Ochrophyta;Dinophyceae=Dinoflagellata",
+    "taxonomy_reference": "Adl et al. (2019) J Eukaryot Microbiol 66: 4-119",
+    "bold_groups": "Porifera Cnidaria Ctenophora Placozoa Xenacoelomorpha Platyhelminthes Nemertea Mollusca Annelida Sipuncula Brachiopoda Bryozoa Phoronida Entoprocta Chaetognatha Echinodermata Hemichordata Ascidiacea Thaliacea Appendicularia Leptocardii Nematoda Gastrotricha Kinorhyncha Priapulida Tardigrada Malacostraca Copepoda Ostracoda Thecostraca Branchiopoda Cephalocarida Remipedia Pycnogonida Merostomata Rhodophyta Ochrophyta",
+    "ncbi_groups": "Porifera Cnidaria Ctenophora Placozoa Xenacoelomorpha Platyhelminthes Nemertea Mollusca Annelida Sipuncula Brachiopoda Bryozoa Phoronida Entoprocta Chaetognatha Echinodermata Hemichordata Tunicata Cephalochordata Nematoda Gastrotricha Kinorhyncha Priapulida Tardigrada Crustacea Pycnogonida Xiphosura Rhodophyta Phaeophyceae Bacillariophyta",
+    "include_algae": "true",
+    "ncbi_query": "<group>[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]",
+    "ncbi_query_unannotated": "<group>[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+  },
+  "software": {
+    "script": "1.7.4 (2026-10-28, shared CRABS/taxo, CRABS/reference_database_creator, CRABS/scripts)",
+    "CRABS": "1.14.0 (commit 97b3037)",
+    "cutadapt": "5.2",
+    "vsearch": "vsearch v2.32.0_macos_aarch64",
+    "makeblastdb": "makeblastdb: 2.17.0+",
+    "python": "Python 3.13.4",
+    "system": "Darwin 25.5.0 arm64"
+  },
+  "sources": [
+    {
+      "source": "NCBI Taxonomy",
+      "group": "taxdump + nucl_gb.accession2taxid",
+      "file": "/Users/morgane/PhD/BIOINFO/DDU/NEWAGE/DNA_analyses/CRABS/taxo",
+      "download_date": "2026-10-19",
+      "n_records": "-",
+      "query": "-"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Porifera",
+      "file": "raw/bold_Porifera.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "14083",
+      "query": "tax:Porifera"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Cnidaria",
+      "file": "raw/bold_Cnidaria.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "45485",
+      "query": "tax:Cnidaria"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ctenophora",
+      "file": "raw/bold_Ctenophora.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "757",
+      "query": "tax:Ctenophora"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Placozoa",
+      "file": "raw/bold_Placozoa.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "82",
+      "query": "tax:Placozoa"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Xenacoelomorpha",
+      "file": "raw/bold_Xenacoelomorpha.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "1071",
+      "query": "tax:Xenacoelomorpha"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Platyhelminthes",
+      "file": "raw/bold_Platyhelminthes.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "39973",
+      "query": "tax:Platyhelminthes"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Nemertea",
+      "file": "raw/bold_Nemertea.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "9778",
+      "query": "tax:Nemertea"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Mollusca",
+      "file": "raw/bold_Mollusca.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "322944",
+      "query": "tax:Mollusca"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Annelida",
+      "file": "raw/bold_Annelida.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "139358",
+      "query": "tax:Annelida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Sipuncula",
+      "file": "raw/bold_Sipuncula.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "1404",
+      "query": "tax:Sipuncula"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Brachiopoda",
+      "file": "raw/bold_Brachiopoda.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "660",
+      "query": "tax:Brachiopoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Bryozoa",
+      "file": "raw/bold_Bryozoa.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "6717",
+      "query": "tax:Bryozoa"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Phoronida",
+      "file": "raw/bold_Phoronida.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "333",
+      "query": "tax:Phoronida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Entoprocta",
+      "file": "raw/bold_Entoprocta.tsv",
+      "download_date": "2026-10-19",
+      "n_records": "120",
+      "query": "tax:Entoprocta"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Chaetognatha",
+      "file": "raw/bold_Chaetognatha.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "1906",
+      "query": "tax:Chaetognatha"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Echinodermata",
+      "file": "raw/bold_Echinodermata.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "50736",
+      "query": "tax:Echinodermata"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Hemichordata",
+      "file": "raw/bold_Hemichordata.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "505",
+      "query": "tax:Hemichordata"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ascidiacea",
+      "file": "raw/bold_Ascidiacea.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "1531",
+      "query": "tax:Ascidiacea"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Thaliacea",
+      "file": "raw/bold_Thaliacea.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "160",
+      "query": "tax:Thaliacea"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Appendicularia",
+      "file": "raw/bold_Appendicularia.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "122",
+      "query": "tax:Appendicularia"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Leptocardii",
+      "file": "raw/bold_Leptocardii.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "259",
+      "query": "tax:Leptocardii"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Nematoda",
+      "file": "raw/bold_Nematoda.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "61740",
+      "query": "tax:Nematoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Gastrotricha",
+      "file": "raw/bold_Gastrotricha.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "1183",
+      "query": "tax:Gastrotricha"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Kinorhyncha",
+      "file": "raw/bold_Kinorhyncha.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "658",
+      "query": "tax:Kinorhyncha"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Priapulida",
+      "file": "raw/bold_Priapulida.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "352",
+      "query": "tax:Priapulida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Tardigrada",
+      "file": "raw/bold_Tardigrada.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "5992",
+      "query": "tax:Tardigrada"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Malacostraca",
+      "file": "raw/bold_Malacostraca.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "248994",
+      "query": "tax:Malacostraca"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Copepoda",
+      "file": "raw/bold_Copepoda.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "33015",
+      "query": "tax:Copepoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ostracoda",
+      "file": "raw/bold_Ostracoda.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "7650",
+      "query": "tax:Ostracoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Thecostraca",
+      "file": "raw/bold_Thecostraca.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "24662",
+      "query": "tax:Thecostraca"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Branchiopoda",
+      "file": "raw/bold_Branchiopoda.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "22931",
+      "query": "tax:Branchiopoda"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Cephalocarida",
+      "file": "raw/bold_Cephalocarida.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "40",
+      "query": "tax:Cephalocarida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Remipedia",
+      "file": "raw/bold_Remipedia.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "68",
+      "query": "tax:Remipedia"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Pycnogonida",
+      "file": "raw/bold_Pycnogonida.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "4441",
+      "query": "tax:Pycnogonida"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Merostomata",
+      "file": "raw/bold_Merostomata.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "441",
+      "query": "tax:Merostomata"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Rhodophyta",
+      "file": "raw/bold_Rhodophyta.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "48428",
+      "query": "tax:Rhodophyta"
+    },
+    {
+      "source": "BOLD Systems V5",
+      "group": "Ochrophyta",
+      "file": "raw/bold_Ochrophyta.tsv",
+      "download_date": "2026-10-20",
+      "n_records": "9303",
+      "query": "tax:Ochrophyta"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Porifera",
+      "file": "raw/ncbi_Porifera.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "8884",
+      "query": "Porifera[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Porifera",
+      "file": "raw/ncbi_unannotated_Porifera.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "535",
+      "query": "Porifera[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cnidaria",
+      "file": "raw/ncbi_Cnidaria.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "28625",
+      "query": "Cnidaria[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cnidaria",
+      "file": "raw/ncbi_unannotated_Cnidaria.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "3730",
+      "query": "Cnidaria[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Ctenophora",
+      "file": "raw/ncbi_Ctenophora.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "625",
+      "query": "Ctenophora[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Ctenophora",
+      "file": "raw/ncbi_unannotated_Ctenophora.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "42",
+      "query": "Ctenophora[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Placozoa",
+      "file": "raw/ncbi_Placozoa.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "2",
+      "query": "Placozoa[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Placozoa",
+      "file": "raw/ncbi_unannotated_Placozoa.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "16",
+      "query": "Placozoa[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Xenacoelomorpha",
+      "file": "raw/ncbi_Xenacoelomorpha.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "443",
+      "query": "Xenacoelomorpha[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Xenacoelomorpha",
+      "file": "raw/ncbi_unannotated_Xenacoelomorpha.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "33",
+      "query": "Xenacoelomorpha[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Platyhelminthes",
+      "file": "raw/ncbi_Platyhelminthes.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "55692",
+      "query": "Platyhelminthes[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Platyhelminthes",
+      "file": "raw/ncbi_unannotated_Platyhelminthes.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "3317",
+      "query": "Platyhelminthes[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Nemertea",
+      "file": "raw/ncbi_Nemertea.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "7712",
+      "query": "Nemertea[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Nemertea",
+      "file": "raw/ncbi_unannotated_Nemertea.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "218",
+      "query": "Nemertea[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Mollusca",
+      "file": "raw/ncbi_Mollusca.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "273939",
+      "query": "Mollusca[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Mollusca",
+      "file": "raw/ncbi_unannotated_Mollusca.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "6087",
+      "query": "Mollusca[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Annelida",
+      "file": "raw/ncbi_Annelida.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "76699",
+      "query": "Annelida[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Annelida",
+      "file": "raw/ncbi_unannotated_Annelida.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "3087",
+      "query": "Annelida[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Sipuncula",
+      "file": "raw/ncbi_Sipuncula.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "844",
+      "query": "Sipuncula[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Sipuncula",
+      "file": "raw/ncbi_unannotated_Sipuncula.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "125",
+      "query": "Sipuncula[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Brachiopoda",
+      "file": "raw/ncbi_Brachiopoda.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "360",
+      "query": "Brachiopoda[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Brachiopoda",
+      "file": "raw/ncbi_unannotated_Brachiopoda.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "18",
+      "query": "Brachiopoda[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bryozoa",
+      "file": "raw/ncbi_Bryozoa.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "2862",
+      "query": "Bryozoa[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bryozoa",
+      "file": "raw/ncbi_unannotated_Bryozoa.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "935",
+      "query": "Bryozoa[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Phoronida",
+      "file": "raw/ncbi_Phoronida.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "106",
+      "query": "Phoronida[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Phoronida",
+      "file": "raw/ncbi_unannotated_Phoronida.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "6",
+      "query": "Phoronida[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Entoprocta",
+      "file": "raw/ncbi_Entoprocta.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "56",
+      "query": "Entoprocta[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Entoprocta",
+      "file": "raw/ncbi_unannotated_Entoprocta.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "4",
+      "query": "Entoprocta[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Chaetognatha",
+      "file": "raw/ncbi_Chaetognatha.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "1369",
+      "query": "Chaetognatha[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Chaetognatha",
+      "file": "raw/ncbi_unannotated_Chaetognatha.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "73",
+      "query": "Chaetognatha[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Echinodermata",
+      "file": "raw/ncbi_Echinodermata.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "37659",
+      "query": "Echinodermata[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Echinodermata",
+      "file": "raw/ncbi_unannotated_Echinodermata.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "1148",
+      "query": "Echinodermata[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Hemichordata",
+      "file": "raw/ncbi_Hemichordata.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "194",
+      "query": "Hemichordata[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Hemichordata",
+      "file": "raw/ncbi_unannotated_Hemichordata.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "22",
+      "query": "Hemichordata[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Tunicata",
+      "file": "raw/ncbi_Tunicata.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "7045",
+      "query": "Tunicata[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Tunicata",
+      "file": "raw/ncbi_unannotated_Tunicata.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "174",
+      "query": "Tunicata[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cephalochordata",
+      "file": "raw/ncbi_Cephalochordata.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "595",
+      "query": "Cephalochordata[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Cephalochordata",
+      "file": "raw/ncbi_unannotated_Cephalochordata.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "73",
+      "query": "Cephalochordata[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Nematoda",
+      "file": "raw/ncbi_Nematoda.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "37213",
+      "query": "Nematoda[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Nematoda",
+      "file": "raw/ncbi_unannotated_Nematoda.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "1942",
+      "query": "Nematoda[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Gastrotricha",
+      "file": "raw/ncbi_Gastrotricha.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "637",
+      "query": "Gastrotricha[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Gastrotricha",
+      "file": "raw/ncbi_unannotated_Gastrotricha.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "36",
+      "query": "Gastrotricha[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Kinorhyncha",
+      "file": "raw/ncbi_Kinorhyncha.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "625",
+      "query": "Kinorhyncha[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Kinorhyncha",
+      "file": "raw/ncbi_unannotated_Kinorhyncha.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "12",
+      "query": "Kinorhyncha[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Priapulida",
+      "file": "raw/ncbi_Priapulida.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "283",
+      "query": "Priapulida[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Priapulida",
+      "file": "raw/ncbi_unannotated_Priapulida.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "5",
+      "query": "Priapulida[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Tardigrada",
+      "file": "raw/ncbi_Tardigrada.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "3331",
+      "query": "Tardigrada[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Tardigrada",
+      "file": "raw/ncbi_unannotated_Tardigrada.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "17",
+      "query": "Tardigrada[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Crustacea",
+      "file": "raw/ncbi_Crustacea.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "3469026",
+      "query": "Crustacea[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Crustacea",
+      "file": "raw/ncbi_unannotated_Crustacea.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "88291",
+      "query": "Crustacea[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Pycnogonida",
+      "file": "raw/ncbi_Pycnogonida.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "1952",
+      "query": "Pycnogonida[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Pycnogonida",
+      "file": "raw/ncbi_unannotated_Pycnogonida.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "218",
+      "query": "Pycnogonida[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Xiphosura",
+      "file": "raw/ncbi_Xiphosura.fasta",
+      "download_date": "2026-10-19",
+      "n_records": "236",
+      "query": "Xiphosura[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Xiphosura",
+      "file": "raw/ncbi_unannotated_Xiphosura.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "18",
+      "query": "Xiphosura[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Rhodophyta",
+      "file": "raw/ncbi_Rhodophyta.fasta",
+      "download_date": "2026-10-20",
+      "n_records": "32451",
+      "query": "Rhodophyta[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Rhodophyta",
+      "file": "raw/ncbi_unannotated_Rhodophyta.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "1122",
+      "query": "Rhodophyta[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Phaeophyceae",
+      "file": "raw/ncbi_Phaeophyceae.fasta",
+      "download_date": "2026-10-20",
+      "n_records": "10696",
+      "query": "Phaeophyceae[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Phaeophyceae",
+      "file": "raw/ncbi_unannotated_Phaeophyceae.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "759",
+      "query": "Phaeophyceae[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bacillariophyta",
+      "file": "raw/ncbi_Bacillariophyta.fasta",
+      "download_date": "2026-10-20",
+      "n_records": "1798",
+      "query": "Bacillariophyta[Organism] AND (COI[Gene] OR CO1[Gene] OR COX1[Gene] OR COXI[Gene] OR \"cytochrome c oxidase subunit I\"[All Fields] OR \"cytochrome c oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit 1\"[All Fields] OR \"cytochrome oxidase subunit I\"[All Fields]) AND 200:50000[SLEN]"
+    },
+    {
+      "source": "NCBI GenBank (nucleotide)",
+      "group": "Bacillariophyta",
+      "file": "raw/ncbi_unannotated_Bacillariophyta.fasta",
+      "download_date": "2026-10-21",
+      "n_records": "234",
+      "query": "Bacillariophyta[Organism] AND mitochondrion[filter] AND (UNVERIFIED[Title] OR genome[Title] OR \"mitochondrion sequence\"[Title] OR \"mitochondrial sequence\"[Title]) AND 200:50000[SLEN]"
+    }
+  ],
+  "counts_per_step": [
+    {
+      "step": "import_bold",
+      "file": "imported/bold_all.txt",
+      "n_sequences": "1103382"
+    },
+    {
+      "step": "import_ncbi",
+      "file": "imported/ncbi_all.txt",
+      "n_sequences": "4105620"
+    },
+    {
+      "step": "01_merged",
+      "file": "steps/01_merged.txt",
+      "n_sequences": "5209002"
+    },
+    {
+      "step": "01b_lineage_rescued",
+      "file": "steps/01b_lineage_rescued.txt",
+      "n_sequences": "5209002"
+    },
+    {
+      "step": "02_dereplicated_initial",
+      "file": "steps/02_dereplicated_initial.txt",
+      "n_sequences": "3124044"
+    },
+    {
+      "step": "03_filtered_initial",
+      "file": "steps/03_filtered_initial.txt",
+      "n_sequences": "3032845"
+    },
+    {
+      "step": "04_insilico_pcr",
+      "file": "steps/04_insilico_pcr.txt",
+      "n_sequences": "2697694"
+    },
+    {
+      "step": "05_global_alignment",
+      "file": "steps/05_global_alignment.txt",
+      "n_sequences": "2719512"
+    },
+    {
+      "step": "05b_long_trimmed",
+      "file": "steps/05b_long_trimmed.txt",
+      "n_sequences": "2719512"
+    },
+    {
+      "step": "06_dereplicated_final",
+      "file": "steps/06_dereplicated_final.txt",
+      "n_sequences": "2058282"
+    },
+    {
+      "step": "07_filtered_final",
+      "file": "steps/07_filtered_final.txt",
+      "n_sequences": "1400740"
+    },
+    {
+      "step": "07b_length_rescued",
+      "file": "steps/07b_length_rescued.txt",
+      "n_sequences": "1178378"
+    },
+    {
+      "step": "07c_translation_checked",
+      "file": "steps/07c_translation_checked.txt",
+      "n_sequences": "1177458"
+    },
+    {
+      "step": "07d_taxonomy_fixed",
+      "file": "steps/07d_taxonomy_fixed.txt",
+      "n_sequences": "1177360"
+    },
+    {
+      "step": "08_taxa_excluded",
+      "file": "steps/08_taxa_excluded.txt",
+      "n_sequences": "401207"
+    },
+    {
+      "step": "09_min_rank",
+      "file": "steps/09_min_rank.txt",
+      "n_sequences": "364602"
+    },
+    {
+      "step": "COI_marine_invertebrates_algae",
+      "file": "results/COI_marine_invertebrates_algae.txt",
+      "n_sequences": "364602"
+    }
+  ],
+  "cite": [
+    "Jeunen et al. (2022) CRABS. Mol Ecol Resour. doi:10.1111/1755-0998.13741",
+    "Ratnasingham & Hebert (2007) BOLD. Mol Ecol Notes. doi:10.1111/j.1471-8286.2007.01678.x",
+    "Sayers et al. NCBI GenBank / Taxonomy (https://www.ncbi.nlm.nih.gov)",
+    "Adl et al. (2019) Revisions to the classification, nomenclature, and diversity of eukaryotes. J Eukaryot Microbiol 66: 4-119. doi:10.1111/jeu.12691",
+    "Leray et al. (2013) Front Zool. doi:10.1186/1742-9994-10-34 (mlCOIintF)",
+    "Geller et al. (2013) Mol Ecol Resour. doi:10.1111/1755-0998.12138 (jgHCO2198)",
+    "Martin (2011) cutadapt. EMBnet.journal. doi:10.14806/ej.17.1.200",
+    "Rognes et al. (2016) VSEARCH. PeerJ. doi:10.7717/peerj.2584"
+  ],
+  "terms_of_use": "Data retrieved from BOLD and NCBI: follow the terms of use and citation requirements of each source."
+}

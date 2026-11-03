@@ -1,0 +1,15 @@
+set,phylum_group,NCBI GenBank,BOLD
+Animals,Other animals,95,0
+Animals,Chaetognatha,54,1
+Animals,Chordata,112,0
+Animals,Platyhelminthes,153,0
+Animals,Nematoda,180,0
+Animals,Porifera,202,6
+Animals,Cnidaria,414,7
+Animals,Nemertea,443,41
+Animals,Bryozoa,735,0
+Animals,Echinodermata,1729,130
+Animals,Annelida,3868,589
+Animals,Arthropoda,10383,374
+Animals,Mollusca,14868,494
+Algae,Other algae,2,0

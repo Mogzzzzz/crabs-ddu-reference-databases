@@ -1,0 +1,2 @@
+date	script_version	database	database_sha256	database_modified	n_sequences	n_flagged	n_genera	n_correctable	n_to_remove_or_check	ncbi_taxonomy_date	results_folder
+2026-10-28 17:25:48	1.7.1	results/18S_V4_fwd150_marine_eukaryotes.tsv	accedcd2b6277f15	2026-10-26 15:10	67746	0	0	0	0	2026-10-19	18S_V4_fwd150_marine_eukaryotes_taxonomy_check_2026-10-28_172452

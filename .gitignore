@@ -1,0 +1,43 @@
+# Downloaded or rebuilt by the scripts (not versioned)
+reference_database_creator/
+taxo/
+new_taxdump*/
+**/raw/
+**/imported/
+**/steps/
+**/logs/
+**/results/
+**/metadata/.steps/
+**/metadata/.sources.tmp
+*.log
+
+# Large files (> 50 MB are refused anyway)
+*.fasta
+*.fasta.gz
+*.fastq
+*.fastq.gz
+*.gz
+*.zip
+*.tar
+*.dmp
+*.accession2taxid
+
+# Old script versions and system files
+*_v[0-9]*.sh
+*.bak
+.DS_Store
+__pycache__/
+.Rhistory
+.RData
+.Rproj.user/
+
+# Unpublished results and working files
+*_assignments_*.csv
+*Alignment*.csv
+*test*.txt
+*.save
+**/metadata/.etapes/
+taxa_*_DDU.tsv
+species_gb_bold.txt
+trace_species.tsv
+install_crabs.sh

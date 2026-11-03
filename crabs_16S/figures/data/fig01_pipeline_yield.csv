@@ -1,0 +1,12 @@
+step,label,n_sequences
+import_bold,BOLD import,18541
+import_ncbi,NCBI GenBank import,263354
+01_merged,Merge (unique accessions),281895
+02_dereplicated_initial,"Dereplication (records, unique_species)",184719
+03_filtered_initial,"Pre-filter (environmental samples, max. 2 missing ranks)",181591
+04_insilico_pcr,In silico PCR (max. 4 mismatches),30266
+05_global_alignment,"Global alignment (min. 95% identity, 95% coverage)",52505
+06_dereplicated_final,"Dereplication (amplicons, unique_species)",36438
+07_filtered_final,"Length filter (180-480 bp, max. 1 N)",35608
+09_min_rank,Minimum rank (genus),34880
+final,Final database,34880

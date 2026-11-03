@@ -1,0 +1,17 @@
+phylum_group,source,n_records,groups,set
+Rhodophyta,BOLD,48428,Rhodophyta,Algae
+Rhodophyta,NCBI GenBank,27077,Rhodophyta,Algae
+Ochrophyta,NCBI GenBank,17704,"Bacillariophyta, Bolidophyceae, Chrysophyceae, Dictyochophyceae, Eustigmatophyceae, Pelagophyceae, Phaeophyceae, Raphidophyceae, Xanthophyceae",Algae
+Chlorophyta,BOLD,16108,Chlorophyta,Algae
+Chlorophyta,NCBI GenBank,15592,Chlorophyta,Algae
+Ochrophyta,BOLD,9303,Ochrophyta,Algae
+Other algae,NCBI GenBank,5049,"Cryptophyceae, Glaucocystophyceae",Algae
+Streptophyta,NCBI GenBank,701,"Cymodoceaceae, Posidoniaceae, Zosteraceae",Algae
+Haptophyta,NCBI GenBank,537,Haptophyta,Algae
+Haptophyta,BOLD,510,Haptophyta,Algae
+Streptophyta,BOLD,357,"Cymodoceaceae, Posidoniaceae, Zosteraceae",Algae
+Cryptophyceae,BOLD,0,,Other eukaryotes
+Cryptophyceae,NCBI GenBank,0,,Other eukaryotes
+Glaucocystophyceae,BOLD,0,,Other eukaryotes
+Glaucocystophyceae,NCBI GenBank,0,,Other eukaryotes
+Other algae,BOLD,0,,Algae

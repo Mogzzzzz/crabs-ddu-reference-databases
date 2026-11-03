@@ -1,0 +1,21 @@
+Taxonomy check of a CRABS reference database – crabs_check_taxonomy.sh 1.7 (2026-10-23)
+Date              : 2026-10-26 15:25
+Database          : /Users/morgane/PhD/BIOINFO/CRABS/crabs_coi/results/COI_marine_invertebrates_algae.tsv (364602 sequences)
+NCBI taxonomy     : /Users/morgane/PhD/BIOINFO/CRABS/crabs_coi/taxo (nodes.dmp of 2026-10-19)
+BOLD files        : 37 (257984 database sequences found in them)
+SILVA lineage     : 0 file(s) (0 database sequences with a phylum in their SILVA lineage)
+Target groups     : Annelida Appendicularia Ascidiacea Brachiopoda Branchiopoda Bryozoa Cephalocarida Cephalochordata Chaetognatha Cnidaria Copepoda Crustacea Ctenophora Echinodermata Entoprocta Gastrotricha Hemichordata Kinorhyncha Leptocardii Malacostraca Merostomata Mollusca Nematoda Nemertea Ostracoda Phoronida Placozoa Platyhelminthes Porifera Priapulida Pycnogonida Remipedia Rhodophyta Sipuncula Tardigrada Thaliacea Thecostraca Tunicata Xenacoelomorpha Xiphosura
+
+Flagged sequences : 3 (0.00 %), 1 genera
+  by issue        : bold_phylum_mismatch 3
+  by verdict      : manual decision: keep 3
+  by phylum in the database: Mollusca 3
+
+Issues: off_target = NCBI lineage outside the target groups; bold_phylum_mismatch = phylum
+of the NCBI lineage differs from the phylum given by BOLD or by the SILVA lineage (equivalent names, e.g.
+Bacillariophyta/Ochrophyta, are not counted as differences).
+Verdict 'homonym: correct lineage' = exactly one NCBI genus of that name fits (BOLD phylum, or
+the target groups): proposed_* columns. Otherwise check by hand.
+
+Files: taxonomy_check_sequences_crabs.tsv (one line per sequence),
+       taxonomy_check_genera_crabs.tsv (one line per genus).

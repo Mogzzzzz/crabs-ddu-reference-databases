@@ -1,0 +1,337 @@
+primer,position,pos_lab,set,phylum_group,mismatch,n
+Forward primer,1,F01,Algae,Rhodophyta,0.00022158209616663,4513
+Forward primer,1,F01,Algae,Chlorophyta,0.00254695956701687,3141
+Forward primer,1,F01,Algae,Ochrophyta,0,5200
+Forward primer,1,F01,Algae,Haptophyta,0,43
+Forward primer,1,F01,Algae,Streptophyta,0,36
+Forward primer,1,F01,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,1,F01,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,2,F02,Algae,Rhodophyta,0.00022158209616663,4513
+Forward primer,2,F02,Algae,Chlorophyta,0.00349984091632199,3143
+Forward primer,2,F02,Algae,Ochrophyta,0.000384467512495194,5202
+Forward primer,2,F02,Algae,Haptophyta,0,43
+Forward primer,2,F02,Algae,Streptophyta,0,36
+Forward primer,2,F02,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,2,F02,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,3,F03,Algae,Rhodophyta,0.000443164192333259,4513
+Forward primer,3,F03,Algae,Chlorophyta,0.00318167356029271,3143
+Forward primer,3,F03,Algae,Ochrophyta,0.000192233756247597,5202
+Forward primer,3,F03,Algae,Haptophyta,0,43
+Forward primer,3,F03,Algae,Streptophyta,0,36
+Forward primer,3,F03,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,3,F03,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,4,F04,Algae,Rhodophyta,0.0172834035009971,4513
+Forward primer,4,F04,Algae,Chlorophyta,0.00572701240852689,3143
+Forward primer,4,F04,Algae,Ochrophyta,0.0196078431372549,5202
+Forward primer,4,F04,Algae,Haptophyta,0,43
+Forward primer,4,F04,Algae,Streptophyta,0,36
+Forward primer,4,F04,Other eukaryotes,Cryptophyceae,0.928571428571429,84
+Forward primer,4,F04,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,5,F05,Algae,Rhodophyta,0,4513
+Forward primer,5,F05,Algae,Chlorophyta,0.0044543429844098,3143
+Forward primer,5,F05,Algae,Ochrophyta,0.00115340253748558,5202
+Forward primer,5,F05,Algae,Haptophyta,0,43
+Forward primer,5,F05,Algae,Streptophyta,0,36
+Forward primer,5,F05,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,5,F05,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,6,F06,Algae,Rhodophyta,0.145454545454545,4510
+Forward primer,6,F06,Algae,Chlorophyta,0.0337257397391028,3143
+Forward primer,6,F06,Algae,Ochrophyta,0.0520030816640986,5192
+Forward primer,6,F06,Algae,Haptophyta,0,43
+Forward primer,6,F06,Algae,Streptophyta,0,36
+Forward primer,6,F06,Other eukaryotes,Cryptophyceae,0.940476190476191,84
+Forward primer,6,F06,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,7,F07,Algae,Rhodophyta,0,4513
+Forward primer,7,F07,Algae,Chlorophyta,0.00381800827235126,3143
+Forward primer,7,F07,Algae,Ochrophyta,0.000192270717169775,5201
+Forward primer,7,F07,Algae,Haptophyta,0,43
+Forward primer,7,F07,Algae,Streptophyta,0,36
+Forward primer,7,F07,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,7,F07,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,8,F08,Algae,Rhodophyta,0.000664746288499889,4513
+Forward primer,8,F08,Algae,Chlorophyta,0.00286350620426344,3143
+Forward primer,8,F08,Algae,Ochrophyta,0.000576701268742791,5202
+Forward primer,8,F08,Algae,Haptophyta,0.953488372093023,43
+Forward primer,8,F08,Algae,Streptophyta,0,36
+Forward primer,8,F08,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,8,F08,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,9,F09,Algae,Rhodophyta,0.000664746288499889,4513
+Forward primer,9,F09,Algae,Chlorophyta,0.00254533884823417,3143
+Forward primer,9,F09,Algae,Ochrophyta,0.000576701268742791,5202
+Forward primer,9,F09,Algae,Haptophyta,0.953488372093023,43
+Forward primer,9,F09,Algae,Streptophyta,0,36
+Forward primer,9,F09,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,9,F09,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,10,F10,Algae,Rhodophyta,0.0022158209616663,4513
+Forward primer,10,F10,Algae,Chlorophyta,0.330362826225334,3142
+Forward primer,10,F10,Algae,Ochrophyta,0.0351855412420688,5201
+Forward primer,10,F10,Algae,Haptophyta,0.488372093023256,43
+Forward primer,10,F10,Algae,Streptophyta,0,36
+Forward primer,10,F10,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,10,F10,Other eukaryotes,Glaucocystophyceae,1,4
+Forward primer,11,F11,Algae,Rhodophyta,0.763297872340426,4512
+Forward primer,11,F11,Algae,Chlorophyta,0.00318268618714195,3142
+Forward primer,11,F11,Algae,Ochrophyta,0.323071002501443,5197
+Forward primer,11,F11,Algae,Haptophyta,0,43
+Forward primer,11,F11,Algae,Streptophyta,0,36
+Forward primer,11,F11,Other eukaryotes,Cryptophyceae,0.476190476190476,84
+Forward primer,11,F11,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,12,F12,Algae,Rhodophyta,0.0141812541546643,4513
+Forward primer,12,F12,Algae,Chlorophyta,0.328557784145177,3141
+Forward primer,12,F12,Algae,Ochrophyta,0.0426758938869665,5202
+Forward primer,12,F12,Algae,Haptophyta,0.488372093023256,43
+Forward primer,12,F12,Algae,Streptophyta,0,36
+Forward primer,12,F12,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,12,F12,Other eukaryotes,Glaucocystophyceae,1,4
+Forward primer,13,F13,Algae,Rhodophyta,0,4512
+Forward primer,13,F13,Algae,Chlorophyta,0.00254533884823417,3143
+Forward primer,13,F13,Algae,Ochrophyta,0.000384467512495194,5202
+Forward primer,13,F13,Algae,Haptophyta,0,43
+Forward primer,13,F13,Algae,Streptophyta,0,36
+Forward primer,13,F13,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,13,F13,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,14,F14,Algae,Rhodophyta,0,4513
+Forward primer,14,F14,Algae,Chlorophyta,0.00318268618714195,3142
+Forward primer,14,F14,Algae,Ochrophyta,0.000576701268742791,5202
+Forward primer,14,F14,Algae,Haptophyta,0,43
+Forward primer,14,F14,Algae,Streptophyta,0,36
+Forward primer,14,F14,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,14,F14,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,15,F15,Algae,Rhodophyta,0.00487480611566585,4513
+Forward primer,15,F15,Algae,Chlorophyta,0.997453851050286,3142
+Forward primer,15,F15,Algae,Ochrophyta,0.000384689363339104,5199
+Forward primer,15,F15,Algae,Haptophyta,0,43
+Forward primer,15,F15,Algae,Streptophyta,1,36
+Forward primer,15,F15,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,15,F15,Other eukaryotes,Glaucocystophyceae,1,4
+Forward primer,16,F16,Algae,Rhodophyta,0.951251938843341,4513
+Forward primer,16,F16,Algae,Chlorophyta,0.00795671546785487,3142
+Forward primer,16,F16,Algae,Ochrophyta,0.00711264898116109,5202
+Forward primer,16,F16,Algae,Haptophyta,0,43
+Forward primer,16,F16,Algae,Streptophyta,0,36
+Forward primer,16,F16,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,16,F16,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,17,F17,Algae,Rhodophyta,0,4513
+Forward primer,17,F17,Algae,Chlorophyta,0.00318167356029271,3143
+Forward primer,17,F17,Algae,Ochrophyta,0.000192233756247597,5202
+Forward primer,17,F17,Algae,Haptophyta,0,43
+Forward primer,17,F17,Algae,Streptophyta,0,36
+Forward primer,17,F17,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,17,F17,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,18,F18,Algae,Rhodophyta,0.972517730496454,4512
+Forward primer,18,F18,Algae,Chlorophyta,0.0267430754536772,3141
+Forward primer,18,F18,Algae,Ochrophyta,0.0244136870434448,5202
+Forward primer,18,F18,Algae,Haptophyta,0,43
+Forward primer,18,F18,Algae,Streptophyta,0,36
+Forward primer,18,F18,Other eukaryotes,Cryptophyceae,0.0357142857142857,84
+Forward primer,18,F18,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,19,F19,Algae,Rhodophyta,0.00022158209616663,4513
+Forward primer,19,F19,Algae,Chlorophyta,0.00286350620426344,3143
+Forward primer,19,F19,Algae,Ochrophyta,0.000384615384615385,5200
+Forward primer,19,F19,Algae,Haptophyta,0,43
+Forward primer,19,F19,Algae,Streptophyta,0,36
+Forward primer,19,F19,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,19,F19,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,20,F20,Algae,Rhodophyta,0.160647019720807,4513
+Forward primer,20,F20,Algae,Chlorophyta,0.00318167356029271,3143
+Forward primer,20,F20,Algae,Ochrophyta,0.0763314747164007,5201
+Forward primer,20,F20,Algae,Haptophyta,0,43
+Forward primer,20,F20,Algae,Streptophyta,0,36
+Forward primer,20,F20,Other eukaryotes,Cryptophyceae,0,84
+Forward primer,20,F20,Other eukaryotes,Glaucocystophyceae,0,4
+Forward primer,21,F21,Algae,Rhodophyta,0.479716249168699,4511
+Forward primer,21,F21,Algae,Chlorophyta,0.140311804008909,3143
+Forward primer,21,F21,Algae,Ochrophyta,0.145304080061586,5196
+Forward primer,21,F21,Algae,Haptophyta,0,43
+Forward primer,21,F21,Algae,Streptophyta,0,36
+Forward primer,21,F21,Other eukaryotes,Cryptophyceae,0.0238095238095238,84
+Forward primer,21,F21,Other eukaryotes,Glaucocystophyceae,0.25,4
+Reverse primer,1,R01,Algae,Rhodophyta,0,4540
+Reverse primer,1,R01,Algae,Chlorophyta,0.0313553607552259,2966
+Reverse primer,1,R01,Algae,Ochrophyta,0.000194024058983314,5154
+Reverse primer,1,R01,Algae,Haptophyta,0,43
+Reverse primer,1,R01,Algae,Streptophyta,0,36
+Reverse primer,1,R01,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,1,R01,Other eukaryotes,Glaucocystophyceae,0.25,4
+Reverse primer,2,R02,Algae,Rhodophyta,0.0881057268722467,4540
+Reverse primer,2,R02,Algae,Chlorophyta,0.969993256911665,2966
+Reverse primer,2,R02,Algae,Ochrophyta,0.126503686457121,5154
+Reverse primer,2,R02,Algae,Haptophyta,0.0697674418604651,43
+Reverse primer,2,R02,Algae,Streptophyta,1,36
+Reverse primer,2,R02,Other eukaryotes,Cryptophyceae,0.419753086419753,81
+Reverse primer,2,R02,Other eukaryotes,Glaucocystophyceae,0.5,4
+Reverse primer,3,R03,Algae,Rhodophyta,0.000220264317180617,4540
+Reverse primer,3,R03,Algae,Chlorophyta,0,2966
+Reverse primer,3,R03,Algae,Ochrophyta,0,5154
+Reverse primer,3,R03,Algae,Haptophyta,0,43
+Reverse primer,3,R03,Algae,Streptophyta,0,36
+Reverse primer,3,R03,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,3,R03,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,4,R04,Algae,Rhodophyta,0.000220312844238819,4539
+Reverse primer,4,R04,Algae,Chlorophyta,0,2966
+Reverse primer,4,R04,Algae,Ochrophyta,0,5154
+Reverse primer,4,R04,Algae,Haptophyta,0,43
+Reverse primer,4,R04,Algae,Streptophyta,0,36
+Reverse primer,4,R04,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,4,R04,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,5,R05,Algae,Rhodophyta,0.254185022026432,4540
+Reverse primer,5,R05,Algae,Chlorophyta,0.0961214165261383,2965
+Reverse primer,5,R05,Algae,Ochrophyta,0.211691590600117,5149
+Reverse primer,5,R05,Algae,Haptophyta,0,43
+Reverse primer,5,R05,Algae,Streptophyta,0,36
+Reverse primer,5,R05,Other eukaryotes,Cryptophyceae,0.54320987654321,81
+Reverse primer,5,R05,Other eukaryotes,Glaucocystophyceae,0.25,4
+Reverse primer,6,R06,Algae,Rhodophyta,0,4540
+Reverse primer,6,R06,Algae,Chlorophyta,0,2963
+Reverse primer,6,R06,Algae,Ochrophyta,0.000194061711624297,5153
+Reverse primer,6,R06,Algae,Haptophyta,0,43
+Reverse primer,6,R06,Algae,Streptophyta,0,36
+Reverse primer,6,R06,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,6,R06,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,7,R07,Algae,Rhodophyta,0,4540
+Reverse primer,7,R07,Algae,Chlorophyta,0.0003382949932341,2956
+Reverse primer,7,R07,Algae,Ochrophyta,0.000776246846497186,5153
+Reverse primer,7,R07,Algae,Haptophyta,0,43
+Reverse primer,7,R07,Algae,Streptophyta,0,36
+Reverse primer,7,R07,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,7,R07,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,8,R08,Algae,Rhodophyta,0.0903083700440529,4540
+Reverse primer,8,R08,Algae,Chlorophyta,0.0316925151719488,2966
+Reverse primer,8,R08,Algae,Ochrophyta,0.0460104834012813,5151
+Reverse primer,8,R08,Algae,Haptophyta,0.116279069767442,43
+Reverse primer,8,R08,Algae,Streptophyta,0.194444444444444,36
+Reverse primer,8,R08,Other eukaryotes,Cryptophyceae,0.320987654320988,81
+Reverse primer,8,R08,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,9,R09,Algae,Rhodophyta,0,4540
+Reverse primer,9,R09,Algae,Chlorophyta,0,2966
+Reverse primer,9,R09,Algae,Ochrophyta,0.000194024058983314,5154
+Reverse primer,9,R09,Algae,Haptophyta,0,43
+Reverse primer,9,R09,Algae,Streptophyta,0,36
+Reverse primer,9,R09,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,9,R09,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,10,R10,Algae,Rhodophyta,0.000881445570736007,4538
+Reverse primer,10,R10,Algae,Chlorophyta,0.000337154416722859,2966
+Reverse primer,10,R10,Algae,Ochrophyta,0.00155249369299437,5153
+Reverse primer,10,R10,Algae,Haptophyta,0,43
+Reverse primer,10,R10,Algae,Streptophyta,0,36
+Reverse primer,10,R10,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,10,R10,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,11,R11,Algae,Rhodophyta,0.185283102004847,4539
+Reverse primer,11,R11,Algae,Chlorophyta,0.113958192852326,2966
+Reverse primer,11,R11,Algae,Ochrophyta,0.0116414435389988,5154
+Reverse primer,11,R11,Algae,Haptophyta,0.0232558139534884,43
+Reverse primer,11,R11,Algae,Streptophyta,0,36
+Reverse primer,11,R11,Other eukaryotes,Cryptophyceae,0.0740740740740741,81
+Reverse primer,11,R11,Other eukaryotes,Glaucocystophyceae,0.25,4
+Reverse primer,12,R12,Algae,Rhodophyta,0,4540
+Reverse primer,12,R12,Algae,Chlorophyta,0.000337154416722859,2966
+Reverse primer,12,R12,Algae,Ochrophyta,0,5154
+Reverse primer,12,R12,Algae,Haptophyta,0,43
+Reverse primer,12,R12,Algae,Streptophyta,0,36
+Reverse primer,12,R12,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,12,R12,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,13,R13,Algae,Rhodophyta,0.517849272807404,4538
+Reverse primer,13,R13,Algae,Chlorophyta,0.421727395411606,2964
+Reverse primer,13,R13,Algae,Ochrophyta,0.0972060535506403,5154
+Reverse primer,13,R13,Algae,Haptophyta,0.813953488372093,43
+Reverse primer,13,R13,Algae,Streptophyta,0.583333333333333,36
+Reverse primer,13,R13,Other eukaryotes,Cryptophyceae,0.358024691358025,81
+Reverse primer,13,R13,Other eukaryotes,Glaucocystophyceae,0.25,4
+Reverse primer,14,R14,Algae,Rhodophyta,0.159691629955947,4540
+Reverse primer,14,R14,Algae,Chlorophyta,0.0134952766531714,2964
+Reverse primer,14,R14,Algae,Ochrophyta,0.0799379123011253,5154
+Reverse primer,14,R14,Algae,Haptophyta,0.906976744186047,43
+Reverse primer,14,R14,Algae,Streptophyta,0,36
+Reverse primer,14,R14,Other eukaryotes,Cryptophyceae,0.419753086419753,81
+Reverse primer,14,R14,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,15,R15,Algae,Rhodophyta,0,4540
+Reverse primer,15,R15,Algae,Chlorophyta,0,2966
+Reverse primer,15,R15,Algae,Ochrophyta,0,5154
+Reverse primer,15,R15,Algae,Haptophyta,0,43
+Reverse primer,15,R15,Algae,Streptophyta,0,36
+Reverse primer,15,R15,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,15,R15,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,16,R16,Algae,Rhodophyta,0,4540
+Reverse primer,16,R16,Algae,Chlorophyta,0,2966
+Reverse primer,16,R16,Algae,Ochrophyta,0,5154
+Reverse primer,16,R16,Algae,Haptophyta,0,43
+Reverse primer,16,R16,Algae,Streptophyta,0,36
+Reverse primer,16,R16,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,16,R16,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,17,R17,Algae,Rhodophyta,0.212775330396476,4540
+Reverse primer,17,R17,Algae,Chlorophyta,0.094804318488529,2964
+Reverse primer,17,R17,Algae,Ochrophyta,0.131767902192897,5153
+Reverse primer,17,R17,Algae,Haptophyta,0.0232558139534884,43
+Reverse primer,17,R17,Algae,Streptophyta,0,36
+Reverse primer,17,R17,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,17,R17,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,18,R18,Algae,Rhodophyta,0,4540
+Reverse primer,18,R18,Algae,Chlorophyta,0,2965
+Reverse primer,18,R18,Algae,Ochrophyta,0,5153
+Reverse primer,18,R18,Algae,Haptophyta,0,43
+Reverse primer,18,R18,Algae,Streptophyta,0,36
+Reverse primer,18,R18,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,18,R18,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,19,R19,Algae,Rhodophyta,0,4539
+Reverse primer,19,R19,Algae,Chlorophyta,0.000337268128161889,2965
+Reverse primer,19,R19,Algae,Ochrophyta,0.000388198757763975,5152
+Reverse primer,19,R19,Algae,Haptophyta,0,43
+Reverse primer,19,R19,Algae,Streptophyta,0,36
+Reverse primer,19,R19,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,19,R19,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,20,R20,Algae,Rhodophyta,0.020709407358449,4539
+Reverse primer,20,R20,Algae,Chlorophyta,0.00202292650033715,2966
+Reverse primer,20,R20,Algae,Ochrophyta,0.0143717226645951,5149
+Reverse primer,20,R20,Algae,Haptophyta,0,43
+Reverse primer,20,R20,Algae,Streptophyta,0,36
+Reverse primer,20,R20,Other eukaryotes,Cryptophyceae,0.0123456790123457,81
+Reverse primer,20,R20,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,21,R21,Algae,Rhodophyta,0,4540
+Reverse primer,21,R21,Algae,Chlorophyta,0,2966
+Reverse primer,21,R21,Algae,Ochrophyta,0.000194024058983314,5154
+Reverse primer,21,R21,Algae,Haptophyta,0,43
+Reverse primer,21,R21,Algae,Streptophyta,0,36
+Reverse primer,21,R21,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,21,R21,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,22,R22,Algae,Rhodophyta,0.000220264317180617,4540
+Reverse primer,22,R22,Algae,Chlorophyta,0,2966
+Reverse primer,22,R22,Algae,Ochrophyta,0.000194024058983314,5154
+Reverse primer,22,R22,Algae,Haptophyta,0,43
+Reverse primer,22,R22,Algae,Streptophyta,0.0277777777777778,36
+Reverse primer,22,R22,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,22,R22,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,23,R23,Algae,Rhodophyta,0.465623622741296,4538
+Reverse primer,23,R23,Algae,Chlorophyta,0.336142953472691,2966
+Reverse primer,23,R23,Algae,Ochrophyta,0.179701144964099,5153
+Reverse primer,23,R23,Algae,Haptophyta,0.906976744186047,43
+Reverse primer,23,R23,Algae,Streptophyta,1,36
+Reverse primer,23,R23,Other eukaryotes,Cryptophyceae,0.185185185185185,81
+Reverse primer,23,R23,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,24,R24,Algae,Rhodophyta,0,4540
+Reverse primer,24,R24,Algae,Chlorophyta,0.000337154416722859,2966
+Reverse primer,24,R24,Algae,Ochrophyta,0.000194061711624297,5153
+Reverse primer,24,R24,Algae,Haptophyta,0,43
+Reverse primer,24,R24,Algae,Streptophyta,0,36
+Reverse primer,24,R24,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,24,R24,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,25,R25,Algae,Rhodophyta,0,4540
+Reverse primer,25,R25,Algae,Chlorophyta,0,2966
+Reverse primer,25,R25,Algae,Ochrophyta,0.000970308558121483,5153
+Reverse primer,25,R25,Algae,Haptophyta,0,43
+Reverse primer,25,R25,Algae,Streptophyta,0,36
+Reverse primer,25,R25,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,25,R25,Other eukaryotes,Glaucocystophyceae,0,4
+Reverse primer,26,R26,Algae,Rhodophyta,0.599823710885853,4538
+Reverse primer,26,R26,Algae,Chlorophyta,0.619015509103169,2966
+Reverse primer,26,R26,Algae,Ochrophyta,0.267417038618281,5153
+Reverse primer,26,R26,Algae,Haptophyta,0.604651162790698,43
+Reverse primer,26,R26,Algae,Streptophyta,0,36
+Reverse primer,26,R26,Other eukaryotes,Cryptophyceae,0.308641975308642,81
+Reverse primer,26,R26,Other eukaryotes,Glaucocystophyceae,1,4
+Reverse primer,27,R27,Algae,Rhodophyta,0.000220312844238819,4539
+Reverse primer,27,R27,Algae,Chlorophyta,0,2966
+Reverse primer,27,R27,Algae,Ochrophyta,0,5153
+Reverse primer,27,R27,Algae,Haptophyta,0,43
+Reverse primer,27,R27,Algae,Streptophyta,0,36
+Reverse primer,27,R27,Other eukaryotes,Cryptophyceae,0,81
+Reverse primer,27,R27,Other eukaryotes,Glaucocystophyceae,0,4

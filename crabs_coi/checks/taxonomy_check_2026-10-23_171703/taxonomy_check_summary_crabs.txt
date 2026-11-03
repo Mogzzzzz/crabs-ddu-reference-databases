@@ -1,0 +1,20 @@
+Taxonomy check of a CRABS reference database – crabs_check_taxonomy.sh 1.0 (2026-10-23)
+Date              : 2026-10-23 17:17
+Database          : /Users/morgane/PhD/BIOINFO/CRABS/crabs_coi/results/COI_marine_invertebrates_algae.tsv (358205 sequences)
+NCBI taxonomy     : /Users/morgane/PhD/BIOINFO/CRABS/crabs_coi/taxo (nodes.dmp of 2026-10-19)
+BOLD files        : 37 (249770 database sequences found in them)
+Target groups     : Annelida Appendicularia Ascidiacea Brachiopoda Branchiopoda Bryozoa Cephalocarida Cephalochordata Chaetognatha Cnidaria Copepoda Crustacea Ctenophora Echinodermata Entoprocta Gastrotricha Hemichordata Kinorhyncha Leptocardii Malacostraca Merostomata Mollusca Nematoda Nemertea Ostracoda Phoronida Placozoa Platyhelminthes Porifera Priapulida Pycnogonida Remipedia Rhodophyta Sipuncula Tardigrada Thaliacea Thecostraca Tunicata Xenacoelomorpha Xiphosura
+
+Flagged sequences : 1687 (0.47 %), 94 genera
+  by issue        : off_target+bold_phylum_mismatch 1331, bold_phylum_mismatch 184, off_target 172
+  by verdict      : homonym: correct lineage 1504, no fitting genus: remove or check 179, several fitting genera: check 4
+  by phylum in the database: Streptophyta 1038, Ascomycota 141, Ochrophyta 139, Chytridiomycota 108, Arthropoda 107, Cyanobacteriota 79, Rhodophyta 27, Basidiomycota 20, Dinoflagellata 9, Chlorophyta 6, Chordata 4, Mollusca 3, Platyhelminthes 3, Bacteroidota 1, Haptophyta 1, Cnidaria 1
+
+Issues: off_target = NCBI lineage outside the target groups; bold_phylum_mismatch = phylum
+of the NCBI lineage differs from the phylum given by BOLD (equivalent names, e.g.
+Bacillariophyta/Ochrophyta, are not counted as differences).
+Verdict 'homonym: correct lineage' = exactly one NCBI genus of that name fits (BOLD phylum, or
+the target groups): proposed_* columns. Otherwise check by hand.
+
+Files: taxonomy_check_sequences_crabs.tsv (one line per sequence),
+       taxonomy_check_genera_crabs.tsv (one line per genus).

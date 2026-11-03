@@ -1,0 +1,16 @@
+step,label,n_sequences
+import_bold,BOLD import,77807
+import_ncbi,NCBI GenBank import,198536
+import_silva,SILVA import,458470
+01_merged,Merge (unique accessions),722505
+01c_taxa_excluded_early,Removal of terrestrial taxa,346661
+02_dereplicated_initial,"Dereplication (records, unique_species)",280247
+03_filtered_initial,"Pre-filter (environmental samples, max. 2 missing ranks)",209930
+04_insilico_pcr,In silico PCR (max. 4 mismatches),81138
+05_global_alignment,"Global alignment (min. 95% identity, 95% coverage)",86292
+06_dereplicated_final,"Dereplication (amplicons, unique_species)",70214
+07_filtered_final,"Length filter (450-900 bp, max. 1 N)",62085
+07d_taxonomy_fixed,Taxonomy correction (homonyms),61720
+08_taxa_excluded,"Taxa exclusion (12 taxa, e.g. Bacteria)",61668
+09_min_rank,Minimum rank (genus),59079
+final,Final database,59079

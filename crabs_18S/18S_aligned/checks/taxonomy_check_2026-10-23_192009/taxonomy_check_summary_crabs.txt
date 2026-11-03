@@ -1,0 +1,21 @@
+Taxonomy check of a CRABS reference database – crabs_check_taxonomy.sh 1.5 (2026-10-23)
+Date              : 2026-10-23 19:20
+Database          : /Users/morgane/PhD/BIOINFO/CRABS/crabs_18s/results/18S_V4V5_marine_eukaryotes.tsv (53857 sequences)
+NCBI taxonomy     : /Users/morgane/PhD/BIOINFO/CRABS/crabs_coi/taxo (nodes.dmp of 2026-10-19)
+BOLD files        : 37 (1583 database sequences found in them)
+SILVA lineage     : 1 file(s) (20488 database sequences with a phylum in their SILVA lineage)
+Target groups     : Annelida Appendicularia Ascidiacea Brachiopoda Branchiopoda Bryozoa Cephalocarida Cephalochordata Chaetognatha Cnidaria Copepoda Crustacea Ctenophora Echinodermata Entoprocta Gastrotricha Hemichordata Kinorhyncha Leptocardii Malacostraca Merostomata Mollusca Nematoda Nemertea Ostracoda Phoronida Placozoa Platyhelminthes Porifera Priapulida Pycnogonida Remipedia Rhodophyta Sipuncula Tardigrada Thaliacea Thecostraca Tunicata Xenacoelomorpha Xiphosura  [off-target check NOT applied: database built with SILVA]
+
+Flagged sequences : 501 (0.93 %), 208 genera
+  by issue        : bold_phylum_mismatch 501
+  by verdict      : no fitting genus: remove or check 501
+  by phylum in the database: Glomeromycota 127, Kickxellomycota 94, Endomyxa 61, Streptophyta 40, Entomophthoromycota 36, Chordata 22, Mortierellomycota 16, Phoronida 12, Arthropoda 11, Evosea 9, Monoblepharomycota 9, Ochrophyta 7, Basidiobolomycota 6, Mollusca 5, Dinoflagellata 5, Oomycota 5, Cnidaria 4, Bryozoa 3, Rhodophyta 3, Calcarisporiellomycota 3, Porifera 2, Platyhelminthes 2, Annelida 2, Apicomplexa 2, Chlorophyta 2, Basidiomycota 2, Ascomycota 2, Hemichordata 1, Nematoda 1, Foraminifera 1, Hemimastigophora 1, Perkinsozoa 1, Blastocladiomycota 1, Olpidiomycota 1, Chytridiomycota 1, Echinodermata 1
+
+Issues: off_target = NCBI lineage outside the target groups; bold_phylum_mismatch = phylum
+of the NCBI lineage differs from the phylum given by BOLD or by the SILVA lineage (equivalent names, e.g.
+Bacillariophyta/Ochrophyta, are not counted as differences).
+Verdict 'homonym: correct lineage' = exactly one NCBI genus of that name fits (BOLD phylum, or
+the target groups): proposed_* columns. Otherwise check by hand.
+
+Files: taxonomy_check_sequences_crabs.tsv (one line per sequence),
+       taxonomy_check_genera_crabs.tsv (one line per genus).

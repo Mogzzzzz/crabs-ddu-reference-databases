@@ -1,0 +1,16 @@
+step,label,n_sequences
+import_bold,BOLD import,1103382
+import_ncbi,NCBI GenBank import,4105620
+01_merged,Merge (unique accessions),5209002
+02_dereplicated_initial,"Dereplication (records, unique_species)",3124044
+03_filtered_initial,"Pre-filter (environmental samples, max. 2 missing ranks)",3032845
+04_insilico_pcr,In silico PCR (max. 4 mismatches),2697694
+05_global_alignment,"Global alignment (min. 95% identity, 95% coverage)",2719512
+06_dereplicated_final,"Dereplication (amplicons, unique_species)",2058282
+07_filtered_final,"Length filter (280-340 bp, max. 1 N)",1400740
+07b_length_rescued,Length rescue (min. 250 bp),1178378
+07c_translation_checked,Translation check (no stop codon),1177458
+07d_taxonomy_fixed,Taxonomy correction (homonyms),1177360
+08_taxa_excluded,"Taxa exclusion (10 taxa, e.g. Insecta)",401207
+09_min_rank,Minimum rank (genus),364602
+final,Final database,364602

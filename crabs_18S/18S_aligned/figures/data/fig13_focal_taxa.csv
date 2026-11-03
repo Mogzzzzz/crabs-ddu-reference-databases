@@ -1,0 +1,17 @@
+focal,measure,BOLD,NCBI GenBank,SILVA
+Bryozoa,Species,1,658,0
+Bryozoa,Sequences,1,691,0
+Porifera,Species,10,944,2
+Porifera,Sequences,56,1217,2
+Rhodophyta,Species,86,1299,38
+Rhodophyta,Sequences,96,1784,38
+Platyhelminthes,Species,135,2675,14
+Platyhelminthes,Sequences,203,3359,101
+Ochrophyta,Species,6,2026,238
+Ochrophyta,Sequences,6,4036,272
+Annelida,Species,79,3455,20
+Annelida,Sequences,161,4210,22
+Cnidaria,Species,24,3327,11
+Cnidaria,Sequences,51,4908,27
+Nematoda,Species,3,3998,28
+Nematoda,Sequences,25,5731,100

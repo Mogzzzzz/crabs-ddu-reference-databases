@@ -1,0 +1,27 @@
+phylum_group,source,n_records,groups,set
+Arthropoda,NCBI GenBank,3559741,"Crustacea, Pycnogonida, Xiphosura",Animals
+Arthropoda,BOLD,342242,"Branchiopoda, Cephalocarida, Copepoda, Malacostraca, Merostomata, Ostracoda, Pycnogonida, Remipedia, Thecostraca",Animals
+Mollusca,BOLD,322944,Mollusca,Animals
+Mollusca,NCBI GenBank,280026,Mollusca,Animals
+Annelida,BOLD,140762,"Annelida, Sipuncula",Animals
+Annelida,NCBI GenBank,80755,"Annelida, Sipuncula",Animals
+Nematoda,BOLD,61740,Nematoda,Animals
+Platyhelminthes,NCBI GenBank,59009,Platyhelminthes,Animals
+Echinodermata,BOLD,50736,Echinodermata,Animals
+Rhodophyta,BOLD,48428,Rhodophyta,Algae
+Cnidaria,BOLD,45485,Cnidaria,Animals
+Platyhelminthes,BOLD,39973,Platyhelminthes,Animals
+Nematoda,NCBI GenBank,39155,Nematoda,Animals
+Echinodermata,NCBI GenBank,38807,Echinodermata,Animals
+Rhodophyta,NCBI GenBank,33573,Rhodophyta,Algae
+Cnidaria,NCBI GenBank,32355,Cnidaria,Animals
+Other animals,NCBI GenBank,16202,"Brachiopoda, Cephalochordata, Chaetognatha, Ctenophora, Entoprocta, Gastrotricha, Hemichordata, Kinorhyncha, Phoronida, Placozoa, Priapulida, Tardigrada, Tunicata, Xenacoelomorpha",Animals
+Other animals,BOLD,15691,"Appendicularia, Ascidiacea, Brachiopoda, Chaetognatha, Ctenophora, Entoprocta, Gastrotricha, Hemichordata, Kinorhyncha, Leptocardii, Phoronida, Placozoa, Priapulida, Tardigrada, Thaliacea, Xenacoelomorpha",Animals
+Porifera,BOLD,14083,Porifera,Animals
+Ochrophyta,NCBI GenBank,13487,"Bacillariophyta, Phaeophyceae",Algae
+Nemertea,BOLD,9778,Nemertea,Animals
+Porifera,NCBI GenBank,9419,Porifera,Animals
+Ochrophyta,BOLD,9303,Ochrophyta,Algae
+Nemertea,NCBI GenBank,7930,Nemertea,Animals
+Bryozoa,BOLD,6717,Bryozoa,Animals
+Bryozoa,NCBI GenBank,3797,Bryozoa,Animals
